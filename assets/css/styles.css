@@ -1,0 +1,639 @@
+@import "@fontsource/nunito/index.css";
+@import "./icon.css";
+
+@layer theme, base, antd, components, utilities;
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #c28cd9;
+  --color-secondary: #eed1fa;
+  --color-link: #007fff;
+  --color-link-light: #339cff;
+}
+
+/** 通用 */
+* {
+  font-family:
+    Nunito, MiSans, "HarmonyOS Sans", "Source Han Sans CN", "Source Han Sans SC", "Noto Sans SC", system-ui, sans-serif,
+    serif;
+}
+
+#root {
+  @apply min-h-screen flex flex-col;
+
+  & > a {
+    @apply hidden;
+  }
+}
+
+body {
+  background-image: url("../images/background.webp");
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+b,
+strong {
+  @apply font-semibold;
+}
+
+.ant-descriptions-view {
+  overflow-x: auto;
+}
+
+th.ant-descriptions-item-label {
+  @apply w-[40%] lg:w-[15%];
+}
+
+td.ant-descriptions-item-content {
+  @apply w-[60%] lg:w-[18.3333333%];
+}
+
+.table-effect {
+  th.ant-descriptions-item-label,
+  td.ant-descriptions-item-content {
+    @apply w-[33.3333333%] lg:w-[16.6666666%] xl:w-[11.1111111%];
+  }
+}
+
+.description-4 {
+  th.ant-descriptions-item-label {
+    @apply lg:w-[20%] 2xl:w-[10%];
+  }
+
+  td.ant-descriptions-item-content[colspan="1"] {
+    @apply lg:w-[30%] 2xl:w-[15%];
+  }
+
+  td.ant-descriptions-item-content[colspan="3"] {
+    @apply lg:w-[80%] 2xl:w-[40%];
+  }
+}
+
+.description-2 {
+  th.ant-descriptions-item-label {
+    @apply lg:w-[20%];
+  }
+
+  td.ant-descriptions-item-content {
+    @apply lg:w-[30%];
+  }
+}
+
+.description-1 {
+  th.ant-descriptions-item-label {
+    @apply lg:w-[20%];
+  }
+
+  td.ant-descriptions-item-content {
+    @apply lg:w-[80%];
+  }
+}
+
+h1 {
+  @apply text-4xl font-bold my-4 text-center;
+}
+
+h2 {
+  @apply text-2xl font-bold my-4 text-center;
+}
+
+h3 {
+  @apply text-xl font-semibold my-4;
+}
+
+h4 {
+  @apply font-semibold my-2;
+}
+
+main p {
+  @apply indent-[2em] mb-4 leading-[2];
+
+  & > * {
+    @apply indent-0;
+  }
+
+  &:last-child {
+    @apply mb-0;
+  }
+}
+
+.ant-table-wrapper {
+  @apply my-4;
+}
+
+.table-fit {
+  .ant-table-content > table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    min-width: initial !important;
+    text-align: center !important;
+  }
+}
+
+section {
+  @apply px-2 py-4 md:px-4 lg:px-6 lg:py-6;
+
+  & ul {
+    @apply pl-[2em];
+  }
+
+  & > p,
+  & > ul {
+    @apply text-sm;
+  }
+
+  &:first-child {
+    @apply text-center;
+  }
+
+  &:nth-child(odd):not(:first-child) {
+    @apply bg-gray-50;
+  }
+
+  &:last-child {
+    @apply sm:rounded-b-2xl;
+  }
+
+  & > :last-child,
+  & > .ant-spin-nested-loading > .ant-spin-container > :last-child {
+    @apply mb-0;
+  }
+}
+
+.header-icon {
+  @apply flex gap-8 items-center justify-center mb-4;
+}
+
+.names {
+  @apply flex justify-center space-x-2 mb-6 text-xl text-gray-500;
+}
+
+.description {
+  @apply mb-2 text-gray-700;
+}
+
+ul {
+  @apply list-disc pl-4 mb-4;
+
+  &:last-child {
+    @apply mb-0;
+  }
+}
+
+figure {
+  @apply border-gray-200 border-2 bg-gray-100 rounded-lg text-center p-2 mx-auto my-2 w-fit;
+
+  img {
+    @apply block max-w-full h-auto rounded-md w-[640px] m-auto;
+  }
+
+  figcaption {
+    @apply text-gray-500 text-sm mt-2;
+  }
+}
+
+/** 通用 */
+.icon,
+.pokemon-icon,
+.habitat-icon,
+.item-icon {
+  @apply flex items-end justify-end w-[1em] h-[1em] flex-shrink-0 bg-no-repeat;
+  background-size: 20em auto;
+
+  &.icon-inline {
+    @apply inline-flex align-middle;
+  }
+}
+
+.icon {
+  background-image: url("../images/icon.webp");
+}
+
+.icon-wrapper {
+  @apply flex items-center justify-start whitespace-nowrap gap-1;
+}
+
+.icon-wrapper-inline {
+  @apply inline-flex items-center justify-start whitespace-nowrap align-middle;
+}
+
+.badge.icon-inline {
+  @apply inline-flex align-middle;
+}
+
+/** 宝可梦 */
+.pokemon-icon {
+  background-image: url("../images/pokemon.webp");
+}
+
+.pokemon-form {
+  font-size: 0.8em;
+  @apply text-gray-500;
+}
+
+.cell-pokemon {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  white-space: nowrap;
+}
+
+.cell-habitat {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  white-space: nowrap;
+}
+
+/** 栖息地 */
+.habitat-icon {
+  background-image: url("../images/habitat.webp");
+}
+
+/** 道具 */
+.item-icon {
+  /* background-image: url("../images/items.webp"); */
+}
+
+/** 属性 */
+.badge {
+  @apply flex items-center justify-center flex-nowrap text-white w-[5em] text-center whitespace-nowrap font-semibold rounded-[0.5em];
+
+  &.badge-legendary {
+    width: calc(10em + 0.5rem);
+  }
+}
+
+.badge-icon {
+  scale: 1.5;
+}
+
+.badge-text {
+  @apply w-[3.5em] text-center;
+
+  .badge-legendary & {
+    @apply w-auto;
+  }
+}
+
+a.badge {
+  transition: opacity 0.2s;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+    color: #fff;
+  }
+}
+
+.badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.bg-一般 {
+  background-color: #9fa19f !important;
+}
+
+.bg-格斗 {
+  background-color: #ff8000 !important;
+}
+
+.bg-飞行 {
+  background-color: #81b9ef !important;
+}
+
+.bg-毒 {
+  background-color: #9141cb !important;
+}
+
+.bg-地面 {
+  background-color: #915121 !important;
+}
+
+.bg-岩石 {
+  background-color: #afa981 !important;
+}
+
+.bg-虫 {
+  background-color: #91a119 !important;
+}
+
+.bg-幽灵 {
+  background-color: #704170 !important;
+}
+
+.bg-钢 {
+  background-color: #60a1b8 !important;
+}
+
+.bg-火 {
+  background-color: #e62829 !important;
+}
+
+.bg-水 {
+  background-color: #2980ef !important;
+}
+
+.bg-草 {
+  background-color: #3fa129 !important;
+}
+
+.bg-电 {
+  background-color: #fac000 !important;
+}
+
+.bg-超能力 {
+  background-color: #ef4179 !important;
+}
+
+.bg-冰 {
+  background-color: #3fd8ff !important;
+}
+
+.bg-龙 {
+  background-color: #5060e1 !important;
+}
+
+.bg-恶 {
+  background-color: #50413f !important;
+}
+
+.bg-妖精 {
+  background-color: #ef70ef !important;
+}
+
+.bg-晨 {
+  background-color: #71cee0 !important;
+}
+
+.bg-日 {
+  background-color: #7ec0fa !important;
+}
+
+.bg-昏 {
+  background-color: #e79e75 !important;
+}
+
+.bg-夜 {
+  background-color: #b5a1e6 !important;
+}
+
+.bg-晴,
+.bg-阴,
+.bg-雨 {
+  background-color: #7a92f4 !important;
+}
+
+.bg-无 {
+  background-color: #eee !important;
+}
+
+.table-effect,
+.table-effect th {
+  text-align: center !important;
+
+  .badge {
+    @apply mx-auto;
+  }
+}
+
+.effect-quadruple {
+  color: #a00;
+  font-weight: 700;
+}
+
+.effect-double {
+  color: #e00;
+}
+
+.effect-half {
+  color: #00e;
+}
+
+.effect-quarter {
+  color: #00a;
+  font-weight: 100;
+}
+
+.effect-0 {
+  color: #aaa;
+  font-weight: 100;
+}
+
+/** 训练家 */
+.trainer-pokemon {
+  @apply flex flex-col items-center w-[72px];
+}
+
+/** 搜索框 */
+.search-item {
+  @apply flex border-b h-[72px] items-center justify-start w-full p-2 gap-2;
+
+  &:last-child {
+    @apply border-b-0;
+  }
+
+  &:hover {
+    @apply bg-gray-50;
+  }
+}
+
+.search-item-name {
+  @apply font-semibold;
+}
+
+.search-item-pokemon {
+  .pokemon-name-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .pokemon-name {
+    font-weight: 600;
+  }
+
+  .badge-type {
+    font-size: 0.8em;
+  }
+
+  .badge-type + .badge-type {
+    margin-left: 0;
+  }
+}
+
+.search-item-move {
+  .move-name-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .move-name {
+    font-weight: 600;
+  }
+
+  .badge-type,
+  .badge-category {
+    font-size: 0.8em;
+  }
+}
+
+/** 神秘礼物 */
+.activity-card-container {
+  @apply grid gap-4 lg:grid-cols-[repeat(auto-fit,_minmax(360px,_1fr))];
+}
+
+.flex-container {
+  @apply flex flex-wrap items-center justify-center gap-2;
+}
+
+.tag-new,
+.tag-now {
+  @apply bg-red-500 text-white font-bold rounded-full px-2 py-0.5 ml-2 text-xs;
+}
+
+/** 网站结构 */
+header {
+  @apply bg-white md:shadow-lg border-b-4 border-primary fixed top-0 left-0 w-full z-[1100];
+}
+
+.header-fake {
+  @apply border-b-4;
+
+  & > div {
+    @apply h-16;
+  }
+}
+
+.logo {
+  @apply inline-block w-8 h-8 mr-2 bg-no-repeat bg-center bg-contain;
+  background-image: url("../images/logo.png");
+}
+
+.notice {
+  @apply text-center sm:rounded-2xl sm:shadow-xl m-0 sm:mx-2 lg:mx-4 p-4 sm:mt-4 text-gray-600 space-y-2;
+}
+
+aside {
+  @apply w-64 px-4 py-8 z-40 hidden md:block;
+}
+
+nav {
+  @apply p-4 bg-white rounded-2xl shadow-xl;
+}
+
+.nav-title {
+  @apply text-center px-4 text-sm font-semibold text-gray-400 uppercase tracking-wider mb-3;
+}
+
+.nav-content {
+  @apply flex flex-col gap-2;
+}
+
+.nav-item,
+a.nav-item {
+  @apply flex items-center gap-2 px-4 py-2 rounded-lg transition-colors text-gray-700 bg-transparent hover:bg-gray-100 text-left text-wrap;
+}
+
+.nav-item-active,
+a.nav-item-active {
+  @apply bg-primary text-white font-semibold hover:bg-primary hover:text-white focus:text-white;
+}
+
+.nav-item-icon {
+  @apply text-[32px] leading-[0];
+}
+
+.nav-toc {
+  @apply sticky top-24 mt-8;
+}
+
+main {
+  @apply flex-1 min-w-0 p-0 sm:px-2 lg:px-4 sm:py-8;
+
+  a {
+    @apply text-link no-underline transition-colors hover:text-link-light focus:text-link-light;
+  }
+}
+
+footer {
+  @apply bg-white border-t-2 border-primary w-full mx-auto px-4 py-6 sm:px-6 lg:px-8 text-center text-sm text-gray-400 space-y-2;
+
+  a {
+    @apply text-gray-400 hover:text-gray-600 focus:text-gray-600;
+  }
+}
+
+.main-home > div {
+  @apply bg-[#08143b] bg-no-repeat bg-top;
+  background-image: url("https://www.pocoapokemon.jp/assets/img/toppage/kv_bg@pc.webp");
+  background-size: 100% auto;
+
+  .home-navigation {
+    @apply bg-white/60 backdrop-blur-sm w-full px-6 py-4 rounded-2xl shadow-xl;
+
+    h2 {
+      @apply mt-10;
+    }
+  }
+
+  .home-links {
+    @apply grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4;
+
+    .home-link-card {
+      @apply transition-shadow;
+
+      &:hover {
+        @apply shadow-2xl;
+      }
+
+      .ant-card-head-title {
+        @apply text-xl font-semibold;
+      }
+
+      .ant-card-body {
+        @apply p-4 grid grid-flow-row grid-cols-2 gap-2;
+      }
+    }
+
+    .home-link-item {
+      @apply flex flex-col items-center justify-center gap-2 transition-transform;
+
+      &:hover {
+        @apply scale-[1.1];
+      }
+    }
+
+    .home-link-icon {
+      @apply text-[48px] leading-[0];
+    }
+
+    .home-link-label {
+      @apply text-lg font-semibold text-center;
+    }
+  }
+
+  .giscus {
+    @apply hidden;
+  }
+}
+
+.ant-timeline {
+  @apply mx-4 mt-8;
+
+  .ant-timeline-item {
+    @apply text-[1rem];
+  }
+}
+
+.bilibili-player {
+  @apply my-4 mx-auto w-full aspect-[16/9];
+}
