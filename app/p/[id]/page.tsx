@@ -69,14 +69,14 @@ const PokemonDetailPage = async ({ params }: IProps) => {
       <PokemonDetail pokemon={pokemon} />
 
       {/* Navigation */}
-      <section className="flex justify-between gap-4">
+      <section className="prev-next">
         {prevPokemon ? (
           <Link
             href={`/p/${getPokemonFullId(prevPokemon)}`}
-            className="flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition text-left"
+            className="prev-next-link prev-link"
           >
-            <div className="text-xs text-gray-400 mb-1">← No.{prevPokemon.dex.toString().padStart(3, "0")}</div>
-            <div className="font-medium">
+            <div className="prev-next-arrow">← No.{prevPokemon.dex.toString().padStart(3, "0")}</div>
+            <div className="prev-next-name">
               <span className="icon-wrapper-inline">
                 <span>{prevPokemon.name}</span>
                 <PokemonIcon
@@ -85,7 +85,7 @@ const PokemonDetailPage = async ({ params }: IProps) => {
                 />
               </span>
             </div>
-            <div className="text-xs text-gray-400">{prevPokemon.formName}</div>
+            <div className="pokemon-form">{prevPokemon.formName}</div>
           </Link>
         ) : (
           <div className="flex-1" />
@@ -93,10 +93,10 @@ const PokemonDetailPage = async ({ params }: IProps) => {
         {nextPokemon ? (
           <Link
             href={`/p/${getPokemonFullId(nextPokemon)}`}
-            className="flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition text-right"
+            className="prev-next-link next-link"
           >
-            <div className="text-xs text-gray-400 mb-1">No.{nextPokemon.dex.toString().padStart(3, "0")} →</div>
-            <div className="font-medium">
+            <div className="prev-next-arrow">No.{nextPokemon.dex.toString().padStart(3, "0")} →</div>
+            <div className="prev-next-name">
               <span className="icon-wrapper-inline">
                 <PokemonIcon
                   pokemon={nextPokemon}
@@ -105,7 +105,7 @@ const PokemonDetailPage = async ({ params }: IProps) => {
                 <span>{nextPokemon.name}</span>
               </span>
             </div>
-            <div className="text-xs text-gray-400">{nextPokemon.formName}</div>
+            <div className="pokemon-form">{nextPokemon.formName}</div>
           </Link>
         ) : (
           <div className="flex-1" />

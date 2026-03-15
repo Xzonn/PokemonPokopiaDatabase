@@ -68,14 +68,14 @@ const HabitatDetailPage = async ({ params }: IProps) => {
       <HabitatDetail habitat={habitat} />
 
       {/* Navigation */}
-      <section className="flex justify-between gap-4">
+      <section className="prev-next">
         {prevHabitat ? (
           <Link
             href={`/h/${prevHabitat.id.toString().padStart(3, "0")}`}
-            className="flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition text-left"
+            className="prev-next-link prev-link"
           >
-            <div className="text-xs text-gray-400 mb-1">← No.{prevHabitat.id.toString().padStart(3, "0")}</div>
-            <div className="font-medium">
+            <div className="prev-next-arrow">← No.{prevHabitat.id.toString().padStart(3, "0")}</div>
+            <div className="prev-next-name">
               <span className="icon-wrapper-inline">
                 <span>{prevHabitat.name}</span>
                 <HabitatIcon
@@ -91,10 +91,10 @@ const HabitatDetailPage = async ({ params }: IProps) => {
         {nextHabitat ? (
           <Link
             href={`/h/${nextHabitat.id.toString().padStart(3, "0")}`}
-            className="flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition text-right"
+            className="prev-next-link next-link"
           >
-            <div className="text-xs text-gray-400 mb-1">No.{nextHabitat.id.toString().padStart(3, "0")} →</div>
-            <div className="font-medium">
+            <div className="prev-next-arrow">No.{nextHabitat.id.toString().padStart(3, "0")} →</div>
+            <div className="prev-next-name">
               <span className="icon-wrapper-inline">
                 <HabitatIcon
                   habitat={nextHabitat}

@@ -67,14 +67,14 @@ const ItemDetailPage = async ({ params }: IProps) => {
       <ItemDetail item={item} />
 
       {/* Navigation */}
-      <section className="flex justify-between gap-4">
+      <section className="prev-next">
         {prevItem ? (
           <Link
             href={`/i/${prevItem.hash}`}
-            className="flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition text-left"
+            className="prev-next-link prev-link"
           >
-            <div className="text-xs text-gray-400 mb-1">←</div>
-            <div className="font-medium">
+            <div className="prev-next-arrow">←</div>
+            <div className="prev-next-name">
               <span className="icon-wrapper-inline">
                 <span>{prevItem.name}</span>
                 <ItemIcon
@@ -90,10 +90,10 @@ const ItemDetailPage = async ({ params }: IProps) => {
         {nextItem ? (
           <Link
             href={`/i/${nextItem.hash}`}
-            className="flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition text-right"
+            className="prev-next-link next-link"
           >
-            <div className="text-xs text-gray-400 mb-1">→</div>
-            <div className="font-medium">
+            <div className="prev-next-arrow">→</div>
+            <div className="prev-next-name">
               <span className="icon-wrapper-inline">
                 <ItemIcon
                   item={nextItem}

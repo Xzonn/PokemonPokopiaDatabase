@@ -1,10 +1,12 @@
+import "@/assets/css/styles.css";
+
 import { AntdRegistry } from "@ant-design/nextjs-registry";
 import { ConfigProvider, ThemeConfig } from "antd";
 import zhCN from "antd/locale/zh_CN";
-import type { Metadata } from "next";
+import { Metadata } from "next";
+import { ReactNode } from "react";
 
-import "@/assets/css/styles.css";
-import { Footer, Header, Sidebar, TocObserver } from "@/components";
+import { Footer, Giscus, Header, Sidebar, TocObserver } from "@/components";
 import { BREAKPOINTS, DEFAULT_TITLE, SITE_URL } from "@/utils";
 
 const { xs, sm, md, lg, xl, xxl } = BREAKPOINTS;
@@ -43,35 +45,52 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="zh-CN">
-      <body>
-        <div id="root">
-          <ConfigProvider
-            locale={zhCN}
-            theme={theme}
-          >
+  children: ReactNode;
+}>) => (
+  <html lang="zh-CN">
+    <body>
+      <div id="root">
+        <ConfigProvider
+          locale={zhCN}
+          theme={theme}
+        >
+          <TocObserver>
             <Header />
-            <TocObserver>
-              <div className="md:flex relative flex-1">
-                <Sidebar />
+            <div className="md:flex relative flex-1">
+              <Sidebar />
 
-                <main>
-                  <AntdRegistry>
-                    <div className="bg-white sm:rounded-2xl sm:shadow-xl">{children}</div>
-                  </AntdRegistry>
-                </main>
-              </div>
-            </TocObserver>
+              <main>
+                <AntdRegistry>
+                  <div className="bg-white sm:rounded-2xl sm:shadow-xl">
+                    {children}
+                    <section className="giscus">
+                      <Giscus
+                        host="https://giscus.xzonn.top"
+                        repo="Xzonn/PokemonPokopiaDatabase"
+                        repoId="R_kgDORmT12w"
+                        category="General"
+                        categoryId="DIC_kwDORmT1284C4cEM"
+                        mapping="specific"
+                        term="评论区"
+                        reactions-enabled="1"
+                        emit-metadata="0"
+                        input-position="top"
+                        theme="preferred_color_scheme"
+                        lang="zh-CN"
+                      />
+                    </section>
+                  </div>
+                </AntdRegistry>
+              </main>
+            </div>
             <Footer />
-          </ConfigProvider>
-        </div>
-      </body>
-    </html>
-  );
-}
+          </TocObserver>
+        </ConfigProvider>
+      </div>
+    </body>
+  </html>
+);
+export default RootLayout;

@@ -444,8 +444,18 @@ a.badge {
 }
 
 /** 搜索框 */
+.search-input {
+  @apply w-full border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent;
+  border-radius: 72px !important;
+  --ant-border-radius: 72px !important;
+}
+
+.search-results {
+  @apply absolute z-[1200] mt-1 w-full bg-white rounded-lg shadow-lg border border-gray-200 max-h-96 overflow-y-auto;
+}
+
 .search-item {
-  @apply flex border-b h-[72px] items-center justify-start w-full p-2 gap-2;
+  @apply flex border-b border-gray-200 h-[72px] items-center justify-start w-full p-2 gap-2;
 
   &:last-child {
     @apply border-b-0;
@@ -460,15 +470,15 @@ a.badge {
   @apply font-semibold;
 }
 
-.search-item-pokemon {
-  .pokemon-name-line {
+.search-item {
+  .search-item-name-line {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 4px;
   }
 
-  .pokemon-name {
+  .search-item-name {
     font-weight: 600;
   }
 
@@ -511,6 +521,31 @@ a.badge {
 .tag-new,
 .tag-now {
   @apply bg-red-500 text-white font-bold rounded-full px-2 py-0.5 ml-2 text-xs;
+}
+
+/** 前后导航 */
+.prev-next {
+  @apply flex justify-between gap-4 flex-wrap;
+}
+
+.prev-next-link {
+  @apply flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition;
+}
+
+.prev-link {
+  @apply text-left;
+}
+
+.next-link {
+  @apply text-right;
+}
+
+.prev-next-arrow {
+  @apply text-xs text-gray-400 mb-1;
+}
+
+.prev-next-name {
+  @apply font-medium;
 }
 
 /** 网站结构 */

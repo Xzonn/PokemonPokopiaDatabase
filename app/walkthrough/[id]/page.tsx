@@ -78,14 +78,14 @@ export default async function ChapterPage({ params }: Props) {
       </div>
 
       {/* Chapter Navigation */}
-      <div className="flex justify-between gap-4 pt-2">
+      <div className="prev-next pt-2">
         {prevChapter ? (
           <Link
             href={`/walkthrough/${prevChapter.id}`}
-            className="flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition text-left"
+            className="prev-next-link prev-link"
           >
-            <div className="text-xs text-gray-400 mb-1">← 上一章</div>
-            <div className="font-medium">{prevChapter.title}</div>
+            <div className="prev-next-arrow">← 上一章</div>
+            <div className="prev-next-name">{prevChapter.title}</div>
           </Link>
         ) : (
           <div className="flex-1" />
@@ -93,10 +93,10 @@ export default async function ChapterPage({ params }: Props) {
         {nextChapter ? (
           <Link
             href={`/walkthrough/${nextChapter.id}`}
-            className="flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition text-right"
+            className="prev-next-link next-link"
           >
-            <div className="text-xs text-gray-400 mb-1">下一章 →</div>
-            <div className="font-medium">{nextChapter.title}</div>
+            <div className="prev-next-arrow">下一章 →</div>
+            <div className="prev-next-name">{nextChapter.title}</div>
           </Link>
         ) : (
           <div className="flex-1" />

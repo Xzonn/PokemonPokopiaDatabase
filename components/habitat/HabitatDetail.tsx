@@ -150,7 +150,7 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
           ))}
           。
         </p>
-        {noteworthyContents.length === 1 ? <p>需要注意的是，{noteworthyContents[0]}。</p> : null}
+        {noteworthyContents.length === 1 ? <p>需要注意的是，{noteworthyContents[0]}</p> : null}
         {noteworthyContents.length > 1 ? (
           <>
             <p>需要注意的是：</p>
