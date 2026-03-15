@@ -23,7 +23,7 @@ interface ITypeIconProps {
 
 export const TypeIcon: React.FC<ITypeIconProps> = ({ type, className }) => (
   <div className={cn(`badge bg-${type}`, className)}>
-    <div className={`badge-icon icon icon-${type}-white`} />
+    <div className={`badge-icon icon icon-${type}`} />
     <div className="badge-text">{type}</div>
   </div>
 );
@@ -47,7 +47,7 @@ export const TimeIcons: React.FC<{ time: string }> = ({ time }) => (
       <Icon
         size={32}
         key={t}
-        name={`${t}-white`}
+        name={t}
         className={cn(
           time[i] === "1" ? `bg-${t}` : "bg-无",
           i === 0 ? "rounded-l-lg" : i === times.length - 1 ? "rounded-r-lg" : "",
@@ -63,7 +63,7 @@ export const WeatherIcons: React.FC<{ weather: string }> = ({ weather }) => (
       <Icon
         size={32}
         key={t}
-        name={`${t}-white`}
+        name={t}
         className={cn(
           weather[i] === "1" ? `bg-${t}` : "bg-无",
           i === 0 ? "rounded-l-lg" : i === weathers.length - 1 ? "rounded-r-lg" : "",
