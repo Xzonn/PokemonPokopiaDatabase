@@ -24,7 +24,7 @@ export const generateMetadata = async ({ params }: IProps) => {
 
   return {
     title: `${habitat.name} - ${DEFAULT_TITLE}`,
-    description: `栖息地“${habitat.name}”在《宝可梦 Pokopia》中的详细信息。`,
+    description: `“${habitat.name}”是《宝可梦 Pokopia》中的栖息地之一，它由${habitat.detail.map((d) => `${d.name} × ${d.count}`).join("、")} 组成。${habitat.pokemon.map((p) => p.form.split("-")[0]).join("、")}可能会在这里出现。`,
   };
 };
 
@@ -75,7 +75,15 @@ const HabitatDetailPage = async ({ params }: IProps) => {
             className="flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition text-left"
           >
             <div className="text-xs text-gray-400 mb-1">← No.{prevHabitat.id.toString().padStart(3, "0")}</div>
-            <div className="font-medium">{prevHabitat.name}</div>
+            <div className="font-medium">
+              <span className="icon-wrapper-inline">
+                <span>{prevHabitat.name}</span>
+                <HabitatIcon
+                  habitat={prevHabitat}
+                  size={24}
+                />
+              </span>
+            </div>
           </Link>
         ) : (
           <div className="flex-1" />
@@ -86,7 +94,15 @@ const HabitatDetailPage = async ({ params }: IProps) => {
             className="flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition text-right"
           >
             <div className="text-xs text-gray-400 mb-1">No.{nextHabitat.id.toString().padStart(3, "0")} →</div>
-            <div className="font-medium">{nextHabitat.name}</div>
+            <div className="font-medium">
+              <span className="icon-wrapper-inline">
+                <HabitatIcon
+                  habitat={nextHabitat}
+                  size={24}
+                />
+                <span>{nextHabitat.name}</span>
+              </span>
+            </div>
           </Link>
         ) : (
           <div className="flex-1" />

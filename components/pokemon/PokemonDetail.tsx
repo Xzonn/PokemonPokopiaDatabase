@@ -8,6 +8,7 @@ import { Pokemon } from "@/types";
 import { DescriptionsCommonProps2, TimeIcons, TypeIcons, WeatherIcons } from "@/utils";
 
 import { HabitatCell, HabitatLink } from "../habitat";
+import { ItemLink } from "../item/ItemLink";
 import { SpecialityLink } from "../speciality";
 
 const getDescriptions = (pokemon: Pokemon): DescriptionsProps["items"] => [
@@ -77,16 +78,19 @@ const getDescriptions = (pokemon: Pokemon): DescriptionsProps["items"] => [
       pokemon.habitats.length > 0
         ? pokemon.habitats.map((l) => (
             <div
-              className="icon-wrapper"
+              className="icon-wrapper flex-wrap"
               key={l}
             >
               <HabitatCell habitat={HabitatDataById[l]} />
-              <div>
+              <div className="whitespace-normal">
                 （
                 {HabitatDataById[l].detail.map((d, i) => (
                   <Fragment key={i}>
                     {i === 0 ? null : "、"}
-                    {d.name} × {d.count}
+                    <ItemLink
+                      name={d.name}
+                      count={d.count}
+                    />
                   </Fragment>
                 ))}
                 ）
@@ -169,11 +173,9 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
         </p>
         <p>
           它喜欢{pokemon.environment}的环境
-          {pokemon.favorites.length > 1 ? (
-            <>
-              ，以及{pokemon.favorites.slice(0, 5).join("、")}物品和{pokemon.favorites[5]}食物
-            </>
-          ) : null}
+          {pokemon.favorites.length > 1
+            ? `，以及${pokemon.favorites.slice(0, 5).join("、")}物品和口味为“${pokemon.favorites[5][0]}”的食物`
+            : null}
           。
         </p>
       </section>

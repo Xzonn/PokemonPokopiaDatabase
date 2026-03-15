@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { Fragment } from "react";
 
 import { PokemonDetail, PokemonIcon } from "@/components";
-import { PokemonData } from "@/data";
+import { HabitatDataById, PokemonData } from "@/data";
 import { Link } from "@/utils";
 import { DEFAULT_TITLE, getPokemonFullId } from "@/utils";
 
@@ -24,7 +24,7 @@ export const generateMetadata = async ({ params }: IProps) => {
 
   return {
     title: `${pokemon.name} - ${DEFAULT_TITLE}`,
-    description: `宝可梦“${pokemon.name}”在《宝可梦 Pokopia》中的详细信息。`,
+    description: `“${pokemon.name}”是《宝可梦 Pokopia》中登场的宝可梦之一，它的栖息地${pokemon.habitats.length === 0 ? "不明" : `包括${pokemon.habitats.map((h) => HabitatDataById[h]?.name || h).join("、")}`}。`,
   };
 };
 
@@ -76,7 +76,15 @@ const PokemonDetailPage = async ({ params }: IProps) => {
             className="flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition text-left"
           >
             <div className="text-xs text-gray-400 mb-1">← No.{prevPokemon.dex.toString().padStart(3, "0")}</div>
-            <div className="font-medium">{prevPokemon.name}</div>
+            <div className="font-medium">
+              <span className="icon-wrapper-inline">
+                <span>{prevPokemon.name}</span>
+                <PokemonIcon
+                  pokemon={prevPokemon}
+                  size={24}
+                />
+              </span>
+            </div>
             <div className="text-xs text-gray-400">{prevPokemon.formName}</div>
           </Link>
         ) : (
@@ -88,7 +96,15 @@ const PokemonDetailPage = async ({ params }: IProps) => {
             className="flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition text-right"
           >
             <div className="text-xs text-gray-400 mb-1">No.{nextPokemon.dex.toString().padStart(3, "0")} →</div>
-            <div className="font-medium">{nextPokemon.name}</div>
+            <div className="font-medium">
+              <span className="icon-wrapper-inline">
+                <PokemonIcon
+                  pokemon={nextPokemon}
+                  size={24}
+                />
+                <span>{nextPokemon.name}</span>
+              </span>
+            </div>
             <div className="text-xs text-gray-400">{nextPokemon.formName}</div>
           </Link>
         ) : (

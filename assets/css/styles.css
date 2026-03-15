@@ -119,6 +119,19 @@ main p {
   }
 }
 
+main ul,
+main ol {
+  @apply mb-4 pl-[2em] leading-[2];
+
+  & > * {
+    @apply mb-2;
+  }
+
+  & > *:last-child {
+    @apply mb-0;
+  }
+}
+
 .ant-table-wrapper {
   @apply my-4;
 }
@@ -168,7 +181,7 @@ section {
 }
 
 .names {
-  @apply flex justify-center space-x-2 mb-6 text-xl text-gray-500;
+  @apply flex flex-wrap justify-center space-x-2 mb-6 text-xl text-gray-500;
 }
 
 .description {
@@ -217,7 +230,7 @@ figure {
 }
 
 .icon-wrapper-inline {
-  @apply inline-flex items-center justify-start whitespace-nowrap align-middle;
+  @apply inline-flex items-center justify-start whitespace-nowrap align-top;
 }
 
 .badge.icon-inline {
@@ -255,7 +268,7 @@ figure {
 
 /** 道具 */
 .item-icon {
-  /* background-image: url("../images/items.webp"); */
+  background-image: url("../images/items.webp");
 }
 
 /** 属性 */

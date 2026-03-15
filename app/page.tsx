@@ -1,8 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import { Fragment, useEffect } from "react";
 
-import { Link } from "@/utils";
+import logo from "@/assets/images/logo.png";
+import { Icon, Link } from "@/utils";
 import { DEFAULT_TITLE } from "@/utils";
 
 export default function Home() {
@@ -20,8 +22,16 @@ export default function Home() {
     <Fragment key="home">
       {/* Hero Section */}
       <section>
-        <div className="text-center py-16 bg-linear-to-br from-primary to-secondary rounded-2xl text-white shadow-lg">
-          <div className="text-6xl mb-4">🎮</div>
+        <div className="text-center py-16 bg-linear-to-br from-secondary to-white rounded-2xl text-primary shadow-lg">
+          <div className="mb-4">
+            <Image
+              src={logo}
+              alt="Logo"
+              width={64}
+              height={64}
+              className="block mx-auto"
+            />
+          </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">宝可梦 Pokopia 数据库</h1>
         </div>
       </section>
@@ -32,14 +42,22 @@ export default function Home() {
           href="/pokemon-list"
           className="group bg-white rounded-2xl shadow hover:shadow-lg transition-shadow p-8 border border-gray-100"
         >
-          <div className="text-5xl mb-4">📖</div>
+          <Icon
+            size={48}
+            name="pokemon"
+            className="mb-4 mx-auto"
+          />
           <h2 className="text-2xl font-bold mb-2 group-hover:text-red-600 transition-colors">宝可梦一览</h2>
         </Link>
         <Link
           href="/habitat-list"
           className="group bg-white rounded-2xl shadow hover:shadow-lg transition-shadow p-8 border border-gray-100"
         >
-          <div className="text-5xl mb-4">📖</div>
+          <Icon
+            size={48}
+            name="habitat"
+            className="mb-4 mx-auto"
+          />
           <h2 className="text-2xl font-bold mb-2 group-hover:text-red-600 transition-colors">栖息地一览</h2>
         </Link>
       </section>

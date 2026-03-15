@@ -37,25 +37,3 @@ export const HabitatIcon: FC<IHabitatIconProps> = ({ habitat, size = 64, classNa
     </span>
   );
 };
-
-export const HabitatIconWithName: FC<IHabitatIconProps> = ({ habitat, link, ...rest }) =>
-  link ? (
-    <Link
-      href={`/h/${habitat.id.toString().padStart(3, "0")}`}
-      className="flex flex-col items-center w-[72px]"
-    >
-      <HabitatIcon
-        habitat={habitat}
-        {...rest}
-      />
-      <div>{habitat.name}</div>
-    </Link>
-  ) : (
-    <div className="flex flex-col items-center w-[72px]">
-      <HabitatIcon
-        habitat={habitat}
-        {...rest}
-      />
-      <div>{habitat.name}</div>
-    </div>
-  );

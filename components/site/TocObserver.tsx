@@ -29,26 +29,31 @@ export const TocObserver: FC<PropsWithChildren> = ({ children }) => {
       if (!mainElement) return;
 
       const headings = mainElement.querySelectorAll("h2");
-      const items = Array.from(headings).map((heading) => {
-        const text = heading.textContent || "";
-        let safeText = text.replace(/[\s#[\]/]+/g, "-").toLowerCase();
-        if (/^\d/.test(safeText)) {
-          safeText = `heading-${safeText}`;
-        }
-        while (document.getElementById(safeText)) {
-          safeText += "-1";
-        }
-        let id = heading.id;
-        if (!id) {
-          id = safeText;
-          heading.id = id;
-        }
-        return {
-          id,
-          text: heading.textContent || "",
-          offsetTop: heading.offsetTop,
-        } as TocItem;
-      });
+      const items = Array.from(headings)
+        .map((heading) => {
+          if (heading.textContent === "This page could not be found.") {
+            return null;
+          }
+          const text = heading.textContent || "";
+          let safeText = text.replace(/[\s#[\]/]+/g, "-").toLowerCase();
+          if (/^\d/.test(safeText)) {
+            safeText = `heading-${safeText}`;
+          }
+          while (document.getElementById(safeText)) {
+            safeText += "-1";
+          }
+          let id = heading.id;
+          if (!id) {
+            id = safeText;
+            heading.id = id;
+          }
+          return {
+            id,
+            text: heading.textContent || "",
+            offsetTop: heading.offsetTop,
+          } as TocItem;
+        })
+        .filter((item): item is TocItem => item !== null);
 
       setTocItems(items);
     };

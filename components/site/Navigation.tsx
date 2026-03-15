@@ -31,7 +31,7 @@ export const Navigation: FC<INavigationProps> = ({ onClick }) => {
           className={cn("nav-item", isActive(item.path) ? "nav-item-active" : "")}
         >
           <span className="nav-item-icon">
-            <Icon name={`${item.icon}-${isActive(item.path) ? "white" : "black"}`} />
+            <Icon name={item.icon} />
           </span>
           <span className="nav-item-label">{item.label}</span>
         </Link>

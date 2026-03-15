@@ -7,6 +7,7 @@ import { Habitat } from "@/types";
 import { TableCommonProps } from "@/utils";
 
 import { HabitatCell } from "./HabitatCell";
+import { ItemLink } from "../item";
 import { PokemonIconWithName } from "../pokemon";
 
 export const HabitatTableColumns: TableColumnsType<Habitat> = [
@@ -41,7 +42,10 @@ export const HabitatTableColumns: TableColumnsType<Habitat> = [
     render: (detail: Habitat["detail"]) =>
       detail.map((d, i) => (
         <div key={i}>
-          {d.name} × {d.count}
+          <ItemLink
+            name={d.name}
+            count={d.count}
+          />
         </div>
       )),
   },

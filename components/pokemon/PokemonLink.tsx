@@ -20,7 +20,7 @@ export const PokemonLink: FC<IProps> = ({ name }) => {
       {pokemon ? (
         <Link href={`/p/${getPokemonFullId(pokemon)}`}>
           {pokemon.name}
-          {pokemon.formName ? ` (${pokemon.formName})` : null}
+          {pokemon.formName ? `（${pokemon.formName}）` : null}
         </Link>
       ) : null}
     </span>

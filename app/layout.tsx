@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 import "@/assets/css/styles.css";
 import { Footer, Header, Sidebar, TocObserver } from "@/components";
-import { BREAKPOINTS, DEFAULT_TITLE } from "@/utils";
+import { BREAKPOINTS, DEFAULT_TITLE, SITE_URL } from "@/utils";
 
 const { xs, sm, md, lg, xl, xxl } = BREAKPOINTS;
 
@@ -32,9 +32,15 @@ const theme: ThemeConfig = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: DEFAULT_TITLE,
   description: DEFAULT_TITLE,
   keywords: ["宝可梦", "Pokopia", "攻略", "图鉴", "通关指南"],
+  openGraph: {
+    title: DEFAULT_TITLE,
+    description: DEFAULT_TITLE,
+    url: SITE_URL,
+  },
 };
 
 export default function RootLayout({
