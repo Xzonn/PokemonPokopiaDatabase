@@ -16,7 +16,7 @@ const getDescriptions = (habitat: Habitat): DescriptionsProps["items"] => [
   {
     key: "id",
     label: "编号",
-    children: habitat.id.toString().padStart(3, "0"),
+    children: `${(habitat.index % 10000).toString().padStart(3, "0")}${habitat.isEvent ? "（活动）" : ""}`,
   },
   {
     key: "detail",
@@ -33,7 +33,6 @@ const getDescriptions = (habitat: Habitat): DescriptionsProps["items"] => [
 ];
 
 type MixedPokemon = Pokemon & {
-  index: number;
   rarity: string;
   location: string;
 };
@@ -70,7 +69,7 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
             <>
               不过，它也可能会出现在
               {pokemon.habitats
-                .filter((h) => h !== habitat.id)
+                .filter((h) => h !== habitat.index)
                 .map((h, i) => (
                   <Fragment key={i}>
                     {i === 0 ? null : "、"}
@@ -128,7 +127,7 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
     <>
       <section>
         <p>
-          <strong>{habitat.name}</strong>是《宝可梦 Pokopia》中的栖息地之一。它由{" "}
+          <strong>{habitat.name}</strong>是《宝可梦 Pokopia》中的栖息地之一。它由
           {habitat.detail.map((d, i) => (
             <Fragment key={i}>
               {i === 0 ? null : "、"}
@@ -175,11 +174,10 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
         <h2>宝可梦列表</h2>
         <Table<MixedPokemon>
           {...TableCommonProps}
-          rowKey={(row) => row.index}
+          rowKey={(row) => row.id}
           columns={columns}
-          dataSource={habitat.pokemon.map((p, i) => ({
+          dataSource={habitat.pokemon.map((p) => ({
             ...PokemonDataByName[p.form],
-            index: i,
             rarity: p.rarity,
             location: p.location,
           }))}

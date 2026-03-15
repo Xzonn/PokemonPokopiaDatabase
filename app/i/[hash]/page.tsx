@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { Fragment } from "react";
 
 import { ItemDetail, ItemIcon } from "@/components";
-import { ItemData, ItemDataByHash, ItemDataById } from "@/data";
+import { ItemData, ItemDataById } from "@/data";
 import { Link } from "@/utils";
 import { DEFAULT_TITLE } from "@/utils";
 
@@ -14,7 +14,7 @@ interface IProps {
 export const generateMetadata = async ({ params }: IProps) => {
   const { hash } = await params;
 
-  const item = ItemDataByHash[hash];
+  const item = ItemDataById[hash];
 
   if (!item) {
     return {
@@ -35,12 +35,12 @@ export async function generateStaticParams() {
 const ItemDetailPage = async ({ params }: IProps) => {
   const { hash } = await params;
 
-  const item = ItemDataByHash[hash];
+  const item = ItemDataById[hash];
 
   if (!item) notFound();
 
-  const prevItem = ItemDataById[item.id - 1];
-  const nextItem = ItemDataById[item.id + 1];
+  const prevItem = ItemData.find((i) => i.id === item.id - 1) || ItemData[ItemData.length - 1];
+  const nextItem = ItemData.find((i) => i.id === item.id + 1) || ItemData[0];
 
   return (
     <Fragment key="item">

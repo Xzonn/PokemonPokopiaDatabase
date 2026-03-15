@@ -3,10 +3,12 @@ import { getPokemonFullId, getPokemonFullName, parseTSV } from "@/utils";
 
 import raw from "./pokemon.txt?raw";
 
-export const PokemonData = parseTSV<Pokemon>(raw, (dict, index) => {
+export const PokemonData = parseTSV<Pokemon>(raw, (dict, i) => {
+  const index = parseInt(dict["编号"], 10);
   const item: Pokemon = {
-    id: index + 1,
-    dex: parseInt(dict["编号"], 10),
+    id: i + 1,
+    index,
+    isEvent: index > 10000,
     form: parseInt(dict["形态编号"], 10),
     name: dict["中文名"],
     japanese: dict["日文名"],
@@ -23,11 +25,10 @@ export const PokemonData = parseTSV<Pokemon>(raw, (dict, index) => {
     description: dict["图鉴说明"],
     height: dict["身高"],
     weight: dict["体重"],
-    x: index % 20,
-    y: Math.floor(index / 20),
+    x: (i + 1) % 20,
+    y: Math.floor((i + 1) / 20),
   };
   return item;
 });
-export const PokemonDataById = Object.fromEntries(PokemonData.map((p) => [p.id, p]));
-export const PokemonDataByFullId = Object.fromEntries(PokemonData.map((p) => [getPokemonFullId(p), p]));
+export const PokemonDataById = Object.fromEntries(PokemonData.map((p) => [getPokemonFullId(p), p]));
 export const PokemonDataByName = Object.fromEntries(PokemonData.map((p) => [getPokemonFullName(p), p]));

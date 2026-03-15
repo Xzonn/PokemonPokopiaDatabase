@@ -1,5 +1,7 @@
 export interface Habitat {
   id: number;
+  index: number;
+  isEvent: boolean;
   name: string;
   japanese: string;
   english: string;

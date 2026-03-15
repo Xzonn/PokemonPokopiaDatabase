@@ -23,7 +23,7 @@ const getDescriptions = (pokemon: Pokemon): DescriptionsProps["items"] => [
   {
     key: "dex",
     label: "图鉴编号",
-    children: pokemon.dex.toString().padStart(3, "0"),
+    children: `${(pokemon.index % 10000).toString().padStart(3, "0")}${pokemon.isEvent ? "（活动）" : ""}`,
   },
   {
     key: "category",

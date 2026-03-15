@@ -13,8 +13,8 @@ import { PokemonIconWithName } from "../pokemon";
 export const HabitatTableColumns: TableColumnsType<Habitat> = [
   {
     title: "编号",
-    dataIndex: "id",
-    render: (id) => `${id}`.padStart(3, "0"),
+    dataIndex: "index",
+    render: (index: number, row) => `${(index % 10000).toString().padStart(3, "0")}${row.isEvent ? "（活动）" : ""}`,
   },
   {
     title: "名字",

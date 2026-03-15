@@ -39,8 +39,8 @@ const PokemonDetailPage = async ({ params }: IProps) => {
 
   if (!pokemon) notFound();
 
-  const prevPokemon = PokemonData.find((p) => p.id === pokemon.id - 1);
-  const nextPokemon = PokemonData.find((p) => p.id === pokemon.id + 1);
+  const prevPokemon = PokemonData.find((p) => p.id === pokemon.id - 1) || PokemonData[PokemonData.length - 1];
+  const nextPokemon = PokemonData.find((p) => p.id === pokemon.id + 1) || PokemonData[0];
 
   return (
     <Fragment key="pokemon">
@@ -75,7 +75,10 @@ const PokemonDetailPage = async ({ params }: IProps) => {
             href={`/p/${getPokemonFullId(prevPokemon)}`}
             className="prev-next-link prev-link"
           >
-            <div className="prev-next-arrow">← No.{prevPokemon.dex.toString().padStart(3, "0")}</div>
+            <div className="prev-next-arrow">
+              ← No.{(prevPokemon.index % 10000).toString().padStart(3, "0")}
+              {prevPokemon.isEvent ? "（活动）" : ""}
+            </div>
             <div className="prev-next-name">
               <span className="icon-wrapper-inline">
                 <span>{prevPokemon.name}</span>
@@ -95,7 +98,10 @@ const PokemonDetailPage = async ({ params }: IProps) => {
             href={`/p/${getPokemonFullId(nextPokemon)}`}
             className="prev-next-link next-link"
           >
-            <div className="prev-next-arrow">No.{nextPokemon.dex.toString().padStart(3, "0")} →</div>
+            <div className="prev-next-arrow">
+              No.{(nextPokemon.index % 10000).toString().padStart(3, "0")}
+              {nextPokemon.isEvent ? "（活动）" : ""} →
+            </div>
             <div className="prev-next-name">
               <span className="icon-wrapper-inline">
                 <PokemonIcon

@@ -29,7 +29,7 @@ export const generateMetadata = async ({ params }: IProps) => {
 };
 
 export async function generateStaticParams() {
-  return HabitatData.map((h) => ({ id: h.id.toString().padStart(3, "0") }));
+  return HabitatData.map((h) => ({ id: h.index.toString().padStart(3, "0") }));
 }
 
 const HabitatDetailPage = async ({ params }: IProps) => {
@@ -39,8 +39,8 @@ const HabitatDetailPage = async ({ params }: IProps) => {
 
   if (!habitat) notFound();
 
-  const prevHabitat = HabitatDataById[habitat.id - 1];
-  const nextHabitat = HabitatDataById[habitat.id + 1];
+  const prevHabitat = HabitatData.find((h) => h.id === habitat.id - 1) || HabitatData[HabitatData.length - 1];
+  const nextHabitat = HabitatData.find((h) => h.id === habitat.id + 1) || HabitatData[0];
 
   return (
     <Fragment key="habitat">
@@ -71,10 +71,13 @@ const HabitatDetailPage = async ({ params }: IProps) => {
       <section className="prev-next">
         {prevHabitat ? (
           <Link
-            href={`/h/${prevHabitat.id.toString().padStart(3, "0")}`}
+            href={`/h/${prevHabitat.index.toString().padStart(3, "0")}`}
             className="prev-next-link prev-link"
           >
-            <div className="prev-next-arrow">← No.{prevHabitat.id.toString().padStart(3, "0")}</div>
+            <div className="prev-next-arrow">
+              ← No.{(prevHabitat.index % 10000).toString().padStart(3, "0")}
+              {prevHabitat.isEvent ? "（活动）" : ""}
+            </div>
             <div className="prev-next-name">
               <span className="icon-wrapper-inline">
                 <span>{prevHabitat.name}</span>
@@ -90,10 +93,13 @@ const HabitatDetailPage = async ({ params }: IProps) => {
         )}
         {nextHabitat ? (
           <Link
-            href={`/h/${nextHabitat.id.toString().padStart(3, "0")}`}
+            href={`/h/${nextHabitat.index.toString().padStart(3, "0")}`}
             className="prev-next-link next-link"
           >
-            <div className="prev-next-arrow">No.{nextHabitat.id.toString().padStart(3, "0")} →</div>
+            <div className="prev-next-arrow">
+              No.{(nextHabitat.index % 10000).toString().padStart(3, "0")}
+              {nextHabitat.isEvent ? "（活动）" : ""} →
+            </div>
             <div className="prev-next-name">
               <span className="icon-wrapper-inline">
                 <HabitatIcon

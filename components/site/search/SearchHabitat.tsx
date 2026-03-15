@@ -12,7 +12,7 @@ interface IProps {
 
 export const SearchHabitat: FC<IProps> = ({ result, onClick }) => (
   <Link
-    href={`/h/${result.id.toString().padStart(3, "0")}`}
+    href={`/h/${result.index.toString().padStart(3, "0")}`}
     onClick={onClick}
     className="search-item"
   >

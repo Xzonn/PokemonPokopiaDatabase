@@ -12,7 +12,7 @@ interface IProps {
 export const HabitatCell: FC<IProps> = ({ habitat }) =>
   habitat ? (
     <Link
-      href={`/h/${habitat.id.toString().padStart(3, "0")}`}
+      href={`/h/${habitat.index.toString().padStart(3, "0")}`}
       className="cell-habitat"
     >
       <HabitatIcon habitat={habitat} />

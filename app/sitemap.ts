@@ -20,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const habitatRoutes: MetadataRoute.Sitemap = HabitatData.map((h) => ({
-    url: `${SITE_URL}/h/${h.id.toString().padStart(3, "0")}`,
+    url: `${SITE_URL}/h/${h.index.toString().padStart(3, "0")}`,
     changeFrequency: "weekly",
     priority: 0.6,
   }));

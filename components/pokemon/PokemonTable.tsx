@@ -18,8 +18,8 @@ export const PokemonTableColumns: TableColumnsType<Pokemon> = [
   },
   {
     title: "编号",
-    dataIndex: "dex",
-    render: (dex) => `${dex}`.padStart(3, "0"),
+    dataIndex: "index",
+    render: (index: number, row) => `${(index % 10000).toString().padStart(3, "0")}${row.isEvent ? "（活动）" : ""}`,
   },
   {
     title: "属性",

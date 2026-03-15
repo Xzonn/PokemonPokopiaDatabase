@@ -58,7 +58,8 @@ export type Speciality = (typeof ESpecialities)[number] | "不明";
 
 export interface Pokemon {
   id: number;
-  dex: number;
+  index: number;
+  isEvent: boolean;
   form: number;
   name: string;
   formName: string;

@@ -36,7 +36,7 @@ const searchAll = (keyword: string): SearchResult[] => {
       pokemon.english.toLowerCase().includes(keywordParsed) ||
       pokemon.name.toLowerCase().includes(keywordParsed) ||
       pokemon.formName.toLowerCase().includes(keywordParsed) ||
-      pokemon.dex === keywordNumber,
+      pokemon.index % 10000 === keywordNumber,
   )
     .slice(0, 10)
     .forEach((pokemon) =>
@@ -47,7 +47,9 @@ const searchAll = (keyword: string): SearchResult[] => {
     );
 
   if (results.length < 10) {
-    HabitatData.filter((habitat) => habitat.name.toLowerCase().includes(keywordParsed) || habitat.id === keywordNumber)
+    HabitatData.filter(
+      (habitat) => habitat.name.toLowerCase().includes(keywordParsed) || habitat.index % 10000 === keywordNumber,
+    )
       .slice(0, 10 - results.length)
       .forEach((habitat) =>
         results.push({
@@ -113,7 +115,7 @@ const renderSearchResult = (result: SearchResult[], onClick: () => void) => {
           case "habitat":
             return (
               <SearchHabitat
-                key={`h-${data.id}`}
+                key={`h-${data.index}`}
                 result={data}
                 onClick={onClick}
               />

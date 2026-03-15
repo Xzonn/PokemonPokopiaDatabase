@@ -22,7 +22,7 @@ export const HabitatIcon: FC<IHabitatIconProps> = ({ habitat, size = 64, classNa
 
   return link ? (
     <Link
-      href={`/h/${habitat.id.toString().padStart(3, "0")}`}
+      href={`/h/${habitat.index.toString().padStart(3, "0")}`}
       className={combinedClassName}
       style={style}
     >
