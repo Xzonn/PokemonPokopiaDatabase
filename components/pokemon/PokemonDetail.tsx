@@ -5,7 +5,14 @@ import { FC, Fragment } from "react";
 
 import { HabitatDataById } from "@/data";
 import { Pokemon } from "@/types";
-import { DescriptionsCommonProps2, TimeIcons, TypeIcons, WeatherIcons, getPokemonFullId } from "@/utils";
+import {
+  DescriptionsCommonProps2,
+  TimeIcons,
+  TypeIcons,
+  WeatherIcons,
+  getPokemonFullId,
+  getPokemonFullName,
+} from "@/utils";
 
 import { POKEMON_COMMENTARY } from "../commentary";
 import { HabitatCell, HabitatLink } from "../habitat";
@@ -110,6 +117,15 @@ interface IProps {
 export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
   const knownHabitats = pokemon.habitats;
   const fullId = getPokemonFullId(pokemon);
+  const fullName = getPokemonFullName(pokemon);
+  const locations = [
+    ...new Set(
+      pokemon.habitats
+        .map((id) => HabitatDataById[id].pokemon.find((p) => p.form === fullName)?.location)
+        .filter((loc) => loc && loc !== "全部") as string[],
+    ),
+  ];
+
   const Commentary = POKEMON_COMMENTARY[fullId];
 
   return (
@@ -172,7 +188,7 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
                 return "出现时间不明";
             }
           })()}
-          。
+          。{locations.length > 0 ? `它只会在${locations.join("、")}出现。` : null}
         </p>
         <p>
           它喜欢{pokemon.environment}的环境
