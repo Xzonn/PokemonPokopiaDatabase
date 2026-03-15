@@ -21,7 +21,7 @@ export const ItemLink: FC<IProps> = ({ name, count }) => {
             size={24}
           />
         ) : null}
-        {item ? <Link href={`/i/${item.hash}`}>{item.name}</Link> : null}
+        {item ? <Link href={`/i/${item.hash}`}>{item.name}</Link> : <span>{name}</span>}
       </span>
       {count !== undefined ? ` × ${count}` : null}
     </>

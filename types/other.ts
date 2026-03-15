@@ -1,3 +1,5 @@
+import { FC } from "react";
+
 import { Habitat } from "./habitat";
 import { Item } from "./item";
 import { Pokemon } from "./pokemon";
@@ -26,3 +28,5 @@ export type SearchResult =
       type: "navigation";
       data: NavigationItem;
     };
+
+export type Commentary = Record<string, FC>;

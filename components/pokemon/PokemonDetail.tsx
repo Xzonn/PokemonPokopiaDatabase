@@ -5,8 +5,9 @@ import { FC, Fragment } from "react";
 
 import { HabitatDataById } from "@/data";
 import { Pokemon } from "@/types";
-import { DescriptionsCommonProps2, TimeIcons, TypeIcons, WeatherIcons } from "@/utils";
+import { DescriptionsCommonProps2, TimeIcons, TypeIcons, WeatherIcons, getPokemonFullId } from "@/utils";
 
+import { POKEMON_COMMENTARY } from "../commentary";
 import { HabitatCell, HabitatLink } from "../habitat";
 import { ItemLink } from "../item/ItemLink";
 import { SpecialityLink } from "../speciality";
@@ -108,6 +109,8 @@ interface IProps {
 
 export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
   const knownHabitats = pokemon.habitats;
+  const fullId = getPokemonFullId(pokemon);
+  const Commentary = POKEMON_COMMENTARY[fullId];
 
   return (
     <>
@@ -187,6 +190,8 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
           items={getDescriptions(pokemon)}
         />
       </section>
+
+      {Commentary ? <Commentary /> : null}
     </>
   );
 };
