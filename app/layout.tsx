@@ -1,6 +1,7 @@
 import "@/assets/css/styles.css";
 
 import { AntdRegistry } from "@ant-design/nextjs-registry";
+import { Analytics } from "@vercel/analytics/next";
 import { ConfigProvider, ThemeConfig } from "antd";
 import zhCN from "antd/locale/zh_CN";
 import { Metadata } from "next";
@@ -89,6 +90,7 @@ const RootLayout = ({
             <Footer />
           </TocObserver>
         </ConfigProvider>
+        <Analytics />
       </div>
     </body>
   </html>
