@@ -91,7 +91,7 @@ const getDescriptions = (pokemon: Pokemon): DescriptionsProps["items"] => [
             >
               <HabitatCell habitat={HabitatDataById[l]} />
               <div className="whitespace-normal">
-                （
+                （{HabitatDataById[l].pokemon.find((p) => p.form === getPokemonFullName(pokemon))?.rarity || "普通"}，
                 {HabitatDataById[l].detail.map((d, i) => (
                   <Fragment key={i}>
                     {i === 0 ? null : "、"}
