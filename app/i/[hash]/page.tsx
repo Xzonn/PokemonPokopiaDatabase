@@ -2,9 +2,8 @@ import Head from "next/head";
 import { notFound } from "next/navigation";
 import { Fragment } from "react";
 
-import { ItemDetail, ItemIcon } from "@/components";
+import { ItemDetail, ItemIcon, PrevNext } from "@/components";
 import { ItemData, ItemDataById } from "@/data";
-import { Link } from "@/utils";
 import { DEFAULT_TITLE } from "@/utils";
 
 interface IProps {
@@ -66,47 +65,38 @@ const ItemDetailPage = async ({ params }: IProps) => {
 
       <ItemDetail item={item} />
 
-      {/* Navigation */}
-      <section className="prev-next">
-        {prevItem ? (
-          <Link
-            href={`/i/${prevItem.hash}`}
-            className="prev-next-link prev-link"
-          >
-            <div className="prev-next-arrow">←</div>
-            <div className="prev-next-name">
-              <span className="icon-wrapper-inline">
-                <span>{prevItem.name}</span>
-                <ItemIcon
-                  item={prevItem}
-                  size={24}
-                />
-              </span>
-            </div>
-          </Link>
-        ) : (
-          <div className="flex-1" />
-        )}
-        {nextItem ? (
-          <Link
-            href={`/i/${nextItem.hash}`}
-            className="prev-next-link next-link"
-          >
-            <div className="prev-next-arrow">→</div>
-            <div className="prev-next-name">
-              <span className="icon-wrapper-inline">
-                <ItemIcon
-                  item={nextItem}
-                  size={24}
-                />
-                <span>{nextItem.name}</span>
-              </span>
-            </div>
-          </Link>
-        ) : (
-          <div className="flex-1" />
-        )}
-      </section>
+      <PrevNext
+        prev={
+          prevItem
+            ? {
+                id: prevItem.id.toString().padStart(3, "0"),
+                name: prevItem.name,
+                icon: (
+                  <ItemIcon
+                    item={prevItem}
+                    size={24}
+                  />
+                ),
+                link: `/i/${prevItem.hash}`,
+              }
+            : null
+        }
+        next={
+          nextItem
+            ? {
+                id: nextItem.id.toString().padStart(3, "0"),
+                name: nextItem.name,
+                icon: (
+                  <ItemIcon
+                    item={nextItem}
+                    size={24}
+                  />
+                ),
+                link: `/i/${nextItem.hash}`,
+              }
+            : null
+        }
+      />
     </Fragment>
   );
 };

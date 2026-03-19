@@ -2,9 +2,8 @@ import Head from "next/head";
 import { notFound } from "next/navigation";
 import { Fragment } from "react";
 
-import { HabitatDetail, HabitatIcon } from "@/components";
+import { HabitatDetail, HabitatIcon, PrevNext } from "@/components";
 import { HabitatData, HabitatDataById } from "@/data";
-import { Link } from "@/utils";
 import { DEFAULT_TITLE } from "@/utils";
 
 interface IProps {
@@ -67,53 +66,40 @@ const HabitatDetailPage = async ({ params }: IProps) => {
 
       <HabitatDetail habitat={habitat} />
 
-      {/* Navigation */}
-      <section className="prev-next">
-        {prevHabitat ? (
-          <Link
-            href={`/h/${prevHabitat.index.toString().padStart(3, "0")}`}
-            className="prev-next-link prev-link"
-          >
-            <div className="prev-next-arrow">
-              ← No.{(prevHabitat.index % 10000).toString().padStart(3, "0")}
-              {prevHabitat.isEvent ? "（活动）" : ""}
-            </div>
-            <div className="prev-next-name">
-              <span className="icon-wrapper-inline">
-                <span>{prevHabitat.name}</span>
-                <HabitatIcon
-                  habitat={prevHabitat}
-                  size={24}
-                />
-              </span>
-            </div>
-          </Link>
-        ) : (
-          <div className="flex-1" />
-        )}
-        {nextHabitat ? (
-          <Link
-            href={`/h/${nextHabitat.index.toString().padStart(3, "0")}`}
-            className="prev-next-link next-link"
-          >
-            <div className="prev-next-arrow">
-              No.{(nextHabitat.index % 10000).toString().padStart(3, "0")}
-              {nextHabitat.isEvent ? "（活动）" : ""} →
-            </div>
-            <div className="prev-next-name">
-              <span className="icon-wrapper-inline">
-                <HabitatIcon
-                  habitat={nextHabitat}
-                  size={24}
-                />
-                <span>{nextHabitat.name}</span>
-              </span>
-            </div>
-          </Link>
-        ) : (
-          <div className="flex-1" />
-        )}
-      </section>
+      <PrevNext
+        prev={
+          prevHabitat
+            ? {
+                id: (prevHabitat.index % 10000).toString().padStart(3, "0"),
+                isEvent: prevHabitat.isEvent,
+                name: prevHabitat.name,
+                icon: (
+                  <HabitatIcon
+                    habitat={prevHabitat}
+                    size={24}
+                  />
+                ),
+                link: `/h/${prevHabitat.index.toString().padStart(3, "0")}`,
+              }
+            : null
+        }
+        next={
+          nextHabitat
+            ? {
+                id: (nextHabitat.index % 10000).toString().padStart(3, "0"),
+                isEvent: prevHabitat.isEvent,
+                name: nextHabitat.name,
+                icon: (
+                  <HabitatIcon
+                    habitat={nextHabitat}
+                    size={24}
+                  />
+                ),
+                link: `/h/${nextHabitat.index.toString().padStart(3, "0")}`,
+              }
+            : null
+        }
+      />
     </Fragment>
   );
 };

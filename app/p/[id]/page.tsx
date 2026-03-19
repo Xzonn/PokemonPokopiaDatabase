@@ -2,9 +2,8 @@ import Head from "next/head";
 import { notFound } from "next/navigation";
 import { Fragment } from "react";
 
-import { PokemonDetail, PokemonIcon } from "@/components";
+import { PokemonDetail, PokemonIcon, PrevNext } from "@/components";
 import { HabitatDataById, PokemonData } from "@/data";
-import { Link } from "@/utils";
 import { DEFAULT_TITLE, getPokemonFullId } from "@/utils";
 
 interface IProps {
@@ -68,55 +67,42 @@ const PokemonDetailPage = async ({ params }: IProps) => {
 
       <PokemonDetail pokemon={pokemon} />
 
-      {/* Navigation */}
-      <section className="prev-next">
-        {prevPokemon ? (
-          <Link
-            href={`/p/${getPokemonFullId(prevPokemon)}`}
-            className="prev-next-link prev-link"
-          >
-            <div className="prev-next-arrow">
-              ← No.{(prevPokemon.index % 10000).toString().padStart(3, "0")}
-              {prevPokemon.isEvent ? "（活动）" : ""}
-            </div>
-            <div className="prev-next-name">
-              <span className="icon-wrapper-inline">
-                <span>{prevPokemon.name}</span>
-                <PokemonIcon
-                  pokemon={prevPokemon}
-                  size={24}
-                />
-              </span>
-            </div>
-            <div className="pokemon-form">{prevPokemon.formName}</div>
-          </Link>
-        ) : (
-          <div className="flex-1" />
-        )}
-        {nextPokemon ? (
-          <Link
-            href={`/p/${getPokemonFullId(nextPokemon)}`}
-            className="prev-next-link next-link"
-          >
-            <div className="prev-next-arrow">
-              No.{(nextPokemon.index % 10000).toString().padStart(3, "0")}
-              {nextPokemon.isEvent ? "（活动）" : ""} →
-            </div>
-            <div className="prev-next-name">
-              <span className="icon-wrapper-inline">
-                <PokemonIcon
-                  pokemon={nextPokemon}
-                  size={24}
-                />
-                <span>{nextPokemon.name}</span>
-              </span>
-            </div>
-            <div className="pokemon-form">{nextPokemon.formName}</div>
-          </Link>
-        ) : (
-          <div className="flex-1" />
-        )}
-      </section>
+      <PrevNext
+        prev={
+          prevPokemon
+            ? {
+                id: (prevPokemon.index % 10000).toString().padStart(3, "0"),
+                isEvent: prevPokemon.isEvent,
+                name: prevPokemon.name,
+                icon: (
+                  <PokemonIcon
+                    pokemon={prevPokemon}
+                    size={24}
+                  />
+                ),
+                formName: prevPokemon.formName,
+                link: `/p/${getPokemonFullId(prevPokemon)}`,
+              }
+            : null
+        }
+        next={
+          nextPokemon
+            ? {
+                id: (nextPokemon.index % 10000).toString().padStart(3, "0"),
+                isEvent: nextPokemon.isEvent,
+                name: nextPokemon.name,
+                icon: (
+                  <PokemonIcon
+                    pokemon={nextPokemon}
+                    size={24}
+                  />
+                ),
+                formName: nextPokemon.formName,
+                link: `/p/${getPokemonFullId(nextPokemon)}`,
+              }
+            : null
+        }
+      />
     </Fragment>
   );
 };

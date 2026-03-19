@@ -529,7 +529,7 @@ a.badge {
 }
 
 .prev-next-link {
-  @apply flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition;
+  @apply block flex-1 bg-white rounded-xl shadow border border-gray-100 p-4 hover:shadow-md transition;
 }
 
 .prev-link {

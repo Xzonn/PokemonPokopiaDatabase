@@ -4,3 +4,4 @@ export * from "./Sidebar";
 export * from "./Navigation";
 export * from "./TocObserver";
 export * from "./Giscus";
+export * from "./PrevNext";
