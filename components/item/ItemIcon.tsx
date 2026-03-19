@@ -42,7 +42,7 @@ export const ItemIconWithName: FC<IItemIconProps> = ({ item, link, ...rest }) =>
   link ? (
     <Link
       href={`/i/${item.hash}`}
-      className="flex flex-col items-center w-[72px]"
+      className="flex w-[72px] flex-col items-center"
     >
       <ItemIcon
         item={item}
@@ -51,7 +51,7 @@ export const ItemIconWithName: FC<IItemIconProps> = ({ item, link, ...rest }) =>
       <div>{item.name}</div>
     </Link>
   ) : (
-    <div className="flex flex-col items-center w-[72px]">
+    <div className="flex w-[72px] flex-col items-center">
       <ItemIcon
         item={item}
         {...rest}

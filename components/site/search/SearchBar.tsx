@@ -183,7 +183,7 @@ export const SearchBar: FC<IProps> = ({ onClick }) => {
         suffix={
           searchKeyword ? (
             <CloseOutlined
-              className="text-gray-400 cursor-pointer"
+              className="cursor-pointer text-gray-400"
               onClick={handleClearSearch}
             />
           ) : null

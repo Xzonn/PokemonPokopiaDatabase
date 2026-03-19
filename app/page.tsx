@@ -30,7 +30,7 @@ export default function Home() {
               alt="Logo"
               width={64}
               height={64}
-              className="block mx-auto"
+              className="mx-auto block"
             />
           </div>
           <h1>宝可梦 Pokopia 数据库</h1>

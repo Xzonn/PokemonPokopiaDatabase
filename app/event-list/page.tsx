@@ -71,7 +71,7 @@ const HabitatListPage: FC = () => (
             alt="宝可梦情报局小镇"
             width={160}
             height={120}
-            className="w-full aspect-4/3 image-x"
+            className="image-x aspect-4/3 w-full"
           />
           <div>
             <b>密语</b>：PXQC G03S
@@ -83,7 +83,7 @@ const HabitatListPage: FC = () => (
             alt="狩野英孝的 EIKO 市"
             width={160}
             height={120}
-            className="w-full aspect-4/3 image-x"
+            className="image-x aspect-4/3 w-full"
           />
           <div>
             <b>密语</b>：QBRK 7FVM
@@ -98,7 +98,7 @@ const HabitatListPage: FC = () => (
             alt="指原莉乃的指原岛"
             width={160}
             height={120}
-            className="w-full aspect-4/3 image-x"
+            className="image-x aspect-4/3 w-full"
           />
           <div>
             <b>密语</b>：MGL4 83P4

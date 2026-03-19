@@ -25,7 +25,7 @@ export const HabitatTableColumns: TableColumnsType<Habitat> = [
     title: "宝可梦",
     dataIndex: "pokemon",
     render: (pokemon: Habitat["pokemon"]) => (
-      <div className="flex text-center gap-4 flex-wrap">
+      <div className="flex flex-wrap gap-4 text-center">
         {pokemon.map((p) => (
           <PokemonIconWithName
             key={p.form}

@@ -48,7 +48,7 @@ export const EventTableColumns: TableColumnsType<Event> = [
     title: "举办时间",
     dataIndex: "dates",
     render: (dates: Event["dates"]) => (
-      <div className="flex text-center gap-4 flex-wrap">
+      <div className="flex flex-wrap gap-4 text-center">
         {dates.map(([start, end], i) => (
           <div key={i}>
             {parseDate(start)}～{parseDate(end)}
@@ -61,7 +61,7 @@ export const EventTableColumns: TableColumnsType<Event> = [
     title: "宝可梦",
     dataIndex: "pokemon",
     render: (pokemon: Event["pokemon"]) => (
-      <div className="flex text-center gap-4 flex-wrap">
+      <div className="flex flex-wrap gap-4 text-center">
         {pokemon.map((p) => (
           <PokemonIconWithName
             key={p}

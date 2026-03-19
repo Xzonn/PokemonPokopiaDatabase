@@ -25,7 +25,7 @@ export default async function ChapterPage({ params }: Props) {
   const nextChapter = currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null;
 
   return (
-    <div className="max-w-3xl mx-auto space-y-6">
+    <div className="mx-auto max-w-3xl space-y-6">
       <div className="flex items-center gap-3">
         <Link
           href="/walkthrough"
@@ -36,10 +36,10 @@ export default async function ChapterPage({ params }: Props) {
       </div>
 
       {/* Chapter Header */}
-      <div className="bg-gradient-to-br from-red-500 to-red-700 text-white rounded-2xl p-8 shadow">
-        <div className="text-sm font-medium text-red-200 mb-1">第 {chapter.order} 章</div>
-        <h1 className="text-3xl font-bold mb-3">{chapter.title}</h1>
-        <p className="text-red-100 leading-relaxed">{chapter.description}</p>
+      <div className="rounded-2xl bg-gradient-to-br from-red-500 to-red-700 p-8 text-white shadow">
+        <div className="mb-1 text-sm font-medium text-red-200">第 {chapter.order} 章</div>
+        <h1 className="mb-3 text-3xl font-bold">{chapter.title}</h1>
+        <p className="leading-relaxed text-red-100">{chapter.description}</p>
       </div>
 
       {/* Sections */}
@@ -47,26 +47,26 @@ export default async function ChapterPage({ params }: Props) {
         {chapter.sections.map((section, idx) => (
           <div
             key={idx}
-            className="bg-white rounded-2xl border border-gray-100 shadow p-6"
+            className="rounded-2xl border border-gray-100 bg-white p-6 shadow"
           >
-            <h2 className="text-xl font-bold mb-3 flex items-center gap-2">
-              <span className="w-7 h-7 bg-red-100 text-red-600 rounded-full flex items-center justify-center text-sm font-bold shrink-0">
+            <h2 className="mb-3 flex items-center gap-2 text-xl font-bold">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-red-100 text-sm font-bold text-red-600">
                 {idx + 1}
               </span>
               {section.title}
             </h2>
-            <p className="text-gray-600 leading-relaxed">{section.content}</p>
+            <p className="leading-relaxed text-gray-600">{section.content}</p>
 
             {section.tips && section.tips.length > 0 ? (
-              <div className="mt-4 bg-yellow-50 border border-yellow-200 rounded-xl p-4">
-                <h3 className="text-sm font-bold text-yellow-800 mb-2 flex items-center gap-1">💡 实用技巧</h3>
+              <div className="mt-4 rounded-xl border border-yellow-200 bg-yellow-50 p-4">
+                <h3 className="mb-2 flex items-center gap-1 text-sm font-bold text-yellow-800">💡 实用技巧</h3>
                 <ul className="space-y-1">
                   {section.tips.map((tip, i) => (
                     <li
                       key={i}
-                      className="text-sm text-yellow-900 flex gap-2"
+                      className="flex gap-2 text-sm text-yellow-900"
                     >
-                      <span className="text-yellow-500 shrink-0">▸</span>
+                      <span className="shrink-0 text-yellow-500">▸</span>
                       <span>{tip}</span>
                     </li>
                   ))}

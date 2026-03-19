@@ -43,7 +43,7 @@ export const PokemonIconWithName: FC<IPokemonIconProps> = ({ pokemon, link, ...r
   link ? (
     <Link
       href={`/p/${getPokemonFullId(pokemon)}`}
-      className="flex flex-col items-center w-[72px]"
+      className="flex w-[72px] flex-col items-center"
     >
       <PokemonIcon
         pokemon={pokemon}
@@ -52,7 +52,7 @@ export const PokemonIconWithName: FC<IPokemonIconProps> = ({ pokemon, link, ...r
       <div>{pokemon.name}</div>
     </Link>
   ) : (
-    <div className="flex flex-col items-center w-[72px]">
+    <div className="flex w-[72px] flex-col items-center">
       <PokemonIcon
         pokemon={pokemon}
         {...rest}

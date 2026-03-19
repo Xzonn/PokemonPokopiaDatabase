@@ -60,7 +60,7 @@ const RootLayout = ({
         >
           <TocObserver>
             <Header />
-            <div className="md:flex relative flex-1">
+            <div className="relative flex-1 md:flex">
               <Sidebar />
 
               <main>

@@ -31,7 +31,7 @@ const NotFoundPage = () => {
           <PokemonIcon pokemon={PokemonDataByName["梦幻"]} />
         </div>
         <h1>页面未找到</h1>
-        <p className="text-xl text-gray-600 mb-8">您访问的页面不存在或已被删除。</p>
+        <p>您访问的页面不存在或已被删除。</p>
         <div className="not-found-actions">
           <Link
             href="/"

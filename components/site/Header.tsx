@@ -38,25 +38,25 @@ export const Header: FC = () => {
   return (
     <>
       <header>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex h-16 items-center justify-between">
             <div className="flex items-center">
               <Link
                 href="/"
-                className="flex items-center text-2xl font-bold text-primary"
+                className="text-primary flex items-center text-2xl font-bold"
               >
                 <span className="logo" />
                 Pokopia 数据库
               </Link>
             </div>
 
-            <div className="hidden md:block flex-1 max-w-lg mx-8">
+            <div className="mx-8 hidden max-w-lg flex-1 md:block">
               <SearchBar />
             </div>
 
             <div className="md:hidden">
               <button
-                className="p-2 hover:bg-gray-50 transition-colors"
+                className="p-2 transition-colors hover:bg-gray-50"
                 aria-label="切换菜单"
                 onClick={() => setShow((prev) => !prev)}
               >

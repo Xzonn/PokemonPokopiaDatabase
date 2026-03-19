@@ -61,7 +61,7 @@ const PokemonDetailPage = async ({ params }: IProps) => {
           <div lang="ja">{pokemon.japanese}</div>
           <div>{pokemon.english}</div>
         </div>
-        {pokemon.formName ? <div className="text-xl text-gray-600 mb-4">{pokemon.formName}</div> : null}
+        {pokemon.formName ? <div className="mb-4 text-xl text-gray-600">{pokemon.formName}</div> : null}
         <div className="description">{pokemon?.description || "—"}</div>
       </section>
 
