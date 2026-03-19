@@ -1,12 +1,13 @@
 "use client";
 
 import { Descriptions, DescriptionsProps, Table, TableColumnsType } from "antd";
-import { FC, Fragment, ReactNode } from "react";
+import { FC, Fragment, ReactNode, useMemo } from "react";
 
-import { PokemonDataByName } from "@/data";
+import { HabitatDataById, PokemonDataByName } from "@/data";
 import { Habitat, Pokemon } from "@/types";
 import { DescriptionsCommonProps2, TableCommonProps } from "@/utils";
 
+import { HabitatCell } from "./HabitatCell";
 import { HabitatLink } from "./HabitatLink";
 import { ItemLink } from "../item/ItemLink";
 import { PokemonLink } from "../pokemon/PokemonLink";
@@ -37,8 +38,8 @@ type MixedPokemon = Pokemon & {
   location: string;
 };
 
-const columns: TableColumnsType<MixedPokemon> = [
-  ...(["宝可梦", "编号", "特长", "栖息地", "时间", "天气"]
+const getColumns = (habitat: Habitat): TableColumnsType<MixedPokemon> => [
+  ...(["宝可梦", "编号", "特长", "时间", "天气"]
     .map((s) => PokemonTableColumns.find((c) => c.title === s)!)
     .filter(Boolean) as TableColumnsType<MixedPokemon>),
   {
@@ -48,6 +49,21 @@ const columns: TableColumnsType<MixedPokemon> = [
   {
     title: "位置",
     dataIndex: "location",
+  },
+  {
+    title: "其他栖息地",
+    dataIndex: "habitats",
+    render: (habitats: Pokemon["habitats"]) => {
+      const otherHabitats = habitats.filter((h) => h !== habitat.index);
+      return otherHabitats.length > 0
+        ? otherHabitats.map((h) => (
+            <HabitatCell
+              key={h}
+              habitat={HabitatDataById[h]}
+            />
+          ))
+        : "无";
+    },
   },
 ];
 
@@ -122,6 +138,8 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
       );
     }
   }
+
+  const columns = useMemo(() => getColumns(habitat), [habitat]);
 
   return (
     <>
