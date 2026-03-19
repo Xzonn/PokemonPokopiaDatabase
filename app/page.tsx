@@ -1,9 +1,11 @@
 "use client";
 
+import { Card } from "antd";
 import Image from "next/image";
 import { Fragment, useEffect } from "react";
 
 import logo from "@/assets/images/logo.png";
+import { HOME_NAVIGATIONS } from "@/data";
 import { Icon, Link } from "@/utils";
 import { DEFAULT_TITLE } from "@/utils";
 
@@ -20,9 +22,8 @@ export default function Home() {
 
   return (
     <Fragment key="home">
-      {/* Hero Section */}
       <section>
-        <div className="text-center py-16 bg-linear-to-br from-secondary to-white rounded-2xl text-primary shadow-lg">
+        <div className="home-title-block">
           <div className="mb-4">
             <Image
               src={logo}
@@ -32,34 +33,55 @@ export default function Home() {
               className="block mx-auto"
             />
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">宝可梦 Pokopia 数据库</h1>
+          <h1>宝可梦 Pokopia 数据库</h1>
         </div>
       </section>
 
-      {/* Feature Cards */}
-      <section className="grid md:grid-cols-2 gap-8 text-center">
-        <Link
-          href="/pokemon-list"
-          className="group bg-white rounded-2xl shadow hover:shadow-lg transition-shadow p-8 border border-gray-100"
-        >
-          <Icon
-            size={48}
-            name="pokemon"
-            className="mb-4 mx-auto"
-          />
-          <h2 className="text-2xl font-bold mb-2 group-hover:text-red-600 transition-colors">宝可梦一览</h2>
-        </Link>
-        <Link
-          href="/habitat-list"
-          className="group bg-white rounded-2xl shadow hover:shadow-lg transition-shadow p-8 border border-gray-100"
-        >
-          <Icon
-            size={48}
-            name="habitat"
-            className="mb-4 mx-auto"
-          />
-          <h2 className="text-2xl font-bold mb-2 group-hover:text-red-600 transition-colors">栖息地一览</h2>
-        </Link>
+      <section>
+        <div className="home-navigation">
+          <h2>站内导航</h2>
+          <div className="home-links">
+            {HOME_NAVIGATIONS[0].contents[0].contents.map((item) => (
+              <Card key={item.path}>
+                <Link
+                  key={item.path}
+                  href={item.path}
+                  className="home-link-item"
+                >
+                  <Icon
+                    name={item.icon}
+                    className="home-link-icon"
+                  />
+                  <div className="home-link-label">{item.label}</div>
+                </Link>
+              </Card>
+            ))}
+          </div>
+          <h2>站外导航</h2>
+          <div className="home-links">
+            {HOME_NAVIGATIONS[1].contents.map((section) => (
+              <Card
+                key={section.title}
+                title={section.title}
+                className="home-link-card"
+              >
+                {section.contents.map((item) => (
+                  <Link
+                    key={item.path}
+                    href={item.path}
+                    className="home-link-item"
+                  >
+                    <Icon
+                      name={item.icon}
+                      className="home-link-icon"
+                    />
+                    <div className="home-link-label">{item.label}</div>
+                  </Link>
+                ))}
+              </Card>
+            ))}
+          </div>
+        </div>
       </section>
     </Fragment>
   );

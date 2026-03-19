@@ -1,0 +1,3 @@
+编号	中文名	举办日期	相关宝可梦	图片	官网	收集品
+1	帮毽子草收集棉絮	2026-03-10,2026-03-25	毽子草|毽子花|毽子棉	https://www.pocoapokemon.jp/api/up/images/index/effada422506e76c0cf3df7883af30a1a3bad14c.jpg	https://www.pocoapokemon.jp/sc/news/44/	棉絮
+2	（勾魂眼活动）	2026-04-29,2026-05-13	勾魂眼			红色水晶碎片

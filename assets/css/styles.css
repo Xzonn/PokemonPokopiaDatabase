@@ -621,9 +621,21 @@ footer {
 }
 
 .main-home > div {
-  @apply bg-[#08143b] bg-no-repeat bg-top;
+  @apply bg-[#c1e46d] bg-no-repeat bg-top;
   background-image: url("https://www.pocoapokemon.jp/assets/img/toppage/kv_bg@pc.webp");
   background-size: 100% auto;
+
+  & > section {
+    @apply bg-transparent;
+  }
+
+  .home-title-block {
+    @apply text-center py-16 bg-linear-to-br from-secondary to-white rounded-2xl text-primary shadow-lg;
+
+    h1 {
+      @apply text-3xl md:text-4xl font-bold mb-4 tracking-tight;
+    }
+  }
 
   .home-navigation {
     @apply bg-white/60 backdrop-blur-sm w-full px-6 py-4 rounded-2xl shadow-xl;
