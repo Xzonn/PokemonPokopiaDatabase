@@ -3,7 +3,7 @@
 import { Descriptions, DescriptionsProps } from "antd";
 import { FC, Fragment } from "react";
 
-import { HabitatDataById } from "@/data";
+import { EventData, HabitatDataById } from "@/data";
 import { Pokemon } from "@/types";
 import {
   DescriptionsCommonProps2,
@@ -15,6 +15,7 @@ import {
 } from "@/utils";
 
 import { POKEMON_COMMENTARY } from "../commentary";
+import { EventTable } from "../event/EventTable";
 import { HabitatCell, HabitatLink } from "../habitat";
 import { ItemLink } from "../item/ItemLink";
 import { SpecialityLink } from "../speciality";
@@ -125,6 +126,7 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
         .filter((loc) => loc && loc !== "全部") as string[],
     ),
   ];
+  const relatedEvents = pokemon.isEvent ? EventData.filter((e) => e.pokemon.includes(fullName)) : [];
 
   const Commentary = POKEMON_COMMENTARY[fullId];
 
@@ -206,6 +208,13 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
           items={getDescriptions(pokemon)}
         />
       </section>
+
+      {relatedEvents.length > 0 && (
+        <section>
+          <h2>相关活动</h2>
+          <EventTable data={relatedEvents} />
+        </section>
+      )}
 
       {Commentary ? <Commentary /> : null}
     </>
