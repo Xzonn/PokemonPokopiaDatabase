@@ -91,6 +91,11 @@ const RootLayout = ({
           </TocObserver>
         </ConfigProvider>
         <Analytics />
+        <script
+          src="https://hm.baidu.com/hm.js?3ba4ff308bcec03a61b76097f5b792d8"
+          referrerPolicy="no-referrer-when-downgrade"
+          async
+        />
       </div>
     </body>
   </html>
