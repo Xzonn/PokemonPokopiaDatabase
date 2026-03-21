@@ -24,11 +24,11 @@ jobs:
         with:
           version: 10
 
-      # 3. Setup Node.js v22
+      # 3. Setup Node.js v24
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: "22"
+          node-version: "24"
           cache: "pnpm"
 
       # 4. Install dependencies
@@ -45,7 +45,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/coscli
-          key: ${{ runner.os }}-coscli-v1.0.7
+          key: ${{ runner.os }}-coscli-v1.0.8
           restore-keys: |
             ${{ runner.os }}-coscli-
 
@@ -55,7 +55,7 @@ jobs:
         run: |
           mkdir -p ~/coscli
           wget --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t 3 \
-            -O ~/coscli/coscli https://github.com/tencentyun/coscli/releases/download/v1.0.7/coscli-v1.0.7-linux-amd64
+            -O ~/coscli/coscli https://github.com/tencentyun/coscli/releases/download/v1.0.8/coscli-v1.0.8-linux-amd64
           chmod +x ~/coscli/coscli
 
       # 8. Deploy to Tencent Cloud COS
