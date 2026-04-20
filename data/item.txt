@@ -1,293 +1,1252 @@
-编号	哈希值	中文名	日文名	英文名	图标
-1	60839cc6e1e083a5e3c13f540748a3b0	绿色草			1
-2	64c3580e5f335a2b293c9ac2b0f76151	大树（任意）			1
-3	d64b9e13f7845b6a1891ae036164efb2	大石头			1
-4	eab619fba24a1ea828eebee4f54a138f	水			1
-5	ae91b6100516cb6922e9bda8f745c008	海水			1
-6	b87f259fd5b9e73577859bcaec978df2	高处			1
-7	2b9ddf46a169e4d6197a4eeee5dd3746	草（任意）			1
-8	745472eedfd53cb1faf571070e974083	照明（任意）			1
-9	e71c67357c26055734e19411d14a65e8	草地的花			1
-10	e43cfeb61aec994cb563ce7355799420	树果树（任意）			1
-11	35999707fe622511730b0d29f74741ce	墓碑			1
-12	a6db73bdb909cd3d2e3e4f1f285297c4	花篱（任意）			1
-13	6f86ad724cde0e4f874529cb59c0d763	菜田（任意）			1
-14	e175406dcf82ca9797350eddbe5b32e2	火堆			1
-15	0714ca997d7d2e79bdef90abaa50597c	干草桌子			1
-16	36574a9ec17dd56b0706e4c845d31e2a	干草凳子			1
-17	e249d0f8ac694946b1e47934c9fd8652	椅子（任意）			1
-18	eb46310461151e9f14ab3ddbb4bdab39	瀑布			1
-19	84c68c56e97e6439c144521667202b37	桌子（任意）			1
-20	57318e18f15d284645fbce20f993d26c	装盘的食物			1
-21	276cc8e3fd9a7b7c18f5da7715fe8460	野餐篮			1
-22	d7a79819c3b6dfe85be50dcc5d393c0c	单枝花瓶			1
-23	1b17b5a528e909c51dd525a5dfcff92c	椅子（长）			1
-24	aad95c3a97522f10c0dbce9dbccbb68f	路灯（任意）			1
-25	873166faffabb9ee92b0b5e0ea6597c3	沙袋			1
-26	e193d9d9bff9ba5cb23c1d1e24cdadd3	急救箱			1
-27	0756eef78f6fad39e654b0c3c7ec4c81	箭头指示牌			1
-28	50e66b7fc3c2609b24a6ee3a71cd4c86	木板路			1
-29	9840e051da92f222a622cba242f85ccd	平板货车			1
-30	9e5bba4683d7c026bc04c07b46474944	木箱			1
-31	f3f9c696956379b914e2001c28f78f12	圆木椅子			1
-32	f6d2f5b142bf0fb4227633ef87629733	树桩（任意）			1
-33	10047fd8f485e14b5daa05086cf55350	圆木桌			1
-34	7c7eb7d48a4ecd728a1a4b7764b937aa	床铺（任意）			1
-35	e2e22fdba755f20395a11fff7a5718b8	玩偶（任意）			1
-36	370dbab291dcbad8612f37d22a14819c	细长蜡烛			1
-37	917e8f46b1d9ad8899031f595ae6daf1	诡异的蜡烛			1
-38	29de3cb2ab153dc44490512fc1140282	吉利蛋植栽			1
-39	a496cc0bf544d1453fb3da48989fa9c5	大食花瓶			1
-40	f30c3f5218a3103b5210f391c5f6dcf2	蘑菇台灯			1
-41	86ab827d93f59651cf2077a3de9a69a5	充气船			1
-42	8edcc34e3a49a00cd8addd40992d8e24	沙滩遮阳伞			1
-43	96dd4fb99577f58285689742f547b2ce	枯萎的绿色草			1
-44	34acda95ba5ba4b3616c16296d180539	沙沙岩石			1
-45	4fac488ba7d94102827e315830ea6611	控制盘			1
-46	764b48f50a2ba344d23d33db791f29e4	金属桶			1
-47	5b10b54cd3dc79c483dba8737cc98c58	乱缠电线			1
-48	4984504a37a72e3259e8d2ec9c61d623	木巢箱			1
-49	f04cb04a1df516424dc6d16d423b5d8b	树果野餐篮			1
-50	421900d7106abd0331972272e0acd4a4	晴雨飘浮泡泡（晴）			1
-51	0ce1aa7922bf04b34f9584ed62f55c9f	营火			1
-52	a2a7843abfe3275b078f300dbaa2c931	晴雨飘浮泡泡（雨）			1
-53	79ecf9b8b75dc3a9f3c864756b235776	博士的宝物			1
-54	e7695553b97c1372c3a61fd4b2e34672	遗失物（大）			1
-55	771fd219ae47cbc258092f1c7edc7a49	圆木床铺			1
-56	5c00d859fe5192c0703f4052b5958800	树果造型椅			1
-57	d687bbfdcbcec2881af74b1b4e21e0e5	树果造型床			1
-58	bcf609e8c814b2b8665f320437c7c310	树果造型桌			1
-59	91ce8fd83805e2388929cce6654b6be3	树果桌灯			1
-60	a5ced9c6071d122f18e9d724aba51d77	庭园椅子			1
-61	2e280d56cfcc041db065a22511cb48c4	庭园灯			1
-62	db782a36c2fcef8aa7c37e82a09356ff	庭园桌子			1
-63	53420b5a56b1c6e462c8568c2f07eb27	瞌睡床铺			1
-64	4aec586411b6ecf8ab7664877d797808	古董衣柜			1
-65	b22d3b1cef9888012bf5959ca43fb8be	古董床铺			1
-66	84eb006164d2cae34527979a6a2b0471	古董梳妆台			1
-67	ecb676cc25dc043304d580effe811849	古董椅子			1
-68	d3f455d8e6f9108a04b945db17a8c573	精灵球沙发			1
-69	73195b4528b2c20d9aafdf2bfe4d9edf	精灵球造型床			1
-70	9d5c6c69c3e6a26abfd05dd161087ec4	精灵球桌子			1
-71	d68a042a880879e4dfa87430b7ce77ef	精灵球灯			1
-72	c94c7f08dbe84ebb97cd01a9dcc99a76	黄色草			1
-73	8d39fe0abcc862cfe131eef8e878991d	泥水			1
-74	f8500c706d8849d8a8578b61f2a63303	自动售货机			1
-75	c0b3e6dcfd9de5c41b2d8ee6eb1feb80	海边的花			1
-76	4042071aa8de80d69a7c35b0cae26342	大椰子树			1
-77	dce144c77a8d92fa3ebac6af7e418aae	风力发电机			1
-78	7d90b978aa10cbded537d2cc6be3898e	沙滩椅			1
-79	fa676a761a2a51b579e8546f98a71973	纸箱			1
-80	f49b3481121d9076ebfeea639c5fe924	干草床			1
-81	1e26a71dcc289ea18c5562028238f663	玩具（任意）			1
-82	b515147fc08b669634eecdb4f3435044	垃圾桶（任意）			1
-83	ae5830fdb4eace7e741cc0894e9236ed	牌子（任意）			1
-84	d5359c179fd5a7ee5e58baf49f67ba1b	垃圾袋			1
-85	7b2d75651a974d580e02d047eb811bcf	垃圾桶			1
-86	7ebaec5e58188f08c721c26adb769cbd	电线杆			1
-87	b304f9a238a030c38f031b2bbd6b147f	菜单立牌			1
-88	a9975668e7287c0f69a2aaf19fa37b52	雅致椅子			1
-89	ea1fe1339ffe124c9ca77df5dbe1b0a7	雅致桌子			1
-90	01b103148518154bd62b2af80e3ac06f	推车			1
-91	d2b9ed4750cb399412cd57b52166ee43	植栽（任意）			1
-92	998a0337ca6168c65dabb196d5e9a4a1	柜台面			1
-93	d650ea03392926ff0afa30159e7c109d	马克杯			1
-94	544b978fcb9b8b5d603249e42d782b84	边桌			1
-95	6a4e79214cfc7578d7b2fb89df7d0853	聚光灯			1
-96	479aa686eb31401939da50617dd5344c	舞台			1
-97	55fc891681dd9731f7206cd75e908704	气球			1
-98	ae2e6756814964e02083a9e25b192fea	惊吓箱			1
-99	43563c211afd461512d8e240ed1a3ec3	雷丘招牌			1
-100	3f7b48afea409706a14f36486c6d6ca4	衣柜（任意）			1
-101	49480e8ef2cd81f3e54fb3de02ece6f7	镜子（大）			1
-102	fc10845e76485e0db44f94941455e593	屏风（任意）			1
-103	0b5d8ae24e5f26c498ee7ac5085f731f	梳妆台（任意）			1
-104	f0f797ed732f5bf1d886f11b5b0e596b	编织套组			1
-105	31f66ad6edc457d34c32d2d4b4f6691c	花洒			1
-106	00cc0137ff85a3fbe0dece7fc83bff36	温泉			1
-107	05abd8ee849b1d9405a705312185b177	自然风储物柜			1
-108	23fcc3fd4807b759b40858ccf0d596d4	闹钟			1
-109	184a1b4a00680c955cfa767808f3cc26	街机			1
-110	e24f4ea950764bed14d9abb35c9aba16	拳击机			1
-111	bf8ffaf3bd8b79e5685704f52fd006d8	水力发电机			1
-112	c1ae8457b1eb017848caa2707bdc1228	火力发电机			1
-113	110759b4b5388ed494fab8a067220f63	栈桥			1
-114	0b6c0832f2a6919bc04d646ef80915c8	书架			1
-115	5e5ffe9c6296b6cc58fb46459974271a	雅致沙发			1
-116	fb72ac3fbcccee804db6f5db75ae4e8d	自然桌子			1
-117	6e51ab273fa182084b50f9b0f5cc9bab	木桶			1
-118	80581ea0db25a85549f194c024fc59f3	船舵			1
-119	e9c3aa83ba38d9a26f11ea78748d892a	发射筒			1
-120	8f7c9cab2388018a9fc25a4db4585b28	收银机			1
-121	4d7f930b07334594acbc27909495c0f7	画布			1
-122	20e766f49d728d36ffb647bb53b8b2f7	供品台			1
-123	c8c937939d90388700cd28adadfc4dae	皮卡丘沙发			1
-124	46fa8f90340ea487aaa27c89dad5a7e4	皮卡丘玩偶			1
-125	d080f57ed446e5654becbc0aec1befce	可爱的沙发			1
-126	7ca4e944f75aaf65408e92d85c42fcbd	可爱的桌子			1
-127	115cd16a8708391cbd2f8189695fbfc1	可爱的灯			1
-128	9a22c9bdc40736746b7b75dbb1b54323	可爱的床			1
-129	0861bc79ec8e2b1ecc90c2125030e961	可爱的梳妆台			1
-130	d8936807febecdb61575e220a6f506c4	度假风沙发			1
-131	71182ca1c54a8148322ddeeefefc0492	度假风桌子			1
-132	8666f94333bcabc76a06f3697877abda	度假风吊床			1
-133	043556742f02a3ea3a435413699acddb	度假风灯			1
-134	9e9dbda81ade63d1aa9ea8ab86258afa	自然风床铺			1
-135	505df0a419241b2d7b1c6ac2e8cb8a3d	自然风沙发			1
-136	daf192a01d5fcac7b14dffcb0ef77040	自然风台灯			1
-137	c38c2b579c357fc32090415e889635b0	红色草			1
-138	f6a4720aacb954e572e037f90dc2a93a	三角树			1
-139	04a4febcf037aadf052799569d1ded74	沙包			1
-140	eea801e62b9d70ab96ef98916119fa5e	岩地的花			1
-141	10deb425f03b8e158c5657cb3aea3041	手推车			1
-142	74207e36215bc6d2ae8db2f5fb20bbb8	浮萍			1
-143	de5eb352b59d0a24bc2bc40715a8746c	苔藓			1
-144	69082fb2a086dd25367964ca2b5b8f38	苔岩			1
-145	9720f2d7766622fc836b22bff1bca919	出水口			1
-146	10a4d83f32bc0d32160b8fed4ff156a5	水盆			1
-147	f07337747ea99c36f854fc21c4bfa496	热热岩			1
-148	769d12cf69cf8a24cd87992f0b2a05e6	熔岩			1
-149	1b4cda1268af55a1993018ca0dc13fcd	熔炉			1
-150	228f5e837289215ebddba6648b09c389	掘山道具			1
-151	d5e9c9a594b98786708a12cafee15643	钢骨			1
-152	ffb463d0b8924ffe4a4e5de477aba9b9	笋岩			1
-153	ea211441eb37221acc98130bc6790eed	提灯			1
-154	3062658ee698f279225101a33d951049	桌子（大）			1
-155	7b92ee38e8b7ec9091964fa00cd5672e	派对餐盘			1
-156	f3652a0fe2463c6ebf3fdc8fc19b2a83	面包窑			1
-157	6f32f3f5fc2ce1ed5ed521e3a16e230a	厨房桌子			1
-158	089ade6f202b590ef227260d9e04d25c	炉灶			1
-159	e859b6555229ab5375a788bc719a8c55	平底锅（任意）			1
-160	ddf95339c742d360e11159a34683d0c6	水槽			1
-161	99fb33fac1994a19754f59c71814af05	供餐柜台			1
-162	3253adb80aa29f68f46ed4bcd1116241	派对杯			1
-163	e7e7de9f3e35e26d80be402bf57037fe	平板电脑			1
-164	cb55747bec789773451f4cb7529994d2	木制栖杠			1
-165	1f50d8d3b80bf79035242e4b6b1c4cf3	立式麦克风			1
-166	35b7df39c9056d38f102a9d186768ca6	音箱			1
-167	53a95d67fe26c51fd909cf9710f35260	CD播放器			1
-168	93a2a2a00141e49187202ba05b225042	CD架			1
-169	358a35ae3bd7211cf1717d8353afaf8a	杂志柜			1
-170	20841a57f540e219c33b1c66dbb4be41	分隔物（任意）			1
-171	9c14359e7971cc345665ac83eb934229	台座／展示台			1
-172	ab2ea20f0803db0a08f43a2e02d82367	办公室储物柜			1
-173	ced2994919aa42c9a0949c0c469b4b6f	月夜起舞像			1
-174	98dfafc4a9c03bcf02dca9f8b6504f5f	牌子			1
-175	e7eb024de7b04978b908f14872713e76	铁轨			1
-176	2843060a73fe27e117a254e8f84048a0	道闸			1
-177	fb93d1c5c98f021dad9675d27c1b3296	时髦锅			1
-178	4048fab143ca20a34b2b816d7504dd6e	砧板			1
-179	eba5af691e65806992b1d31a9d5729d4	豪华立灯			1
-180	e3d3e4781394e92d7b41390610a2927f	豪华床铺			1
-181	ae3ff3d50b9559a60f00e12cb1e63ab0	豪华沙发			1
-182	a8eb0d677cd80f404a4f2d4351e74d92	豪华桌子			1
-183	fafee49e0fb0a7993ea9cfc07bd5a724	铁床铺			1
-184	f9a8b739574bd5bca3ca8e3805b5d270	铁桌子			1
-185	c9114d6756ebae5dcac1aa79d0024d02	铁椅子			1
-186	ef5e58bfe05b81c8caaa7d1a5d860dd6	工业风床铺			1
-187	9ee6bbc0d7ae20469d9240f0dfb4faad	工业风桌子			1
-188	9d67ad529fcc341649637b4b27e5b9c7	工业风椅子			1
-189	9c9b52839ec209feb8964231da273dae	粉红色草			1
-190	cd6dcce633812fdbabaeb6c0e5403e37	水泥管			1
-191	24d0f8e8d4a3a516a3c9751cfc6efb40	空岛的花			1
-192	9f2c111adef8d93d2b6699e79482a1db	独木舟			1
-193	1799a75d4df6d97be1753a940bdb0750	踏脚石			1
-194	63c048736eec249d10da1ad5b0d5888f	火炬			1
-195	50461ec9d5d4128fcb47f67a6d842be2	精致花篱			1
-196	cfbdcf53b66bb5793f9bcf3786e168b6	浴缸			1
-197	b73c6e34a130cf974cb45cfd0aa921a2	自行车			1
-198	10ee9b9e480d7a07725c366752881180	石头壁炉			1
-199	12bfdbba0b7b2203de76d3fc8cd0d785	简约靠枕			1
-200	46c18b2c39916a26528b34111a359eae	水晶球			1
-201	3a2f904027d7b9da9b20fbe80aa9b354	电视			1
-202	bcb8b2b1027678449bad629004a5f979	轮胎			1
-203	a1b7b03a3544dd36946fc51da32b9127	微波炉			1
-204	f0a220bdd20060983b3e3f4f29104f98	风速狗玩偶			1
-205	f6ae1e110ec4b1e64559172dc8e5474d	铁管椅子			1
-206	4d3aa4d4f5efda40cd48b221478ab770	桌灯			1
-207	c5ec1633d684fb3c503c72ebc9ca72cd	铁管堆			1
-208	f4bf9252bd05f8d37094791a28291e5c	井盖			1
-209	71ff4f7bb04354a596e4ba2aa55860f6	可连结式三角锥			1
-210	4341b488160dad2c882db4e0ffba8001	壁挂毛巾			1
-211	f665128013cb26e2554205c5e64174dc	壁挂镜			1
-212	4177760099e2bba48ddb4cb1f3af9e43	洗手台			1
-213	7b72a98d60b58a3658f49acced72642a	矮柜（任意）			1
-214	d21f1010c9f35457042054d7d43a0bb4	笔筒			1
-215	969f257c243925ada096b149897c549a	音符垫子（任意）			1
-216	85f3e42dab888ef98bce528dd6c48c52	清洁套组			1
-217	d00f36f0ddabf190f6196911690b044f	加湿器			1
-218	81ec89c07dc76a436c9a232a4ec7d812	脚踏凳			1
-219	b709a637c47e49133ebe066a8ee5f74a	照明（任意)			1
-220	c00469947042ed9084a062a8e527d03d	滑梯			1
-221	d6b514d858b61e0eb1ec22eaf582327a	办公桌			1
-222	161783fba60b3a45810d55d7586c7d07	笔记本电脑			1
-223	4833fd5f721d43510f3a74b697433319	办公室椅子			1
-224	5209726e598006c38f6e765a6a24bb98	办公室架子			1
-225	eb3daf82752787abc049a9bc4968f3b7	实验套组			1
-226	f9dc80129f6c9b8dd3cb814af07e5aa7	显微镜			1
-227	0b7dcde9565d642e74382fc9cbae0ad5	论文			1
-228	92898e3f004326bc04099919114d3108	白板			1
-229	d280f28a68b41a54b984f4da38a5ccf7	台式电脑			1
-230	ac65355d831e29a307a80b0a614f4d49	报纸			1
-231	65b0297855bdfef8b5e5add153f9ef51	大鼓			1
-232	e435b3d41e462a6238aee878d9b61e5a	贴地开关			1
-233	f5ec8c80afc9fc4c39579a440b1a9a6c	露脸立牌			1
-234	a60880a8448098706003888a1220bdd0	跳轮胎			1
-235	8a884ff2e5b7c0e04f9fd4295581a196	脚手架			1
-236	6ced69e94fe46994dfa942d219e0eb67	挂轴			1
-237	e9ecaa8035b059993759a0330a615cfb	怪力岩			1
-238	3951cfaf69d9752e6eca604e9a764207	火箭队挂饰			1
-239	f4fc55c50d9cb58c768b774f677a7066	篝火			1
-240	721f25d7854951e0f2c9909c133d676e	快龙玩偶			1
-241	90e23a698e0739fdb9d3498a63a3162e	伊布玩偶			1
-242	82ed855b0833367a1b9bc1158627b515	电竞床			1
-243	a1ca21f322071383c95827a5edd17c77	电竞电脑			1
-244	3e75711a9f140020d43920305bb2bbc5	电竞冰箱			1
-245	4dda7944bfc93e44eee34fcc7026f46e	电竞椅			1
-246	bc996ed7d875fd5a9a416a6e79fa57d9	新潮床铺			1
-247	30adbcd65eb9e90336686c2df7445c1e	新潮沙发			1
-248	5e3a08f5b8dd50152b7915759f4e5dd4	新潮桌子			1
-249	acf328bfcccbead80b43d2c6aeff7a5d	钓竿			1
-250	a9aa78b6d83b600e742379448ce8e043	酷炫电吉他			1
-251	3cf4b61195ade4f1401beea664a58e3a	酷炫电贝斯			1
-252	48ff123feae2f8c8968e4fb902f69174	咒术之铠			1
-253	f65c9059c9318d15e61a917d73279ae9	庆祝之铠			1
-254	1cd0f354ed1d8aaaca7fb519852ad0bb	飞翼化石（头）			1
-255	0dd48baeba3a0f4e6178900fa47991d6	飞翼化石（右翼）			1
-256	a84d230a3ddaf66e41ca79d6e052c8e1	飞翼化石（左翼）			1
-257	19dfb855f2ea1daff2896afe0935041e	飞翼化石（身体）			1
-258	56ceb7532c6fef0936f395056d6028fc	飞翼化石（尾巴）			1
-259	5e79e14b144456ab90d8d6506f90abd6	头盖化石			1
-260	ca033b78f38dadc0b38182f178d8d4f6	头锤化石（头）			1
-261	af1cdba4c16c80d77fa4a9d04173d442	头锤化石（身体）			1
-262	2cb9d00a2f81519a0bf46d18fc86a22a	头锤化石（尾巴）			1
-263	921086467ad7ba9cfb8b86531d9926f0	盾甲化石			1
-264	b27ec509ce5709d02411775b5890bbee	护盾化石（头）			1
-265	42fa249f90df50d5af2d7cb88423b8c1	护盾化石（身体）			1
-266	310d8499c9fbbe60c87f296e14c43d30	护盾化石（尾巴）			1
-267	98a3cb0ea56b7b720d0f49bddc2272f8	颚之化石			1
-268	a996a1bdc6a225cb11077871f2c7206c	暴君化石（头）			1
-269	88b72d93f6794aa4c7a9923f4ebe560e	暴君化石（身体）			1
-270	5c5186d16f272f36b82779875fc900c7	暴君化石（脚）			1
-271	55ce04b44dcdc1206bb475e33035c68a	暴君化石（尾巴）			1
-272	c816a3d52acd41e83ba9dbc5aae68b43	鳍之化石			1
-273	692744739f7f3548ddafe374c38b9bbc	冻原化石（头）			1
-274	0addcb0c351c5a79126dab8a5ebb0b28	冻原化石（身体）			1
-275	696c05385bfe7d27bb8a395311bfd155	冻原化石（尾巴）			1
-276	a486f45d42519724cb9bad985aaee98b	冰淇淋汽水			1
-277	70947eb6bb6b7565546e40e74b58bf71	炸薯饼			1
-278	38391661f2227ba33526c768115167e5	比萨			1
-279	886cfc16bb7c3898c710c28ee2e434a0	下午茶套组			1
-280	9fe92001b821f940ba728bbb27ca5e06	巧克力饼干			1
-281	c69e9774b82f7881f11308925fa76979	三明治			1
-282	8ac6c0eaf4977da6c7c67bbd9e6acf62	刨冰			1
-283	c4d1223919ede8efc332e0b7bcc50710	缎带蛋糕			1
-284	eaeb9153e3d79368126115da69232297	悠然的花			1
-285	71c8f46c5413cdf043084812fe957e32	花朵背包			1
-286	98a55a70b3a8955149dd26ecc32ee392	毽子草水壶			1
-287	b9a885d347c3cc14c1db5a9820a7d7f7	便当			1
-288	7aa16b64060e568d367543af8b00351d	花朵靠枕			1
-289	db0fe1ff16779ef2f4674a9f78730c4f	花朵餐具套组			1
-290	766a0f2f2060b47a60f4d6a9ce14c38b	冒险套组			1
-291	22375d2bbfb2aba024eaab6c0acce3ad	地图与指南针			1
-292	dc9acb7a0b13b5d52c03f4e5a4ebe90c	财宝			1
+编号	哈希值	中文名	日文名	英文名	图标	分类	标签	获得方式	交易价值	喜欢的类别
+1	b3b39d0d46e7b9d565f499d45ceddaa6	苹野果	ヒメリのみ	Leppa Berry	1	食物	食物		10	
+2	03251afbdc28624a6282086264556145	零余果	カゴのみ	Chesto Berry	2	食物	食物		10	
+3	5d683963393a3da684f7e8d2d9efd38a	莓莓果	チーゴのみ	Rawst Berry	3	食物	食物		10	
+4	addf2a720ecdc36c1eb9a7a9a69a9d67	利木果	ナナシのみ	Aspear Berry	4	食物	食物		10	
+5	f804614d0171894f3baf114223efc16d	桃桃果	モモンのみ	Pecha Berry	5	食物	食物		10	
+6	8fad5bd5159d0b61e6271377067877e7	木子果	ラムのみ	Lum Berry	6	食物	食物		10	
+7	0457619da00a235c9bf5355ac5e190a8	豆子	マメ	Bean	7	食物	食物		50	
+8	2a31c61781bad84ec252fc746cd93cdf	番茄	トマト	Tomato	8	食物	食物		50	
+9	974ae2bd4cd5063a0be84eef32dbe7d0	小麦	コムギ	Wheat	9	食物	食物		50	
+10	14e4096d48166db8fb8b147153483e19	马铃薯	ジャガイモ	Potato	10	食物	食物		50	
+11	e1d7e908d5b656f353a891662246c80a	成熟的红萝卜	たべごろニンジン	Fresh carrot	11	食物	食物		20	
+12	bd1acfd955041084f0ffe2fc6e1f48d1	海藻	かいそう	Seaweed	12	食物	食物		10	
+13	7e0aa1261e99a97279063d53a078f720	成熟的蘑菇	たべごろキノコ	Cave mushrooms	13	食物	食物		10	
+14	697286bd5240c0240c78af1b079d7c12	原味沙拉	プレーンサラダ	Simple salad	14	食物	食物		100	
+15	71708eafee5b300cbc66ea5f01a500ff	苹野沙拉	ヒメリサラダ	Leppa salad	15	食物	食物		200	
+16	b29502e789530fea3d2d4c96eb93bf21	海藻沙拉	かいそうサラダ	Seaweed salad	16	食物	食物		200	
+17	a50c4fc1104aff9c5392cf00268102c5	丝丝沙拉	せんぎりサラダ	Shredded salad	17	食物	食物		200	
+18	3359754070725311388392710feefdd2	捣捣沙拉	すりつぶしサラダ	Crushed-berry salad	18	食物	食物		200	
+19	f88d0dc3540d769b400487bba51cc4c0	面包丁沙拉	クルトンサラダ	Crouton salad	19	食物	食物		200	
+20	347c5875151190db333f6a9d03b9b831	原味汤	プレーンスープ	Simple soup	20	食物	食物		100	
+21	56da4339222ee895c881257e0196d169	海藻汤	かいそうスープ	Seaweed soup	21	食物	食物		200	
+22	ac6f3090050c57004e872b40dc6a8754	蘑菇汤	キノコスープ	Mushroom soup	22	食物	食物		200	
+23	bc3ea68d12236aeb5e467224106cccf5	电电汤	ビリビリスープ	Electrifying soup	23	食物	食物		200	
+24	7842782c0002ca44cdeaf4fd0e233010	药膳汤	やくぜんスープ	Healthy soup	24	食物	食物		200	
+25	750cdfdb9ec3ab1b5df386fe509165f7	多滋汤	ジューシースープ	Flavorful soup	25	食物	食物		500	
+26	a8b15366c5d42b9d9aadc9dd771a09c3	原味面包	プレーンパン	Simple bread	26	食物	食物		100	
+27	792a54ae4e9e11fd1d9763c5076acb6e	苹野面包	ヒメリパン	Leppa bread	27	食物	食物		200	
+28	019df2feabceace90c208cc8e4b9ffe3	红萝卜面包	キャロットパン	Carrot bread	28	食物	食物		200	
+29	37fe767e9e712b819e8a3eeeceb774bf	重制面包	リメイクパン	Recycled bread	29	食物	食物		200	
+30	398b5d9eca8670cd7ca47b35675f4763	松软面包	ふわふわパン	Fluffy bread	30	食物	食物		200	
+31	adaf5f075d90683d4bb9c2b3fda907c0	热腾腾的浓汤面包	アツアツスープパン	Bread bowl	31	食物	食物		500	
+32	b0f6d9338d1080ac10928860258cba80	原味汉堡排	プレーンハンバーグ	Simple hamburger steak	32	食物	食物		100	
+33	e8b0fa9b19e9ce614162f55c2a6fb6f5	蘑菇汉堡排	きのこハンバーグ	Mushroom hamburger steak	33	食物	食物		200	
+34	b945d4c40ab4e0706a825aafa6bb22ea	番茄汉堡排	トマトハンバーグ	Tomato hamburger steak	34	食物	食物		200	
+35	0e80115be54b7ed88d5d1baf4225c902	马铃薯汉堡排	ジャガイモハンバーグ	Potato hamburger steak	35	食物	食物		200	
+36	c48ade0fdf6d743c270cd258f43ec5eb	成熟滋味汉堡排	おとなのハンバーグ	Bitter hamburger steak	36	食物	食物		500	
+37	03da2855d9b6d5ec9bfb983c7a82c92e	多彩汉堡排	いろどりハンバーグ	Vibrant hamburger steak	37	食物	食物		500	
+38	396148e7d6399c4d741b2e00b18eb330	烂烂的树果	いたんだきのみ	Bruised berry	38	食物	食物		10	
+39	494b2b4c23537350c5e3e921ac5997bb	普通糖果	ふつうのアメ	Common candy	39	食物	食物		100	
+40	d3891abcfe3277c8811cde06741d3236	神奇糖果	ふしぎなアメ	Rare Candy	40	食物	食物		100	
+41	9105ebeceeb5863a0eb6a150733a65d9	咖喱饭	カレーライス	Curry and rice	41	食物	食物		100	
+42	0a4c6cb7b9fb8fa12451fe6be3c5e05b	美味之水	おいしいみず	Fresh Water	42	食物	食物		100	
+43	4a21961877d83b915ea0105b7fb2a87d	劲爽汽水	サイコソーダ	Soda Pop	43	食物	食物		100	
+44	e9bb5f9d3365b923b1cba9afee2f54f9	哞哞鲜奶咖啡	モーモーミルクコーヒー	Moomoo Milk Coffee	44	食物	食物		100	
+45	ae2af9616bcd8e71ed0e6bd80b661ca2	罗丝雷朵茶	ロズレイティー	Roserade Tea	45	食物	食物		100	
+46	0f8a9720b7ee7d6e036880ad98da18ca	辣酱	チリソース	Chili sauce	46	食物	食物		100	
+47	da74f685fe2963d1752621d97c1f2660	甜甜蜜	あまいミツ	Honey	47	材料			100	
+48	dbc2efa86d6315103348b528fe19ca9f	结实的树枝	じょうぶなえだ	Sturdy stick	48	材料			10	
+49	452d1576b0e02c216e094730573e3ffd	石头	いし	Stone	49	材料			10	坚硬的|石制的
+50	a31c664da5cc80ba16822bee5f9037c7	叶子	はっぱ	Leaf	50	材料			10	
+51	a00f749505d7fd3f21f53ec637c82f29	小圆木	ちいさなまるた	Small log	51	材料			10	
+52	bbdac6b6012b7d575ea341c32a78beef	藤蔓绳	つたひも	Vine rope	52	材料			10	细长的
+53	6b615e859b39e019810b4e999649e330	发光蘑菇	ひかるキノコ	Glowing mushrooms	53	材料			20	
+54	51188060f4951b862f4a8785c9787ded	线团	いとくず	Twine	54	材料			10	细长的
+55	70891f77eddffa57cf55ad62d92817a8	海玻璃碎片	シーグラスのかけら	Sea glass fragments	55	材料			10	有玻璃的
+56	7d3ccda040cde960af8453e518476f0f	贝壳	かいがら	Seashell	56	材料			10	
+57	1188b9fa04cf9bc48d65a3bf26428ae2	不可燃垃圾	もえないゴミ	Nonburnable garbage	57	材料			10	垃圾
+58	e7bb1f6a8fe3bf785cf0cfcbadcf2e27	软塌塌黏土	ぐにゃぐにゃねんど	Squishy clay	58	材料			10	柔软的
+59	8b63475066d7424398d24f525f82f585	棉花	わた	Fluff	59	材料			10	布制的|圆圆的|柔软的
+60	bef838fc416231367ecf245128cfdd65	废纸	かみのゴミ	Wastepaper	60	材料			10	垃圾
+61	7afdc47ca4a6f591a71998c987fa2540	铜	どう	Copper ore	61	材料			10	金属的
+62	81b706680eb8d6d53458c488cbfe7de8	铁	てつ	Iron ore	62	材料			10	金属的
+63	e52400da8225deee29ad19a8bb074352	金子	きん	Gold ore	63	材料			100	金属的
+64	2b1e2139221a77f5f585696dbc16299d	宝可金属碎片	ポケメタルのかけら	Pokémetal fragment	64	材料			100	金属的
+65	da3f96e33906c2ad614a43c3474d7bdf	稀有宝可金属碎片	レアポケメタルのかけら	Rare Pokémetal fragment	65	材料			1000	金属的
+66	1a8ea27b874917080a3951375bda5444	水晶碎片	クリスタルのカケラ	Crystal fragment	66	材料			100	有玻璃的|闪亮亮的
+67	303c18c25a90bf08ed58d5287a17edcc	木材	ざいもく	Lumber	67	材料			20	
+68	dab30bd7565d0f9b496ecf95bbd00162	砖块	レンガ	Brick	68	材料			50	
+69	79f08ccc2a0ec008cd06b4b2bb4b65f2	铜条	どうののべぼう	Copper ingot	69	材料			100	金属的
+70	e123899581492fc1d0b82bb59d8ae8aa	铁条	てつののべぼう	Iron ingot	70	材料			100	金属的
+71	85a171a91c7fc8ce90d6d02b680aaaf1	金条	きんののべぼう	Gold ingot	71	材料			500	金属的
+72	7aff3436333b5ae5a23d504659e3f231	宝可金属	ポケメタル	Pokémetal	72	材料			200	多彩的|金属的
+73	bbdbee1b687ccc20be4ed156a4500e9c	稀有宝可金属	レアポケメタル	Rare Pokémetal	73	材料			2000	
+74	b0890cb71ca54d78b0999858f8d6d5e7	玻璃	ガラス	Glass	74	材料			50	有玻璃的
+75	24b33e983b4a78e5fef46c8c0774cd30	混凝土	コンクリート	Concrete	75	材料			50	
+76	d17f43870dc55e9b232439ad2f65571f	纸	かみ	Paper	76	材料				
+77	024f960480742209db7fcc32a475e498	巨锻齿轮	デカヌギア	Tinkagear	77	材料			500	
+78	aa54946abf66a8654b695288d43a50c1	神奇琴弦	ふしぎなげん	Strange strings	78	材料			500	
+79	5759b3fb8270ce988fb71aacd5fb75d9	铠甲碎片	ヨロイのはへん	Armor fragment	79	材料			500	诡异的
+80	92a4557e305448d2a9b9479cd9d1f60e	星星沙子	ほしのすな	Stardust	80	材料			10	闪亮亮的
+81	ff0bf9aff400e8d070dcfecc81d812d1	颜料（红）	えのぐ・あか	Red paint	81	材料			50	多彩的|能感受土的
+82	2ec0fe622843eb73ac58abeb9ad38e3a	颜料（蓝）	えのぐ・あお	Blue paint	82	材料			50	多彩的|能感受土的
+83	45f076f1d3db40a9a07e66c0c73fc5d9	颜料（绿）	えのぐ・みどり	Green paint	83	材料			50	多彩的|能感受土的
+84	6e2c68029bb30c8d8295f807b111e559	颜料（黄）	えのぐ・きいろ	Yellow paint	84	材料			50	多彩的|能感受土的
+85	bd03c20ba32f1cde942a72de53aa0817	颜料（粉桃）	えのぐ・ももいろ	Pink paint	85	材料			50	多彩的|能感受土的
+86	9a63325af566167b19c6e07b5e7c90b2	颜料（浅蓝）	えのぐ・みずいろ	Cyan paint	86	材料			50	多彩的|能感受土的
+87	2ea8bde1e8e4502618de2a0c57f8e597	颜料（白）	えのぐ・しろ	White paint	87	材料			50	多彩的|能感受土的
+88	cea469440d8d17db67cdbf01205c1a1c	颜料（黑）	えのぐ・くろ	Black paint	88	材料			50	多彩的|能感受土的
+89	0b3f8e50a506a85f46d6b2bbae96d540	苹野种子	ヒメリのタネ	Leppa Seeds	89	自然			10	
+90	2874e33b66c47b46bcadc531b1167f34	零余种子	カゴのタネ	Chesto Seeds	90	自然			50	
+91	00184428fa6c3f28652d58de1ea5474d	莓莓种子	チーゴのタネ	Rawst seeds	91	自然			50	
+92	e1b5e72a6d650acdf57bf346c3445e23	利木种子	ナナシのタネ	Aspear Seeds	92	自然			50	
+93	4e50b93df9c3f80b1bc8a2c7fef0ceae	桃桃种子	モモンのタネ	Pecha Seeds	93	自然			50	
+94	9e2746a29de068b187fd37683bec5ce9	木子种子	ラムのタネ	Lum seeds	94	自然			50	
+95	b6a48f2c35d285dc910b08e07e2faa68	椰子树的种子	ヤシの木のタネ	Palm seeds	95	自然			50	
+96	3f655aef9fb94beb7c9fa558cfc8cc43	三角树的种子	さんかくの木のタネ	Pointy-tree seeds	96	自然			50	
+97	f0f8ae2e0a127f27026db13be104c048	草地的花的种子	はらっぱのはなのタネ	Wildflower seeds	97	自然			50	
+98	91dc6dc083afe8134f362fbb873159f7	海边的花的种子	うみべのはなのタネ	Seashore-flower seeds	98	自然			50	
+99	42482d1c14b32f66338872076601f7c1	岩地的花的种子	いわばのはなのタネ	Mountain-flower seeds	99	自然			50	
+100	11714d3c8219d369c2ef85d72044c7d3	空岛的花的种子	うきしまのはなのタネ	Skyland-flower seeds	100	自然			50	
+101	280f633bddd0826dbf4b3cf7be387c27	美丽的花的种子	うつくしいはなのタネ	Beautiful-flower seeds	101	自然			50	
+102	a7cdc987f39475128813cad4264915bf	可爱的花的种子	キュートなはなのタネ	Cute-flower seeds	102	自然			50	
+103	f163b5eea6cf68a7dab6ef201bf4f885	优雅的花的种子	エレガントなはなのタネ	Elegant-flower seeds	103	自然			50	
+104	dcd78e5787bc4fcc7d2e76752296164d	坚韧的花的种子	たくましいはなのタネ	Robust-flower seeds	104	自然			50	
+105	4c4bd10368c47fe11fe49025eab1766d	可爱花篱的种子	かわいいいけがきのタネ	Adorable-hedge seeds	105	自然			50	
+106	134fa7a54d4deb0774521d83f83133ac	活力花篱的种子	げんきないけがきのタネ	Healthy-hedge seeds	106	自然			50	
+107	acdab0c33f374990d3f52edea02a6fee	水润花篱的种子	しっとりいけがきのタネ	Damp-hedge seeds	107	自然			50	
+108	858f12f9bd45cb69a73f017110d0054a	精致花篱的种子	しゃれたいけがきのタネ	Stylish-hedge seeds	108	自然			50	
+109	9c2c9266fdfe436a00142633baad4c46	方形植栽的种子	しかくいうえ木のタネ	Square-plant seeds	109	自然			50	
+110	0c868a8725f21443847e62caa04572e7	豆子的种子	マメのタネ	Bean seeds	110	自然			50	
+111	798ba60565cd3baef903e8980ae1d7ab	番茄的种子	トマトのタネ	Tomato seeds	111	自然			50	
+112	cddb7dd20a2c1c6c8abd707becb231a9	小麦的种子	コムギのタネ	Wheat seeds	112	自然			50	
+113	9ed0c359fa50d6ee9e9d557e5ca80e51	马铃薯的种子	ジャガイモのタネ	Potato seeds	113	自然			50	
+114	60839cc6e1e083a5e3c13f540748a3b0	绿色草	みどりのくさ	Tall grass	114	自然			10	
+115	c94c7f08dbe84ebb97cd01a9dcc99a76	黄色草	きいろのくさ	Yellow tall grass	115	自然			10	
+116	c38c2b579c357fc32090415e889635b0	红色草	あかいくさ	Red tall grass	116	自然			10	
+117	9c9b52839ec209feb8964231da273dae	粉红色草	ピンクのくさ	Pink tall grass	117	自然			10	
+118	a5e0382940929ca405e156c5dc24be59	绿色嫩草	みどりのわかくさ	Green shoots	118	自然			10	
+119	0fc0e9f429ee11593eb815a100fd3391	浅绿色嫩草	きみどりのわかくさ	Yellow-green shoots	119	自然			10	
+120	e9616577a3e9a0d63dd946359a137564	深绿色嫩草	ふかみどりのわかくさ	Verdant shoots	120	自然			10	
+121	7e97fd7f3899efc33754df1e953d46c1	蓝绿色嫩草	あおみどりのわかくさ	Blue-green shoots	121	自然			10	
+122	74207e36215bc6d2ae8db2f5fb20bbb8	浮萍	うきくさ	Duckweed	122	自然			10	
+123	469e710d7da01aa82cb5802576615e27	浮萍的花	うきくさのはな	Flowering Duckweed	123	自然			100	
+124	f6d11310a92070f35bf8f9cf2eb07f8f	缠绕蔓藤	ぐるぐるツタ	Dense vines	124	自然			10	
+125	de5eb352b59d0a24bc2bc40715a8746c	苔藓	コケ	Moss	125	自然			10	
+126	75d66feafc1f80ea721f960fd075cee3	蕨类	シダ	Fern	126	自然			10	
+127	41f0149c0c95735708e47dfeafc24100	苹野树	ヒメリの木	Leppa tree	127	自然			100	
+128	4042071aa8de80d69a7c35b0cae26342	大椰子树	おおきなヤシの木	Large palm tree	128	自然			100	
+129	f6a4720aacb954e572e037f90dc2a93a	三角树	さんかくの木	Pointy tree	129	自然			100	
+130	e71c67357c26055734e19411d14a65e8	草地的花	はらっぱのはな	Wildflowers	130	自然			100	百花盛开的
+131	c0b3e6dcfd9de5c41b2d8ee6eb1feb80	海边的花	うみべのはな	Seashore flowers	131	自然			100	百花盛开的
+132	eea801e62b9d70ab96ef98916119fa5e	岩地的花	いわばのはな	Mountain flowers	132	自然			100	百花盛开的
+133	24d0f8e8d4a3a516a3c9751cfc6efb40	空岛的花	うきしまのはな	Skyland flowers	133	自然			100	百花盛开的
+134	d6a65a356bf9a1cd4d905befe44b0e02	美丽的花	うつくしいはな	Beautiful flower	134	自然			100	百花盛开的
+135	0fdd2130b7a2809440c365fecbf82ff0	可爱的花	キュートなはな	Cute flower	135	自然			100	可爱的|百花盛开的
+136	6839e105e07cdd47a7f1ed0360abe7ca	优雅的花	エレガントなはな	Elegant flower	136	自然			100	百花盛开的
+137	c464daf437fa48f266b87d6b6a31739a	坚韧的花	たくましいはな	Robust flower	137	自然			100	百花盛开的
+138	c58abfcd696ade699c6b7e2b0ee8c4e4	可爱花篱	かわいいいけがき	Adorable hedge	138	自然			30	
+139	0a2f4e30fc72389e0c994789eb2f0fea	活力花篱	げんきないけがき	Healthy hedge	139	自然			30	
+140	8a80930e62eb53fe803de577c58502f5	水润花篱	しっとりいけがき	Damp hedge	140	自然			30	
+141	50461ec9d5d4128fcb47f67a6d842be2	精致花篱	しゃれたいけがき	Stylish hedge	141	自然			30	
+142	3ca589d51dcf06e7e7c2707014e8f9ea	方形植栽	しかくいうえ木	Square plant	142	自然			30	
+143	b5788ec7103ae0d306243cb90dfec605	苹野树的树桩	ヒメリの木のきりかぶ	Leppa tree stump	143	自然			10	
+144	49374bc9d74eaca6620a470a25a04a87	椰子树的树桩	ヤシのきりかぶ	Palm tree stump	144	自然			10	
+145	aa61c333b155372d48ef0148567054c8	三角树的树桩	さんかくの木のきりかぶ	Pointy tree stump	145	自然			10	
+146	aeaf2d35504c87772f89e0e364187e9d	漂流木	りゅうぼく	Driftwood	146	自然			10	
+147	00ab64b324b2bb33c67364ebe018af2e	黏黏丝	ペタペタいと	Sticky web	147	自然			10	
+148	d64b9e13f7845b6a1891ae036164efb2	大石头	おおきないし	Large boulder	148	自然			10	
+149	e072351bbbb67775bbf2c2611a4c7626	台岩	こけいわ	Mossy boulder	149	自然			10	
+150	f07337747ea99c36f854fc21c4bfa496	热热岩	アツアツいわ	Molten rock	150	自然			10	
+151	140a24b1a2a18bd614298d02d265e80a	冷却的热热岩	ひえたアツアツいわ	Cooled molten rock	151	自然			10	
+152	ffb463d0b8924ffe4a4e5de477aba9b9	笋岩	たけのこいわ	Stalagmites	152	自然			10	
+153	ab26305239ef5c03b0d438f7abc3ec1f	冰柱岩	つららいわ	Stalactites	153	自然			10	
+154	ee84e82ad24e43b8b33e2b33cf52aad1	冰柱	つらら	Icicle	154	自然			10	
+155	184373cd7cd916c55ecb599e996edc9e	水晶	クリスタル	Crystal cluster	155	自然			100	
+156	e9ecaa8035b059993759a0330a615cfb	怪力岩	かいりきいわ	Strength rock	156	自然			10	坚硬的
+157	11db6ede0fab700a29d5d208b510d1c9	叶子小窝套组	はっぱのいえキット	Leaf den kit	157	套组			10	
+158	d601dc182afa7ba015d0a8258bc1242c	叶子小屋套组	はっぱのこやキット	Leaf hut kit	158	套组			10	
+159	99d1a9cb33adfce6016ac7adcc4c05c4	叶子小家套组	はっぱのおへやキット	Leaf cottage kit	159	套组			10	
+160	c5550d9b1f80b72914014e2a9a45aea9	叶子的气派套组	はっぱのりっぱなキット	Leaf house kit	160	套组			10	
+161	fa4097275d55083c8fc82ad76ab2437f	沙子小窝套组	すなのおへやキット	Sand den kit	161	套组			10	
+162	93b1c0a5d379d28185178662b9f42f3a	沙子小屋套组	すなのこやキット	Sand hut kit	162	套组			10	
+163	2153f938bf5b10fe503505eba857c11d	沙子小家套组	すなのいえキット	Sand cottage kit	163	套组			10	
+164	b3982c14b760e71332d2fe7b1e6de9f3	沙子的气派套组	すなのりっぱなキット	Sand house kit	164	套组			10	
+165	a3dc20cf8a0fc0512de1404fee5337d5	石头小窝套组	いしのこやキット	Stone den kit	165	套组			10	
+166	ee19332e43276997b51cdb62fafc9ab6	石头小屋套组	いしのいえキット	Stone hut kit	166	套组			10	
+167	d6c595e49654b6630c796ef0f66fd733	石头小家套组	いしのおへやキット	Stone cottage kit	167	套组			10	
+168	9dc0843b533f25bb079d394860b21462	石头的气派套组	いしのりっぱなキット	Stone house kit	168	套组			10	
+169	dcc92cdf832179826cb0344a192c8285	都会小窝套组	とかいのこやキット	City den kit	169	套组			10	
+170	802a43b21a637ce9ae54f37d915c4e41	都会小屋套组	とかいのいえキット	City hut kit	170	套组			10	
+171	26ba89e2bf250cd3f8cbe884f38189f9	都会小家套组	とかいのおへやキット	City cottage kit	171	套组			10	
+172	fb2d3f6625ed142b6feb60327c589c0f	都会的气派套组	とかいのりっぱなキット	City house kit	172	套组			10	
+173	e9467eb4aa686a1c699346b1768f07f1	精灵球小屋套组	ボールのいえキット	Poké Ball house kit	173	套组			10	
+174	69890274018bc59b262fa957fea8f1ed	友好商店套组	フレンドリィショップキット	Poké Mart kit	174	套组			10	
+175	37a7be1aaaca8196de0d0643dbcbaf83	荒野的宝可梦中心套组	こうやのポケセンキット	Wasteland Pokémon Center kit	175	套组			10	
+176	a4f7927ee02b9458bda606bb6eaf9a0b	海边的宝可梦中心套组	うみべのポケセンキット	Beach Pokémon Center kit	176	套组			10	
+177	9b2b37e3646e372261bdd10bcf1496f8	山地的宝可梦中心套组	やまのポケセンキット	Ridge Pokémon Center kit	177	套组			10	
+178	87c22b6505981a2abd44fb2477be1fdc	空岛的宝可梦中心套组	うきしまのポケセンキット	Skyland Pokémon Center kit	178	套组			10	
+179	5f65d8be1aac534d8210d7bcc399ba1e	风力发电套组	風力はつでんキット	Windmill kit	179	套组			10	
+180	2556609f30a2dbe6f990da3d3d89c512	水力发电套组	水力はつでんキット	Waterwheel kit	180	套组			10	
+181	ab78ea80c3c4f3d97def32ed6fc66197	火力发电套组	火力はつでんキット	Furnace kit	181	套组			10	
+182	9efd91d6b0f8640e2b447f8a771337b4	充电站套组	じゅうでんスポットキット	Charging station kit	182	套组			10	
+183	49541874b8b851409af8e51304097c64	皮卡丘喷泉套组	ピカチュウふんすいキット	Pikachu fountain kit	183	套组			10	
+184	3ab53d3eb4575db30857453e1744b09a	月夜起舞像套组	つきよのダンスぞうキット	Moonlight dance statue kit	184	套组			10	
+185	8436e3f4b130fbaf008b1d7138e6ea67	粉红色小屋套组	ピンクのこやキット	Pink hut kit	185	套组			10	
+186	8d9b1ef35a8f63cd9d7484028d3c4f76	粉红色小家套组	ピンクのいえキット	Pink cottage kit	186	套组			10	
+187	4c4f20af61e6c6a50038bb3105192ece	橙色小屋套组	オレンジのこやキット	Orange hut kit	187	套组			10	
+188	8e2deca52efa67c769fd1f2373c8a1e1	橙色小家套组	オレンジのいえキット	Orange cottage kit	188	套组			10	
+189	70481331e1904b6f454cbe0beadaf164	灰色小屋套组	グレーのこやキット	Gray hut kit	189	套组			10	
+190	e71adebee36edfc9b87e43199a7302f4	灰色小家套组	グレーのいえキット	Gray cottage kit	190	套组			10	
+191	ba326fffa916ff5ae9a8997025c1642d	黄色小屋套组	きいろいこやキット	Yellow hut kit	191	套组			10	
+192	f02b736e8d70f17e1edf326c9c6d4bce	黄色小家套组	きいろいいえキット	Yellow cottage kit	192	套组			10	
+193	6efcc10e43d14384a0d2df582d174861	木屋套组	ログハウスキット	Log cabin kit	193	套组			10	
+194	ea0a9b8f6214e3c5a2ff9150679c6e5a	小办公室套组	ちいさなオフィスキット	Small office kit	194	套组			10	
+195	b94e2e019525aa64420b6a09c4dad5c5	疗愈公园套组	いやしのこうえんキット	Relaxing park kit	195	套组			10	
+196	4fecbd8444d7df14fcfa3fded1d6c1cd	时髦咖啡馆套组	おしゃれなカフェキット	Stylish Café kit	196	套组			10	
+197	b0c04c7407d8a429c848d5f3db4f4e8c	演出舞台套组	ライブステージキット	Concert stage kit	197	套组			10	
+198	7d207c60e32a8bfe871d75ed7e5a5eb9	喷泉广场套组	ふんすいひろばキット	Fountain plaza kit	198	套组			10	
+199	b36926b609043fe3fcb91c349df6d4d0	火光祭坛套组	ともしびのさいだんキット	Altar of Flame kit	199	套组			10	
+200	a42c5026ce23cd5fa0b8f0fc1222dccb	无人发电厂套组	むじんはつでんしょキット	Abandoned Power Plant kit	200	套组			10	
+201	722b72b2582045a8093838b8a30ebaf5	双子冰窖套组	ふたごのひむろキット	Freezing Chambers kit	201	套组			10	
+202	17f8e37d4fc02e8bdcd752308508e078	搬迁套组（准备）	ひっこしキット・じゅんび	Relocation kit (prepare)	202	套组			10	
+203	018ffdce4509c7805f7661140ae02115	拆除套组	かいたいキット	Demolition kit	203	套组			10	
+204	1815701fff361e07a01f279889f0287b	收纳箱	しゅうのうボックス	Storage box	204	家具			50	木制的
+205	e1c47564b15c5cb326a0ed126551c11f	壁挂收纳箱	カベしゅうのうボックス	Wall storage box	205	家具	装饰		300	棱角分明的|容器|木制的
+206	434cc290a6af4aabbfdac068caa4fa1d	大收纳箱	ビッグしゅうのうボックス	Big storage box	206	家具			300	木制的
+207	05abd8ee849b1d9405a705312185b177	自然风储物柜	ナチュラルなチェスト	Plain chest	207	家具	装饰		200	棱角分明的|容器|布制的|木制的
+208	1e3f71a518bc3137b594aee211a71fa5	办公室收纳柜	オフィスのキャビネット	Office cabinet	208	家具	装饰		200	棱角分明的|容器|金属的|木制的
+209	3e75711a9f140020d43920305bb2bbc5	电竞冰箱	ゲーミングれいぞうこ	Gaming fridge	209	家具	装饰		400	多彩的|容器|电力驱动的|有玻璃的|金属的
+210	0f944346b349579373a4e9f71516ca79	精灵球储物柜	モンスターボールチェスト	Poké Ball Chest	210	家具	装饰		400	容器|可爱的|金属的|圆圆的|闪亮亮的
+211	2031cb99a4f81da988cdd2be0c81d106	树果造型盒	きのみなケース	Berry case	211	家具	装饰		300	容器|可爱的|很像食物的|能感受自然的
+212	9068d9364b9cabd0fcd53f216dda5a92	古董储物柜	アンティークチェスト	Antique chest	212	家具	装饰		200	棱角分明的|容器|豪华的|木制的
+213	35278c59b4c63c9b6ad446f26a26cf94	自然风衣柜	ナチュラルなクローゼット	Plain closet	213	家具	装饰		200	棱角分明的|容器|布制的|木制的
+214	ab2ea20f0803db0a08f43a2e02d82367	办公室储物柜	オフィスのロッカー	Office locker	214	家具	装饰		200	棱角分明的|容器|金属的
+215	4aec586411b6ecf8ab7664877d797808	古董衣柜	アンティーククローゼット	Antique closet	215	家具	装饰		200	棱角分明的|容器|豪华的|木制的
+216	5209726e598006c38f6e765a6a24bb98	办公室架子	オフィスのたな	Office shelf	216	家具	装饰		200	棱角分明的|容器|群聚的|有玻璃的|有文字的|金属的
+217	ab57aa6445c84cb237cf877997c83ee2	棱棱角角柜	かくばりたな	Polygonal Shelf	217	其他	装饰		1000	容器|可爱的|诡异的
+218	0714ca997d7d2e79bdef90abaa50597c	干草桌子	ほしくさのテーブル	Straw table	218	家具			100	能感受自然的
+219	10047fd8f485e14b5daa05086cf55350	圆木桌	まるたのテーブル	Log table	219	家具			100	能感受自然的|木制的
+220	544b978fcb9b8b5d603249e42d782b84	边桌	サイドテーブル	Side table	220	家具			100	
+221	db782a36c2fcef8aa7c37e82a09356ff	庭园桌子	ガーデンテーブル	Garden table	221	家具			300	能感受自然的
+222	90cc75bae3793b8a29b728c107829d96	木桌子	木のテーブル	Wooden table	222	家具			100	
+223	998a0337ca6168c65dabb196d5e9a4a1	柜台面	カウンターのだい	Counter	223	家具			10	
+224	334df09d75e22334faaf5ad4159f132c	壁桌	カベつけテーブル	Wall-mounted table	224	家具			200	
+225	09191d4f28e42aff4a83228df97f57d1	宝可梦中心的柜台	ポケセンのカウンター	Pokémon Center counter	225	家具			100	
+226	6f32f3f5fc2ce1ed5ed521e3a16e230a	厨房桌子	キッチンテーブル	Kitchen table	226	家具			300	
+227	01b103148518154bd62b2af80e3ac06f	推车	ワゴン	Push cart	227	家具			300	
+228	b29a82131061eae986aab4e2a49ce2ca	展示台	てんじだい	Exhibition stand	228	家具			50	
+229	cc6b821ed3e24488350e7948ec8ac63a	谜之台座	なぞのだいざ	Mysterious pedestal	229	其他			1000	
+230	8b5f796f0db6d0aa83ac49063708c48b	自然风矮柜	ナチュラルなだい	Plain stand	230	家具	装饰		200	棱角分明的|容器|布制的|木制的
+231	95c2822173a545c2f570f0b00b17cf0e	铁矮柜	てつのだい	Iron stand	231	家具	装饰		200	棱角分明的|容器|坚硬的|金属的|闪亮亮的
+232	99fb33fac1994a19754f59c71814af05	供餐柜台	フードカウンター	Food counter	232	家具	装饰		200	木制的
+233	641086b65d578b062bc1978b5a6a4c02	自然风桌子	ナチュラルなテーブル	Plain table	233	家具			200	木制的
+234	bbb20a248574048de466115b49f38f4b	古董桌子	アンティークテーブル	Antique table	234	家具			200	豪华的|木制的
+235	9ee6bbc0d7ae20469d9240f0dfb4faad	工业风桌子	インダストリアルなデスク	Industrial desk	235	家具			300	金属的
+236	f9a8b739574bd5bca3ca8e3805b5d270	铁桌子	てつのテーブル	Iron table	236	家具			200	坚硬的|金属的
+237	d6b514d858b61e0eb1ec22eaf582327a	办公桌	オフィスのデスク	Office desk	237	家具			200	金属的
+238	305147d127675e04c8fe1a81ae9c288e	书桌	がくしゅうづくえ	Study desk	238	家具			100	木制的
+239	7ca4e944f75aaf65408e92d85c42fcbd	可爱的桌子	キュートなテーブル	Cute table	239	家具			400	可爱的
+240	6ae6bf0f3f965dfa3a5a06059f52cf86	铁架子	てつのラック	Iron rack	240	家具			200	坚硬的
+241	71182ca1c54a8148322ddeeefefc0492	度假风桌子	リゾートなテーブル	Resort table	241	家具			300	
+242	ea1fe1339ffe124c9ca77df5dbe1b0a7	雅致桌子	シックなテーブル	Chic table	242	家具			200	豪华的
+243	5e3a08f5b8dd50152b7915759f4e5dd4	新潮桌子	ポップなテーブル	Pop art table	243	家具			300	可爱的
+244	9d5c6c69c3e6a26abfd05dd161087ec4	精灵球桌子	モンスターボールテーブル	Poké Ball table	244	家具			400	
+245	bcf609e8c814b2b8665f320437c7c310	树果造型桌	きのみなテーブル	Berry table	245	家具			400	很像食物的|能感受自然的
+246	663816e0c44747681faebcbbf7160005	石头桌子	いしのテーブル	Stone table	246	家具			100	坚硬的
+247	a8eb0d677cd80f404a4f2d4351e74d92	豪华桌子	ゴージャスなテーブル	Luxury table	247	家具			400	豪华的
+248	c885974c3dff7cea7eca543ec8ea4fb0	办公室桌子	オフィスのテーブル	Office table	248	家具			200	
+249	aa0225c64c072037cb77af010d62ccb8	冰岩怪桌子	クレベーステーブル	Avalugg Table	249	其他			1000	
+250	36574a9ec17dd56b0706e4c845d31e2a	干草凳子	ほしくさのこしかけ	Straw stool	250	家具	休闲		100	柔软的
+251	5c00d859fe5192c0703f4052b5958800	树果造型椅	きのみなイス	Berry chair	251	家具	休闲		400	可爱的|很像食物的|能感受自然的|柔软的
+252	12bfdbba0b7b2203de76d3fc8cd0d785	简约靠枕	シンプルなクッション	Simple cushion	252	家具	休闲		100	布制的|柔软的
+253	f3f9c696956379b914e2001c28f78f12	圆木椅子	まるたのイス	Log chair	253	家具	休闲		100	能感受自然的|木制的
+254	b6fafd994a085ae81ddfc25af46fb4c9	自然风凳子	ナチュラルなこしかけ	Plain stool	254	家具	休闲		200	布制的|柔软的
+255	2c06d72d197c2a5dac27b4785c42758e	度假风凳子	リゾートなこしかけ	Resort stool	255	家具	休闲		300	布制的|能感受海的|柔软的
+256	b4d5bfb4f3877e3d9f9c3aa551e3b34a	时髦凳子	おしゃれなこしかけ	Stylish stool	256	家具	休闲		100	多彩的|可爱的|布制的|柔软的
+257	9d67ad529fcc341649637b4b27e5b9c7	工业风椅子	インダストリアルなチェア	Industrial chair	257	家具	休闲		300	金属的
+258	6393f6afcad752c95cf759fb7327eb6a	浴室椅子	ふろばのイス	Waterproof seat	258	家具	休闲		400	整洁的
+259	85ff2a7837b9bd2517b8aaf2a9fe49a3	木凳子	木のこしかけ	Wooden stool	259	家具	休闲		100	棱角分明的
+260	c9114d6756ebae5dcac1aa79d0024d02	铁椅子	てつのイス	Iron chair	260	家具	休闲		200	棱角分明的|金属的
+261	1290880057aa49a00e23a9085be7ae75	公共座椅	パブリックベンチ	Public seat	261	家具	休闲		300	棱角分明的|金属的
+262	0959db6666367afbb9898da3be986a2a	软绵绵椅子	ふかふかイス	Soft seat	262	家具	休闲		300	棱角分明的|布制的|柔软的
+263	6dfd224b149d4bea2d458eacc311eba4	包厢沙发	ボックスソファ	Box Sofa	263	家具	休闲		200	棱角分明的|布制的|柔软的
+264	1988f2fa09eeafd382c1a1391211e68f	自然风椅子	ナチュラルなイス	Plain chair	264	家具	休闲		200	布制的|柔软的|木制的
+265	583ca2ecc92e6669a71f851504211d60	度假风椅子	リゾートなイス	Resort chair	265	家具	休闲		300	布制的|能感受海的|柔软的
+266	a9975668e7287c0f69a2aaf19fa37b52	雅致椅子	シックなイス	Chic chair	266	家具	休闲		200	布制的|豪华的|柔软的
+267	fb5df749b8cc5d15197e0c0ee19597f0	高级椅子	リッチなイス	Fancy chair	267	家具	休闲		300	布制的|豪华的|柔软的|旋转的
+268	ecb676cc25dc043304d580effe811849	古董椅子	アンティークチェア	Antique Chair	268	家具	休闲		200	多彩的|布制的|豪华的|柔软的
+269	00fc1b734c0c2f0f6c4d5a9e8e1d1714	观众的椅子	かんきゃくのイス	Spectator chair	269	家具	休闲		100	金属的
+270	bc960b552a74cc9e49212b9f47ed002f	豪华椅子	ゴージャスなイス	Luxury chair	270	家具	休闲		400	豪华的|金属的|奇妙的
+271	a5ced9c6071d122f18e9d724aba51d77	庭园椅子	ガーデンチェア	Garden chair	271	家具	休闲		300	能感受自然的|金属的
+272	f6ae1e110ec4b1e64559172dc8e5474d	铁管椅子	パイプイス	Folding chair	272	家具	休闲		300	金属的|摇摇晃晃的
+273	4833fd5f721d43510f3a74b697433319	办公室椅子	オフィスのイス	Office chair	273	家具	休闲		200	布制的|金属的|柔软的|旋转的
+274	450b34135ada382cab500056f65cc301	可爱的椅子	キュートなチェア	Cute chair	274	家具	休闲		400	可爱的|布制的|柔软的
+275	98e925c852012c948b11a5f7bcfc0c1f	新潮椅子	ポップなイス	Pop art chair	275	家具	休闲		300	多彩的|可爱的|布制的|柔软的
+276	4dda7944bfc93e44eee34fcc7026f46e	电竞椅	ゲーミングチェア	Gaming chair	276	家具	休闲		400	多彩的|电力驱动的|布制的|豪华的|闪亮亮的|柔软的|旋转的
+277	c0837146c82c9d290d63cd6c8e1d8e9b	木长椅	木のながイス	Wooden bench	277	家具	休闲		100	大家一起用的
+278	e307003142da2583c12956a7b7b20453	石头长椅	いしのながイス	Stone bench	278	家具	休闲		100	大家一起用的|坚硬的|石制的
+279	505df0a419241b2d7b1c6ac2e8cb8a3d	自然风沙发	ナチュラルなソファ	Plain sofa	279	家具	休闲		200	布制的|大家一起用的|柔软的
+280	d8936807febecdb61575e220a6f506c4	度假风沙发	リゾートなソファ	Resort sofa	280	家具	休闲		300	布制的|大家一起用的|能感受海的|柔软的
+281	5e5ffe9c6296b6cc58fb46459974271a	雅致沙发	シックなソファ	Chic sofa	281	家具	休闲		200	布制的|大家一起用的|豪华的|柔软的
+282	e2f19cd522331110f787582b6b7b5159	古董沙发	アンティークソファ	Antique sofa	282	家具	休闲		200	多彩的|布制的|大家一起用的|豪华的|柔软的
+283	223702c08ce88baeed4b20de5a6bc863	铁长椅	てつのながイス	Iron bench	283	家具	休闲		200	大家一起用的|金属的
+284	de6ca9cee876fe38a3b0305ea3749be5	工业风长椅	インダストリアルなベンチ	Industrial bench	284	家具	休闲		300	大家一起用的|金属的
+285	ae3ff3d50b9559a60f00e12cb1e63ab0	豪华沙发	ゴージャスなソファ	Luxury sofa	285	家具	休闲		400	布制的|大家一起用的|豪华的|柔软的
+286	452b6463d4a73b7ed6e88ee38a2f6d56	庭园长椅	ガーデンベンチ	Garden bench	286	家具	休闲		300	大家一起用的|能感受自然的|金属的
+287	d080f57ed446e5654becbc0aec1befce	可爱的沙发	キュートなソファ	Cute sofa	287	家具	休闲		400	可爱的|布制的|大家一起用的|柔软的
+288	30adbcd65eb9e90336686c2df7445c1e	新潮沙发	ポップなソファ	Pop art sofa	288	家具	休闲		300	多彩的|可爱的|布制的|大家一起用的|柔软的
+289	d3f455d8e6f9108a04b945db17a8c573	精灵球沙发	モンスターボールソファ	Poké Ball Sofa	289	家具	休闲		400	大家一起用的|金属的
+290	c8c937939d90388700cd28adadfc4dae	皮卡丘沙发	ピカチュウソファ	Pikachu sofa	290	其他	休闲		1000	多彩的|可爱的|布制的|大家一起用的|柔软的
+291	771fd219ae47cbc258092f1c7edc7a49	圆木床铺	まるたのベッド	Log Bed	291	家具	休闲		200	棱角分明的|多彩的|布制的|能感受自然的|柔软的|木制的
+292	9d1c737db4248dd36ffc4f0dd673978a	自然风迷你床	ナチュラルなミニベッド	Mini plain bed	292	家具	休闲		200	棱角分明的|布制的|柔软的
+293	e01e579038efe6eeadb64e8310244c94	度假风床铺	リゾートなベッド	Resort bed	293	家具	休闲		300	布制的|能感受海的|柔软的
+294	fafee49e0fb0a7993ea9cfc07bd5a724	铁床铺	てつのベッド	Iron bed	294	家具	休闲		300	布制的|金属的|柔软的
+295	e886e83fabe6c5652d065851f0f43db2	夏日躺椅	サマーベッド	Deck chair	295	家具	休闲		200	能感受海的
+296	7d90b978aa10cbded537d2cc6be3898e	沙滩椅	ビーチチェア	Beach chair	296	家具	休闲		100	布制的|能感受海的|柔软的
+297	f49b3481121d9076ebfeea639c5fe924	干草床	ほしくさのベッド	Straw bed	297	家具	休闲		100	能感受自然的|柔软的
+298	bc996ed7d875fd5a9a416a6e79fa57d9	新潮床铺	ポップなベッド	Pop art bed	298	家具	休闲		300	可爱的|布制的|大家一起用的|柔软的
+299	73195b4528b2c20d9aafdf2bfe4d9edf	精灵球造型床	モンスターボールベッド	Poké Ball bed	299	家具	休闲		400	布制的|柔软的
+300	d687bbfdcbcec2881af74b1b4e21e0e5	树果造型床	きのみなベッド	Berry bed	300	家具	休闲		400	可爱的|布制的|很像食物的|能感受自然的|柔软的
+301	13ae706a80ec998e8407e66f822d8c1e	木床铺	木のベッド	Wooden Bed	301	家具	休闲		100	大家一起用的|能感受自然的|柔软的
+302	9e9dbda81ade63d1aa9ea8ab86258afa	自然风床铺	ナチュラルなベッド	Plain bed	302	家具	休闲		200	布制的|大家一起用的|柔软的
+303	8666f94333bcabc76a06f3697877abda	度假风吊床	リゾートなハンモック	Resort hammock	303	家具	休闲		300	布制的|能感受水的|能感受海的|柔软的|摇摇晃晃的
+304	4f880f55bcecbad79b574dbb49f77c57	客房床铺	きゃくしつのベッド	Guest-room bed	304	家具	休闲		200	布制的|大家一起用的|豪华的|柔软的|木制的
+305	b22d3b1cef9888012bf5959ca43fb8be	古董床铺	アンティークベッド	Antique bed	305	家具	休闲		200	布制的|大家一起用的|豪华的|柔软的
+306	ef5e58bfe05b81c8caaa7d1a5d860dd6	工业风床铺	インダストリアルなベッド	Industrial bed	306	家具	休闲		300	布制的|大家一起用的|金属的|柔软的
+307	e3d3e4781394e92d7b41390610a2927f	豪华床铺	ゴージャスなベッド	Luxury bed	307	家具	休闲		400	大家一起用的|豪华的|柔软的|石制的
+308	9a22c9bdc40736746b7b75dbb1b54323	可爱的床	キュートなベッド	Cute bed	308	家具	休闲		400	可爱的|布制的|柔软的
+309	82ed855b0833367a1b9bc1158627b515	电竞床	ゲーミングベッド	Gaming bed	309	家具	休闲		600	多彩的|电力驱动的|大家一起用的|闪亮亮的|柔软的
+310	53420b5a56b1c6e462c8568c2f07eb27	瞌睡床铺	いねむりベッド	Naptime bed	310	其他	休闲		1000	柔软的
+311	f665128013cb26e2554205c5e64174dc	壁挂镜	カベかけかがみ	Wall mirror	311	家具	玩具		400	棱角分明的|有玻璃的|豪华的|诡异的|用于观赏的
+312	9ab186a6d65df6832f4025c58054a49a	大镜子	おおきなかがみ	Large mirror	312	家具	玩具		300	棱角分明的|有玻璃的|豪华的|诡异的
+313	84eb006164d2cae34527979a6a2b0471	古董梳妆台	アンティークドレッサー	Antique dresser	313	家具	玩具		200	有玻璃的|豪华的
+314	f412055855f70346827db58029e9d6b2	豪华梳妆台	ゴージャスなドレッサー	Luxury dresser	314	家具	玩具		400	容器|有玻璃的|豪华的|诡异的
+315	0861bc79ec8e2b1ecc90c2125030e961	可爱的梳妆台	キュートなドレッサー	Cute dresser	315	家具	玩具		400	容器|可爱的|有玻璃的|诡异的
+316	ae064de81c2765206c63c672d56c35b7	歪歪扭扭镜	ぐにゃぐにゃかがみ	Wiggly mirror	316	其他	玩具		1000	可爱的|有玻璃的|诡异的|用于观赏的
+317	5b8a856a42a603ca48ff631083ca5e45	木盘	木のおさら	Wooden plate	317	杂货			100	木制的
+318	068719593d88ac21b267f30d31f38583	盘子	おさら	Plate	318	杂货			100	
+319	20e766f49d728d36ffb647bb53b8b2f7	供品台	0	Offering dish	319	杂货				
+320	7b92ee38e8b7ec9091964fa00cd5672e	派对餐盘	パーティープレート	Party platter	320	杂货			200	
+321	276cc8e3fd9a7b7c18f5da7715fe8460	野餐篮	バスケット	Picnic basket	321	杂货			150	棱角分明的|容器|布制的|大家一起用的
+322	d650ea03392926ff0afa30159e7c109d	马克杯	マグカップ	Mug	322	杂货	装饰		100	容器|象征的
+323	27a21faf5c9472d6d3c9634f3ba74393	茶具套组	ティーセット	Tea set	323	杂货	装饰		100	容器|群聚的|大家一起用的
+324	bdd5924cdf601d9fd2c74eea1648cb3d	餐具套组	テーブルウェア	Table setting	324	杂货	装饰		100	布制的|群聚的|大家一起用的|很像食物的|能感受水的
+325	3253adb80aa29f68f46ed4bcd1116241	派对杯	パーティーカップ	Paper Party cups	325	杂货	装饰		200	群聚的|大家一起用的|能感受水的
+326	38391661f2227ba33526c768115167e5	比萨	ピザ	Pizza	326	杂货	装饰		1000	多彩的|很像食物的|圆圆的
+327	70947eb6bb6b7565546e40e74b58bf71	炸薯饼	フライドポテト	Fried potatoes	327	杂货	装饰		1000	多彩的|群聚的|很像食物的
+328	a486f45d42519724cb9bad985aaee98b	冰淇淋汽水	クリームソーダ	Soda float	328	杂货	装饰		1000	多彩的|很像食物的|能感受水的
+329	886cfc16bb7c3898c710c28ee2e434a0	下午茶套组	アフタヌーンティーセット	Afternoon tea set	329	杂货	装饰		1000	多彩的|群聚的|很像食物的|豪华的
+330	9fe92001b821f940ba728bbb27ca5e06	巧克力饼干	チョコクッキー	Chocolate cookies	330	杂货	装饰		1000	多彩的|群聚的|很像食物的|圆圆的
+331	c69e9774b82f7881f11308925fa76979	三明治	サンドイッチ	Sandwiches	331	杂货	装饰		1000	棱角分明的|多彩的|群聚的|很像食物的
+332	8ac6c0eaf4977da6c7c67bbd9e6acf62	刨冰	かきごおり	Shaved ice	332	杂货	装饰		1000	多彩的|很像食物的|能感受水的
+333	c4d1223919ede8efc332e0b7bcc50710	缎带蛋糕	リボンケーキ	Ribbon cake	333	杂货	装饰		1000	多彩的|可爱的|很像食物的|圆圆的
+334	f04cb04a1df516424dc6d16d423b5d8b	树果野餐篮	きのみいりバスケット	Berry basket	334	杂货	装饰		500	棱角分明的|容器|很像食物的|能感受自然的
+335	d7a79819c3b6dfe85be50dcc5d393c0c	单枝花瓶	いちりんざし	Small vase	335	杂货	装饰		100	容器|百花盛开的|细长的|石制的|用于观赏的
+336	7839b467d7229a112e3fb34a33a85b0c	大叶子的植栽	おおきなはっぱのうえ木	Leafy plant	336	杂货	装饰		100	容器|百花盛开的|用于观赏的|摇摇晃晃的
+337	a496cc0bf544d1453fb3da48989fa9c5	大食花瓶	ツボかびん	Pitcher-plant pot	337	其他	装饰		1000	容器|奇妙的|石制的|用于观赏的|摇摇晃晃的
+338	ecd5fffa30998d8b1ca93bb41635a134	豪华的花	ごうかなはな	Extravagant flowers	338	杂货	装饰		100	容器|百花盛开的|石制的|用于观赏的|摇摇晃晃的
+339	fe0d66a2e4bd06fc484b02755161b7b2	瘦高植栽	のっぽなうえ木	Tall potted plant	339	杂货	装饰		100	容器|能感受自然的|百花盛开的|细长的|石制的|用于观赏的
+340	99576773a5be9b973a2027d632a69e5b	扁平植栽	ひらべったいうえ木	Flat-leaf plant	340	杂货	装饰		100	容器|能感受自然的|百花盛开的|细长的|用于观赏的
+341	fb66e41507453c85e85abedb7162031f	扭扭植栽	ネジネジうえ木	Twisted potted plant	341	杂货	装饰		100	容器|能感受自然的|百花盛开的|细长的|用于观赏的
+342	fa3b6067352ef19ba12635a5f792486d	小垃圾桶	ちいさいゴミばこ	Small garbage can	342	杂货	装饰		300	容器|垃圾|金属的|圆圆的
+343	851967fd095c9cfd12f6d7dcaa46a00d	食梦梦存钱罐	ムンナちょきんばこ	Munna bank	343	其他	玩具		1000	容器|可爱的|奇妙的|石制的
+344	d21f1010c9f35457042054d7d43a0bb4	笔筒	えんぴついれ	Pencil holder	344	杂货	玩具		100	看起来很难懂的|容器|群聚的|石制的
+345	d0b7de84e6b63e4a9b394c52bda550ac	高级笔	リッチなペン	Fancy pen	345	杂货	装饰		300	看起来很难懂的|豪华的|金属的|尖尖的|细长的
+346	26d2cce4db1d23a566fbb5813ff6b36f	信件	てがみ	Letter	346	杂货	玩具		300	棱角分明的|看起来很难懂的|有文字的|用于观赏的
+347	1873eaa866aaa63458c95001e73244c9	笔记本	メモちょう	Notepad	347	杂货	玩具		300	棱角分明的|看起来很难懂的|有文字的|用于观赏的
+348	2f3703e4272db9bbc77c91d54977d861	书	ほん	Book	348	杂货	玩具		300	棱角分明的|看起来很难懂的|有文字的|用于观赏的
+349	4179a6497cfd683d2ca14cc175426fb8	翻开的书	ひらいたほん	Open Book	349	杂货	玩具		300	棱角分明的|看起来很难懂的|有文字的|用于观赏的
+350	596ac420bcf09a1c742d6be36030641d	散落的书	ちらばったほん	Book pile	350	杂货			10	
+351	0b7dcde9565d642e74382fc9cbae0ad5	论文	ろんぶん	Papers	351	杂货	玩具		300	棱角分明的|看起来很难懂的|有文字的|用于观赏的
+352	ac65355d831e29a307a80b0a614f4d49	报纸	しんぶん	Newspaper	352	杂货	玩具		300	棱角分明的|看起来很难懂的|有文字的|用于观赏的
+353	cdd68c8f6528e47892d8153faae1ebff	相框	しゃしんたて	Photo frame	353	杂货	装饰		200	棱角分明的|容器|大家一起用的|用于观赏的
+354	d73cb9045c24ff66866a3e836edd45d0	壁挂相框	カベかけしゃしんいれ	Wall photo frame	354	杂货	装饰		200	棱角分明的|容器|用于观赏的
+355	6ebc3b55fac2d80a2839127a46cf4b7d	软木板	コルクボード	Corkboard	355	杂货	装饰		100	棱角分明的|群聚的|用于观赏的
+356	93a2a2a00141e49187202ba05b225042	CD架	CD ラック	CD rack	356	杂货	装饰		300	多彩的|看起来很难懂的|容器|群聚的|诡异的|用于观赏的|木制的
+357	358a35ae3bd7211cf1717d8353afaf8a	杂志柜	ざっしだな	Magazine rack	357	杂货	装饰		200	多彩的|看起来很难懂的|容器|群聚的|用于观赏的|木制的
+358	8951498a2f0924ae2f61e1dde2b7754f	迷你书架	ミニほんだな	Mini bookcase	358	杂货	装饰		200	棱角分明的|多彩的|看起来很难懂的|容器|用于观赏的|木制的
+359	0b6c0832f2a6919bc04d646ef80915c8	书架	ほんだな	Bookcase	359	杂货	装饰		200	棱角分明的|多彩的|看起来很难懂的|容器|用于观赏的|木制的
+360	10ee9b9e480d7a07725c366752881180	石头壁炉	いしのだんろ	Stone fireplace	360	杂货	休闲		200	棱角分明的|多彩的|坚硬的|豪华的|石制的
+361	74c94eadbf1d0aca3d74dbe2b10cd4e5	餐具柜	しょっきだな	Dining cabinet	361	杂货	装饰		200	容器|群聚的|有玻璃的|豪华的|木制的
+362	ddf95339c742d360e11159a34683d0c6	水槽	シンク	Modern sink	362	杂货	玩具		400	棱角分明的|整洁的|能感受水的|金属的|诡异的
+363	089ade6f202b590ef227260d9e04d25c	炉灶	コンロ	Cooking stove	363	杂货	装饰		400	棱角分明的|能感受火的|金属的|诡异的
+364	a1b7b03a3544dd36946fc51da32b9127	微波炉	でんしレンジ	Microwave oven	364	杂货	玩具		400	棱角分明的|电力驱动的|有玻璃的|金属的|诡异的
+365	acea208117817c21a14c68b929110814	冰箱	れいぞうこ	Refrigerator	365	杂货	玩具		400	棱角分明的|容器|电力驱动的|金属的|诡异的
+366	66a18647d7c1450987b1ceaa776dd9de	电风扇	せんぷうき	Fan	366	杂货	玩具		400	电力驱动的|金属的|能感受风的|旋转的
+367	5656ad7a14918075b684be091ab5e75f	空调	エアコン	Air conditioner	367	杂货	装饰		400	电力驱动的|金属的|能感受风的|诡异的
+368	3886dc4254672b9140a3afe0d1364ac0	打印机	プリンター	Printer	368	杂货	装饰		300	看起来很难懂的|电力驱动的|有玻璃的|诡异的
+369	640c8a8005cacf5b696f7b8f4e07df13	洗衣机	せんたくき	Washing machine	369	杂货	玩具		400	棱角分明的|整洁的|容器|电力驱动的|有玻璃的|金属的|诡异的
+370	fae92448daeec5ab633541df2bbb8053	马桶	トイレ	Toilet	370	杂货	装饰		400	整洁的|电力驱动的|能感受水的|石制的|诡异的
+371	4177760099e2bba48ddb4cb1f3af9e43	洗手台	せんめんだい	Sink	371	杂货	玩具		400	棱角分明的|整洁的|能感受水的|石制的|诡异的
+372	4341b488160dad2c882db4e0ffba8001	壁挂毛巾	カベかけタオル	Towel rack	372	杂货	装饰		400	整洁的|布制的|柔软的
+373	67d53e8738d1e8d39f6476ebd8a0f3a9	洗澡套组	おふろセット	Bathtime set	373	杂货	玩具		400	整洁的|可爱的|能感受水的|闪亮亮的
+374	85f3e42dab888ef98bce528dd6c48c52	清洁套组	おそうじセット	Cleaning supplies	374	杂货	玩具		400	整洁的|能感受水的|闪亮亮的
+375	31f66ad6edc457d34c32d2d4b4f6691c	花洒	シャワー	Shower	375	杂货	玩具		400	整洁的|能感受水的|金属的|细长的|诡异的
+376	cfbdcf53b66bb5793f9bcf3786e168b6	浴缸	バスタブ	Bathtub	376	杂货	装饰		400	整洁的|能感受水的|石制的|诡异的
+377	652dccf96ff8b762c099c353566e8b77	波波浴缸	ぴょんぴょんバスタブ	Bouncy blue bathtub	377	其他	装饰		1000	整洁的|可爱的|能感受水的|诡异的
+378	e7e7de9f3e35e26d80be402bf57037fe	平板电脑	タブレット	Tablet	378	杂货	玩具		300	棱角分明的|电力驱动的|有玻璃的|金属的|闪亮亮的
+379	9f9d36327d96efaefe09f6bda9796531	手机	けいたいでんわ	Cell phone	379	杂货	玩具		300	棱角分明的|电力驱动的|有玻璃的|金属的|闪亮亮的
+380	161783fba60b3a45810d55d7586c7d07	笔记本电脑	ノートパソコン	Laptop	380	杂货	玩具		400	棱角分明的|电力驱动的|有玻璃的|金属的|闪亮亮的
+381	d280f28a68b41a54b984f4da38a5ccf7	台式电脑	コンピューター	Computer	381	杂货	玩具		400	看起来很难懂的|电力驱动的|有玻璃的|金属的|闪亮亮的
+382	a1ca21f322071383c95827a5edd17c77	电竞电脑	ゲーミングパソコン	Gaming PC	382	杂货	玩具		400	多彩的|电力驱动的|有玻璃的|金属的|闪亮亮的
+383	3a2f904027d7b9da9b20fbe80aa9b354	电视	テレビ	Television	383	杂货	玩具		400	棱角分明的|电力驱动的|有玻璃的|大家一起用的|有文字的|金属的|闪亮亮的|用于观赏的
+384	d7e1f5be95801aa63a2927a3915906b3	壁挂屏幕	カベかけモニター	Wall monitor	384	杂货	玩具		400	棱角分明的|电力驱动的|有玻璃的|大家一起用的|有文字的|金属的|闪亮亮的|用于观赏的
+385	184a1b4a00680c955cfa767808f3cc26	街机	アーケードゲームマシン	Arcade machine	385	其他	玩具		1000	棱角分明的|电力驱动的|有玻璃的|大家一起用的|游乐区
+386	23fcc3fd4807b759b40858ccf0d596d4	闹钟	めざましどけい	Alarm Clock	386	杂货	玩具		400	有玻璃的|金属的|能出声的|圆圆的|诡异的
+387	d96c2f638475d2741abb36b275423f3a	积木	つみき	Toy blocks	387	杂货	玩具		100	群聚的|游乐区|木制的
+388	2cc8988ceb7d6164fd2277c2afb445ff	风车	かざぐるま	Pinwheels	388	杂货	玩具		200	多彩的|群聚的|能感受风的|游乐区|旋转的|用于观赏的
+389	f0f797ed732f5bf1d886f11b5b0e596b	编织套组	あみものキット	Knitting supplies	389	杂货	玩具		100	多彩的|布制的|群聚的|大家一起用的|能感受土的|圆圆的|柔软的
+390	b71eea8f87d5f5ffd7dcdccf26394d5d	Game Boy	ゲームボーイ	Game Boy system	390	杂货	玩具		400	棱角分明的|电力驱动的|大家一起用的
+391	d00f36f0ddabf190f6196911690b044f	加湿器	かしつき	Humidifier	391	杂货	装饰		400	电力驱动的|有玻璃的|能治愈伤口的|能感受水的|圆圆的|诡异的
+392	8c1323e4d6cd99baf0a06433e3325aa3	奇异香薰器	あやしいディフューザー	Funky diffuser	392	其他	玩具		1000	能感受水的|金属的|诡异的
+393	e193d9d9bff9ba5cb23c1d1e24cdadd3	急救箱	きゅうきゅうばこ	First aid kit	393	杂货	玩具		200	多彩的|容器|能治愈伤口的|金属的
+394	46c18b2c39916a26528b34111a359eae	水晶球	すいしょうだま	Crystal ball	394	杂货	玩具		200	布制的|有玻璃的|圆圆的|闪亮亮的|诡异的
+395	f9dc80129f6c9b8dd3cb814af07e5aa7	显微镜	けんびきょう	Microscope	395	杂货	玩具		300	看起来很难懂的|有玻璃的|金属的|诡异的|用于观赏的
+396	eb3daf82752787abc049a9bc4968f3b7	实验套组	じっけんセット	Science experiment	396	杂货	玩具		300	看起来很难懂的|群聚的|有玻璃的|有文字的|金属的
+397	5b10b54cd3dc79c483dba8737cc98c58	乱缠电线	からまりコード	Jumbled cords	397	杂货	玩具		300	看起来很难懂的|容器|电力驱动的|垃圾|群聚的|大家一起用的|金属的
+398	53a95d67fe26c51fd909cf9710f35260	CD播放器	CD プレーヤー	CD player	398	杂货	玩具		400	电力驱动的|大家一起用的|能出声的
+399	a7628dab798c2bd8907673d84c31d5cd	桌上麦克风	たくじょうマイク	Tabletop mic	399	杂货	玩具		300	电力驱动的|闪亮亮的
+400	1f50d8d3b80bf79035242e4b6b1c4cf3	立式麦克风	スタンドマイク	Standing mic	400	杂货	玩具		300	电力驱动的|大家一起用的|闪亮亮的|诡异的
+401	65b0297855bdfef8b5e5add153f9ef51	大鼓	おおだいこ	Big drum	401	杂货	玩具		300	圆圆的|摇摇晃晃的
+402	a9aa78b6d83b600e742379448ce8e043	酷炫电吉他	イカしたエレキギター	Cool electric guitar	402	杂货	玩具		1000	电力驱动的|能出声的|诡异的
+403	3cf4b61195ade4f1401beea664a58e3a	酷炫电贝斯	イカしたエレキベース	Cool bass guitar	403	杂货	玩具		1000	电力驱动的|能出声的|诡异的
+404	744ae65fcad4c63088b0bcb8c2720493	混音器	オーディオミキサー	Audio mixer	404	杂货	玩具		300	看起来很难懂的|电力驱动的|诡异的
+405	35b7df39c9056d38f102a9d186768ca6	音箱	スピーカー	Speaker	405	杂货	玩具		300	棱角分明的|电力驱动的|能出声的
+406	4bb8d6bc6463b545faf395a8e12818c5	金假牙	きんのいれば	Gold Teeth	406	其他	玩具		1000	金属的|闪亮亮的|石制的|诡异的
+407	87d75415dc8472a57158e5a8cdf0aec8	除虫喷雾	むしよけスプレー	Repel	407	其他	玩具		1000	诡异的
+408	86e3d5d75b7373ecb23bd28833dbbd73	巨大金珠	でかいきんのたま	Big Nugget	408	其他	玩具		1000	金属的|圆圆的|闪亮亮的|石制的
+409	55fc891681dd9731f7206cd75e908704	气球	ふうせん	Balloons	409	杂货	玩具		300	多彩的|群聚的|游乐区|圆圆的|摇摇晃晃的
+410	e24f4ea950764bed14d9abb35c9aba16	拳击机	パンチングマシーン	Punching game	410	杂货	玩具		300	多彩的|训练用的|游乐区|摇摇晃晃的
+411	ae2e6756814964e02083a9e25b192fea	惊吓箱	びっくりばこ	Boo-in-the-box	411	其他	玩具		1000	棱角分明的|容器|大家一起用的|游乐区|奇妙的|诡异的
+412	b56d6b36461521accbc6cd2b29242676	不倒果然翁	おきあがりソーナンス	Wobbuffet Wobbler	412	其他	玩具		1000	可爱的|训练用的|游乐区|圆圆的|诡异的|摇摇晃晃的
+413	81ec89c07dc76a436c9a232a4ec7d812	脚踏凳	きゃたつ	Step stool	413	杂货	玩具		200	金属的|交通工具
+414	fa676a761a2a51b579e8546f98a71973	纸箱	だんボールのはこ	Cardboard boxes	414	杂货	装饰		300	棱角分明的|容器|群聚的
+415	92898e3f004326bc04099919114d3108	白板	ホワイトボード	Whiteboard	415	杂货	装饰		200	棱角分明的|看起来很难懂的|群聚的|大家一起用的|有文字的|闪亮亮的
+416	4fac488ba7d94102827e315830ea6611	控制盘	そうさばん	Control unit	416	杂货	玩具		300	棱角分明的|看起来很难懂的
+417	f65c9059c9318d15e61a917d73279ae9	庆祝之铠	イワイノヨロイ	Auspicious Armor	417	杂货	装饰		1000	豪华的|闪亮亮的|诡异的
+418	48ff123feae2f8c8968e4fb902f69174	咒术之铠	ノロイノヨロイ	Malicious Armor	418	杂货	装饰		1000	豪华的|诡异的
+419	86008ce08a360d38810673d38e64861d	透明铃铛	とうめいなスズ	Clear Bell	419	杂货	玩具		1000	能出声的|圆圆的|闪亮亮的|诡异的
+420	10a5320d4aab3242d2b2d19b55d98da7	海声铃铛	うみなりのスズ	Tidal Bell	420	杂货	玩具		1000	能感受风的|能出声的|圆圆的|诡异的
+421	80581ea0db25a85549f194c024fc59f3	船舵	ふねのハンドル	Ship's Wheel	421	杂货	玩具		100	能感受海的|圆圆的
+422	a3848c4bb9e303d71d7972fbff5db1a6	谜之石像	なぞのせきぞう	Mysterious statue	422	其他	装饰		1000	奇妙的|石制的|诡异的
+423	6305df32047eb17652fbf329fff79b4a	鸭嘴宝宝喷火像	ほのおのブビィぞう	Fiery Magby statue	423	其他	玩具		1000	能感受火的|石制的|诡异的
+424	f65d819660f78ffb975d8ebdf752407c	道馆标志雕塑	ジムマークぞう	Gym emblem statue	424	其他	装饰		1000	闪亮亮的|石制的
+425	fc5b0f431e09ed110b92d6841be8efeb	太空服	うちゅうふく	Spacesuit	425	其他	玩具		1000	看起来很难懂的|有玻璃的|金属的|闪亮亮的|石制的
+426	f38793ab6bd4a99c8d22ce6f7303fc1a	宇宙飞船模型	スペースシャトルのもけい	Model space shuttle	426	其他	玩具		1000	金属的|能感受风的|交通工具|闪亮亮的|石制的
+427	4516e5dbe5ded769817585ff15ffbc28	太空船	うちゅうせん	Spaceship	427	其他	玩具		1000	有玻璃的|金属的|交通工具|圆圆的|石制的
+428	9962d3ff22b931ee3d11678e7e03a671	挂历	カベかけカレンダー	Wall Calendar	428	杂货	装饰		300	棱角分明的|看起来很难懂的|有文字的|用于观赏的
+429	c636e30b3ad2e9469f06e904b831ea46	草环	リース	Wreath	429	杂货	装饰		20	圆圆的|木制的
+430	3bd40a4b6602273ee174c07e7ddeabd9	装饰架（书）	かざりだな・ほん	Decorative bookshelf	430	杂货	装饰		200	群聚的|有文字的
+431	a97313975ff1d0b6a4e8a3cf05062c82	装饰架（瓶瓶罐罐）	かざりだな・いれもの	Decorative storage shelf	431	杂货	装饰		200	群聚的|石制的|诡异的
+432	22d8c1932e6bc815d6f17cabe9247ddf	装饰架（园艺）	かざりだな・えんげい	Decorative plant shelf	432	杂货	装饰		200	群聚的|百花盛开的
+433	b4a525d7b1d01cfe838be8bcf57d69e4	古董时钟	アンティークどけい	Antique clock	433	杂货	玩具		200	看起来很难懂的|有玻璃的|豪华的|木制的
+434	2098b87e2c17ed7f86b958e28d05f924	树果造型钟	きのみなとけい	Berry clock	434	杂货	玩具		100	可爱的|布制的|很像食物的|能感受自然的|圆圆的|摇摇晃晃的
+435	20be765dac0acc231d71b4cfb20c7762	木木枭钟	モクローどけい	Rowlet clock	435	其他	玩具		1000	可爱的|诡异的|用于观赏的
+436	f726d42c47de16dbf4099cc1e849208f	条幅	たれまく	Hanging banner	436	杂货	装饰		100	多彩的|布制的
+437	9567407288d441202741395962cc3d27	派对墙饰	パーティーのカベかざり	Party bunting	437	杂货	装饰		50	多彩的|布制的
+438	c100f24c57452b2a85f90c2236776f8a	草叶墙饰	くさのカベかざり	Vine wall decoration	438	杂货	装饰		20	能感受自然的|细长的
+439	fc98b604ad800afc0e5e738a16362b48	树果墙饰	きのみなカベかざり	Berry wall decoration	439	杂货	装饰		400	多彩的|群聚的|很像食物的|能感受自然的|用于观赏的
+440	6ced69e94fe46994dfa942d219e0eb67	挂轴	かけじく	Hanging scroll	440	杂货	装饰		200	棱角分明的|有文字的|诡异的
+441	3c2aa9ad5f39dc311c756e6004ee41d4	吊扇	てんじょうせんぷうき	Ceiling fan	441	杂货	装饰		400	电力驱动的|能感受风的|旋转的|诡异的|摇摇晃晃的
+442	e8b38aa32e088cf844a4e50eefd63264	晴雨飘浮泡泡	てるてるポワルン	Castform weather charm	442	其他	玩具		1000	可爱的|布制的|旋转的|诡异的
+443	90e23a698e0739fdb9d3498a63a3162e	伊布玩偶	イーブイにんぎょう	Eevee doll	443	杂货	玩具		1000	可爱的|布制的|柔软的
+444	46fa8f90340ea487aaa27c89dad5a7e4	皮卡丘玩偶	ピカチュウにんぎょう	Pikachu doll	444	杂货	玩具		1000	可爱的|布制的|柔软的
+445	135254b31aa0c987e13f006c5676b6fd	皮皮玩偶	ピッピにんぎょう	Clefairy doll	445	杂货	玩具		1000	可爱的|布制的|柔软的
+446	f0a220bdd20060983b3e3f4f29104f98	风速狗玩偶	ウインディにんぎょう	Arcanine doll	446	杂货	玩具		1000	可爱的|布制的
+447	721f25d7854951e0f2c9909c133d676e	快龙玩偶	カイリューにんぎょう	Dragonite doll	447	杂货	玩具		1000	可爱的|布制的|柔软的
+448	f5d8311e776707664492233638f78db8	百变怪玩偶	メタモンにんぎょう	Ditto doll	448	杂货	玩具		1000	可爱的|布制的|柔软的
+449	e22c5e3a3d4adc5a7c3bf67862becb62	替身玩偶	みがわりにんぎょう	Substitute doll	449	杂货	玩具		1000	可爱的|布制的|柔软的
+450	62b0069cbda13665e28ae87d691dfb89	脏脏的信	よごれたてがみ	Grubby letter	450	杂货	玩具		10	看起来很难懂的|垃圾|有文字的
+451	9def77d4ffecb7c10c71599bd59e1e74	脏脏的笔记本	よごれたメモちょう	Grubby notepad	451	杂货	玩具		10	看起来很难懂的|垃圾|有文字的
+452	4ab53117fff18f1cdddc10f73e4befb9	脏脏的书	よごれたノート	Grubby book	452	杂货	玩具		10	看起来很难懂的|垃圾|有文字的
+453	c8e96d60d061d1a66ecd0a42cbf0ae3f	脏脏的论文	よごれたろんぶん	Grubby papers	453	杂货	玩具		10	看起来很难懂的|垃圾|有文字的
+454	24b106fa51ed23de3abd4abb3051104b	脏脏的报纸	よごれたしんぶん	Grubby newspaper	454	杂货	玩具		10	看起来很难懂的|垃圾|有文字的|用于观赏的
+455	62efa3bac83a0e2a94db4ceb839bf34f	脏脏的平板电脑	よごれたタブレット	Grubby tablet	455	杂货	玩具		10	垃圾
+456	431153b30d0333ae7a80689d2a8ea1d3	脏脏的手机	よごれたけいたいでんわ	Grubby cell phone	456	杂货	玩具		10	垃圾
+457	e175406dcf82ca9797350eddbe5b32e2	火堆	たきび	Campfire	457	室外	休闲		100	大家一起用的|能感受火的|石制的
+458	63c048736eec249d10da1ad5b0d5888f	火炬	たいまつ	Torch	458	室外	休闲		100	能感受火的
+459	370dbab291dcbad8612f37d22a14819c	细长蜡烛	ほそながキャンドル	Slender candle	459	室外	装饰		100	能感受火的|细长的|奇妙的|石制的
+460	917e8f46b1d9ad8899031f595ae6daf1	诡异的蜡烛	あやしいキャンドル	Eerie candle	460	其他	装饰		1000	可爱的|能感受火的|奇妙的|石制的
+461	411de1c94d17da82614a8773d42863bf	壁挂火炬	かべかけたいまつ	Wall torch	461	室外	装饰		100	能感受火的|石制的
+462	f4fc55c50d9cb58c768b774f677a7066	篝火	かがりび	Firepit	462	室外	装饰		200	大家一起用的|能感受火的|圆圆的|石制的
+463	0ce1aa7922bf04b34f9584ed62f55c9f	营火	キャンプファイヤー	Bonfire	463	室外	装饰		300	大家一起用的|能感受火的|用于观赏的
+464	839b4a83319c8192707c8f95c5508e91	沙池	すなば	Sandbox	464	室外	玩具		100	棱角分明的|大家一起用的|能感受土的|游乐区
+465	a60880a8448098706003888a1220bdd0	跳轮胎	とびこえタイヤ	Tire toy	465	室外	玩具		300	大家一起用的|游乐区|圆圆的|摇摇晃晃的
+466	cd6dcce633812fdbabaeb6c0e5403e37	水泥管	どかん	Concrete pipe	466	室外	装饰		200	圆圆的|石制的
+467	873166faffabb9ee92b0b5e0ea6597c3	沙袋	サンドバッグ	Punching bag	467	室外	玩具		200	训练用的|布制的|能感受土的|摇摇晃晃的
+468	c00469947042ed9084a062a8e527d03d	滑梯	すべりだい	Slide	468	室外	玩具		300	大家一起用的|游乐区|木制的
+469	f8500c706d8849d8a8578b61f2a63303	自动售货机	じどうはんばいき	Vending machine	469	室外	玩具		200	棱角分明的|有玻璃的|大家一起用的|金属的|尖尖的
+470	9f182390a0871a2df8abbafed37d4755	壁挂花	かべかけフラワー	Wall-mounted flowers	470	室外	装饰		100	多彩的|百花盛开的
+471	29de3cb2ab153dc44490512fc1140282	吉利蛋植栽	ラッキーのうえ木	Chansey plant	471	室外	装饰		500	棱角分明的|可爱的|豪华的|百花盛开的|圆圆的
+472	e9f77335da035014fb6327231030049e	庭园摆饰	ガーデンオーナメント	Garden ornament	472	其他	装饰		1000	群聚的|石制的
+473	b73c6e34a130cf974cb45cfd0aa921a2	自行车	じてんしゃ	Bike	473	其他	玩具		1000	看起来很难懂的|训练用的|金属的|交通工具|诡异的
+474	d38f7364913dd1bddf401cfe288c2f9f	种植槽	プランター	Planter	474	室外			10	
+475	e705141a2e2a5c352f3c14718dfa50af	庭园盆花	ガーデンフラワー	Garden flowers	475	室外	装饰		300	多彩的|百花盛开的
+476	9840e051da92f222a622cba242f85ccd	平板货车	にぐるま	Cart	476	室外			100	
+477	cb55747bec789773451f4cb7529994d2	木制栖杠	とまり木	Perch	477	室外	休闲		100	
+478	4984504a37a72e3259e8d2ec9c61d623	木巢箱	木のすばこ	Wooden birdhouse	478	室外	装饰		100	容器|细长的
+479	4a19c55a693234fef4b66b38f89c57cd	信箱	ゆうびんばこ	Mailbox	479	室外	装饰		200	容器|金属的
+480	b74a20eb6784f71bc84d79c1fb710d33	风向标	かざみどり	Weather vane	480	室外	玩具		500	金属的|能感受风的|旋转的
+481	35999707fe622511730b0d29f74741ce	墓碑	はかいし	Gravestone	481	室外	装饰		100	有文字的|奇妙的|诡异的
+482	7d0049959461405d25e45fde756ceb06	画布（崭新）	キャンバス・まっさら	Blank canvas	482	室外	装饰		200	布制的|用于观赏的
+483	06a2cfec91e14c0ff58fe4d0e6031d66	画布（风景画）	キャンバス・ふうけいが	Painting (landscape)	483	室外	装饰		200	多彩的|布制的|用于观赏的
+484	4d3ae068f9263875b2efb288079fcdf6	画布（肖像画）	キャンバス・しょうぞうが	Painting (portrait)	484	室外	装饰		200	多彩的|布制的|用于观赏的
+485	d454548450546ff94e84c3bb8dd38420	画布（静物画）	キャンバス・せいぶつが	Painting (still life)	485	室外	装饰		200	多彩的|布制的|用于观赏的
+486	e9c3aa83ba38d9a26f11ea78748d892a	发射筒	うちあげづつ	Cannon	486	室外	玩具		200	金属的|诡异的
+487	4d44cc9756ac5b46f3211dfdfc7f30f3	钟	かね	Bell	487	室外	玩具		200	金属的|闪亮亮的|诡异的|摇摇晃晃的
+488	479aa686eb31401939da50617dd5344c	舞台	ステージだい	Small stage	488	室外	玩具		200	大家一起用的|金属的|游乐区|圆圆的|旋转的|诡异的
+489	9720f2d7766622fc836b22bff1bca919	出水口	ゆぐち	Hot-spring spout	489	室外			300	
+490	10a4d83f32bc0d32160b8fed4ff156a5	水盆	みずおけ	Water basin	490	室外	装饰		100	整洁的|多彩的|能感受水的|圆圆的|木制的
+491	9f2c111adef8d93d2b6699e79482a1db	独木舟	カヌー	Canoe	491	室外	玩具		200	大家一起用的|圆圆的
+492	86ab827d93f59651cf2077a3de9a69a5	充气船	ビニールボート	Inflatable boat	492	室外	休闲		300	棱角分明的|大家一起用的|能感受水的|摇摇晃晃的
+493	8edcc34e3a49a00cd8addd40992d8e24	沙滩遮阳伞	ビーチパラソル	Beach parasol	493	室外	休闲		100	布制的|能感受水的|能感受海的
+494	bca88b9eb2a35c105c0478b9b187b044	墨海马喷泉	タッツーふんすい	Horsea fountain	494	其他	玩具		1000	能感受水的|能感受海的|石制的|诡异的
+495	acf328bfcccbead80b43d2c6aeff7a5d	钓竿	つりざお	Fishing rod	495	其他	玩具		1000	金属的|能感受海的|细长的|摇摇晃晃的
+496	0756eef78f6fad39e654b0c3c7ec4c81	箭头指示牌	やじるしかんばん	Arrow sign	496	室外	装饰			
+497	b304f9a238a030c38f031b2bbd6b147f	菜单立牌	メニューボード	Menu board	497	室外	装饰		100	棱角分明的|看起来很难懂的|有文字的|木制的
+498	98dfafc4a9c03bcf02dca9f8b6504f5f	牌子	かんばん	Sign	498	室外	装饰		100	有文字的|象征的|木制的
+499	01820770251371521fc7e021037c1a47	立牌	スタンドかんばん	Signpost	499	室外	装饰		200	看起来很难懂的|有文字的|金属的|闪亮亮的|石制的|象征的
+500	d0b5ed60ecf2ffaa1482a659773a9988	告示牌	あんないけいじばん	Information board	500	室外	装饰		200	看起来很难懂的|有文字的|金属的|闪亮亮的|石制的|象征的
+501	43563c211afd461512d8e240ed1a3ec3	雷丘招牌	ライチュウかんばん	Raichu sign	501	其他	装饰		1000	多彩的|有玻璃的|有文字的
+502	f5ec8c80afc9fc4c39579a440b1a9a6c	露脸立牌	かおだしパネル	Photo cutout board	502	其他	玩具		1000	多彩的|可爱的|群聚的|大家一起用的|用于观赏的
+503	354fdab44b0ffc03ac7844ab01b6abec	破旧的木箱	ボロい木ばこ	Worn wooden crate	503	室外	装饰		10	棱角分明的|容器|木制的
+504	9e5bba4683d7c026bc04c07b46474944	木箱	木ばこ	Wooden crate	504	室外	装饰		100	棱角分明的|容器|木制的
+505	6e51ab273fa182084b50f9b0f5cc9bab	木桶	たる	Barrel	505	室外	装饰		100	容器|金属的|圆圆的|木制的
+506	d5359c179fd5a7ee5e58baf49f67ba1b	垃圾袋	ゴミぶくろ	Garbage bags	506	室外	装饰		10	垃圾|群聚的
+507	7b2d75651a974d580e02d047eb811bcf	垃圾桶	ゴミばこ	Garbage bin	507	室外	装饰		200	容器|垃圾|金属的
+508	ae1fb1e4b3010ffa24cc331084044387	空罐回收箱	あきカンいれ	Recycling bin	508	室外	装饰		200	容器|垃圾|金属的
+509	51f89e02165c978417e37b8e3a3bce0e	脏脏的布	よごれたぬの	Grubby rags	509	室外				
+510	2f446e0bedfe210cf7bd589e73afea18	不可燃垃圾【户外】	もえないゴミ（おくがい）	Nonburnable garbage (outdoor)	510	室外				垃圾
+511	71ff4f7bb04354a596e4ba2aa55860f6	可连结式三角锥	ポールさんかくコーン	Traffic cone	511	室外			300	
+512	f4bf9252bd05f8d37094791a28291e5c	井盖	マンホール	Sewer-hole cover	512	室外			200	
+513	37dc9bf56cdf76ac2a83d8ce18721bc1	消防栓	しょうかせん	Fire hydrant	513	室外	装饰		200	能感受水的|金属的|闪亮亮的
+514	04a4febcf037aadf052799569d1ded74	沙包	どのう	Sandbags	514	室外	装饰		100	建设|布制的|群聚的|能感受土的
+515	228f5e837289215ebddba6648b09c389	掘山道具	やまほりどうぐ	Excavation tools	515	室外	玩具		200	金属的|诡异的
+516	bcb8b2b1027678449bad629004a5f979	轮胎	タイヤ	Tires	516	室外	玩具		300	群聚的|圆圆的|摇摇晃晃的
+517	764b48f50a2ba344d23d33db791f29e4	金属桶	ドラムかん	Metal drum	517	室外	装饰		200	建设|容器|金属的|圆圆的
+518	3edb37765448c77070d4fe81a54e94c6	工具套组	こうぐセット	Construction supplies	518	室外	装饰		200	建设|容器|群聚的|大家一起用的|金属的|圆圆的
+519	c5ec1633d684fb3c503c72ebc9ca72cd	铁管堆	こんもりてつパイプ	Iron pipes	519	室外	装饰		200	建设|群聚的|金属的
+520	10deb425f03b8e158c5657cb3aea3041	手推车	ておしぐるま	Wheelbarrow	520	室外	装饰		200	建设|容器|能感受土的|金属的
+521	bab34edeac17ae97419228b0f989e0af	大排风扇	おおきなかんきせん	Large ventilation fan	521	室外	装饰		400	棱角分明的|金属的|能感受风的|旋转的|诡异的
+522	8530c6cd12c5cec036edfbe713b8d881	炽热岩石	あついいわ	Heat Rock	522	室外			500	
+523	a154e7770a23629ef85aea8542301565	潮湿岩石	つめたいいわ	Icy Rock	523	室外			500	
+524	34acda95ba5ba4b3616c16296d180539	沙沙岩石	さらさらいわ	Smooth Rock	524	室外			500	
+525	d71e83fcd4f0f407427982faeb458359	冰冷岩石	しめったいわ	Damp Rock	525	室外			500	
+526	daa52f2999029fbed3a5f1e284027abd	百变怪的旗子	メタモンのはた	Ditto Flag	526	实用			10	石制的
+527	1bb3393452b2ff9675f77b3fafd4d2c3	工作台	クラフトだい	Workbench	527	实用			100	
+528	495f0f29832b66040baf19568adf7dde	大家的盒子	みんなのボックス	Community Box	528	实用			100	
+529	c8d202ee43aa18ee0ff0c69b19131719	装饰框	がくぶち	Frame	529	实用	装饰		100	棱角分明的|容器|有文字的|用于观赏的|木制的
+530	4048fab143ca20a34b2b816d7504dd6e	砧板	まないた	Cutting board	530	实用			200	木制的
+531	d802e5d926183cd8d9a5c8269504d7cf	平底锅	フライパン	Frying pan	531	实用			200	
+532	e80b2d2747380281da892210d00b78d7	时髦的平底锅	オシャレなフライパン	Stylish frying pan	532	实用			300	
+533	9cc8e3c6cc8d9c386347bf5a237969ee	锅子	なべ	Cooking pot	533	实用			200	
+534	fb93d1c5c98f021dad9675d27c1b3296	时髦锅	オシャレななべ	Stylish cooking pot	534	实用			300	
+535	f3652a0fe2463c6ebf3fdc8fc19b2a83	面包窑	パンがま	Bread oven	535	实用			200	
+536	1b4cda1268af55a1993018ca0dc13fcd	熔炉	ようこうろ	Smelting furnace	536	实用			200	能感受火的
+537	8490188f1f1cff3797922f3edcbf3970	金属熔炉	メタルなようこうろ	Metallic smelting furnace	537	实用			300	能感受火的
+538	8292c638180fe9c2854ef49df48d8789	混凝土搅拌机	コンクリートミキサー	Concrete mixer	538	实用			300	
+539	e7eb024de7b04978b908f14872713e76	铁轨	せんろ	Railway track	539	实用			10	
+540	2843060a73fe27e117a254e8f84048a0	道闸	しゃだんき	Crossing gate	540	实用			50	
+541	623426810f7220a35bb833e376f5933c	采矿车	トロッコ	Handcar	541	实用			100	交通工具
+542	4370b8a06ea63c7497ad5eaba0805f56	电梯搭乘处	エレベーターのりば	Elevator platform	542	实用			500	
+543	43ed74f5338f888df66bda8d31134f1d	缆车搭乘处	リフトのりば	Lift platform	543	实用			500	
+544	8f7c9cab2388018a9fc25a4db4585b28	收银机	レジ	Cash register	544	实用			200	看起来很难懂的|容器|金属的|诡异的
+545	c9904d750b8bdf9a86c05d8bd0928e41	洒水器	スプリンクラー	Sprinkler	545	实用	玩具		300	能感受水的|金属的|石制的|诡异的
+546	8371c2dc1c41bacec69ade936adec682	迷你水门	ミニすいもん	Mini floodgate	546	实用			200	
+547	7ebaec5e58188f08c721c26adb769cbd	电线杆	でんちゅう	Utility pole	547	实用			200	电力驱动的
+548	61d20b0c1512bcbed67449ca136e9f61	切换式无限输电箱	きりかえむせんそうでんき	Wireless power-transmitter switch	548	实用			500	电力驱动的
+549	b080c9a4f1fc909bf00f540edaeaa2b4	无限输电箱	むせんそうでんき	Wireless power transmitter	549	实用			500	电力驱动的
+550	1fa861627c8465ce61c095cccfef3908	迷你发电机	ミニはつでんマシン	Mini generator	550	实用	装饰		500	棱角分明的|看起来很难懂的|电力驱动的|金属的|闪亮亮的|诡异的
+551	e435b3d41e462a6238aee878d9b61e5a	贴地开关	ゆかつきスイッチ	Floor switch	551	实用			500	电力驱动的
+552	54fe1e871e9a3b6bc9d151c3c22d5f6e	贴墻开关	カベつきスイッチ	Wall switch	552	实用			500	电力驱动的
+553	a1d3f7b6675762e9b6ad57083d89fb72	读卡机	カードリーダー	Card reader	553	实用	装饰		300	看起来很难懂的|电力驱动的|有玻璃的|金属的|诡异的
+554	7a0b51b85b07fae666687365a9213660	感应器	センサー	Laser sensor	554	实用			500	电力驱动的
+555	2fe4dd729e95218b6b359cad408a9b77	守护摄像头	みまもりカメラ	Security camera	555	实用				电力驱动的
+556	6d4f74c8d66f2c3c037f2b7a3d0545de	蘑菇路灯	キノコのがいとう	Mushroom streetlight	556	实用	装饰		100	闪亮亮的|细长的|奇妙的
+557	d4bf9fe6352f0f950917d497bd5a89d3	城镇路灯	まちのがいとう	Town streetlight	557	实用	装饰		200	电力驱动的|有玻璃的|金属的|细长的
+558	2b86effcd5e9846347268cc335311556	港口路灯	ミナトのがいとう	Harbor streetlight	558	实用	装饰		200	电力驱动的|有玻璃的|金属的|能感受海的|细长的
+559	6b0f06bb0c11c6d1a161a8ada5257cdf	雅致路灯	シックながいとう	Chic streetlight	559	实用	装饰		200	电力驱动的|有玻璃的|金属的|闪亮亮的|细长的
+560	1e34d47acd2582bee1b65520dddd619d	双臂路灯	ふたまたがいとう	Double streetlight	560	实用	装饰		200	电力驱动的|有玻璃的|金属的|细长的
+561	f30c3f5218a3103b5210f391c5f6dcf2	蘑菇台灯	キノコのランプ	Mushroom lamp	561	实用	装饰		100	电力驱动的|木制的
+562	daf192a01d5fcac7b14dffcb0ef77040	自然风台灯	ナチュラルなランプ	Plain lamp	562	实用	装饰		200	电力驱动的|布制的|有玻璃的
+563	4d3aa4d4f5efda40cd48b221478ab770	桌灯	デスクライト	Desk light	563	实用	装饰		300	电力驱动的|有玻璃的|金属的|细长的
+564	d68a042a880879e4dfa87430b7ce77ef	精灵球灯	モンスターボールライト	Poké Ball light	564	实用	装饰		400	多彩的|电力驱动的|有玻璃的|豪华的|金属的
+565	91ce8fd83805e2388929cce6654b6be3	树果桌灯	きのみなテーブルランプ	Berry table lamp	565	实用	装饰		400	可爱的|电力驱动的|有玻璃的|很像食物的|能感受自然的
+566	115cd16a8708391cbd2f8189695fbfc1	可爱的灯	キュートランプ	Cute lamp	566	实用	装饰		400	可爱的|电力驱动的|有玻璃的
+567	d6381f894171633a93acf361498b0c7f	精灵球台灯	モンスターボールランプ	Poké Ball lamp	567	实用	装饰		500	电力驱动的|有玻璃的|豪华的|圆圆的|诡异的
+568	28255efc2239a26c8d931eee45cf6e08	星球模型	わくせいのもけい	Model planet	568	实用	玩具		400	多彩的|可爱的|电力驱动的|金属的|圆圆的|旋转的
+569	24dc2973a9886fe19e24f5381bdb6603	流星台灯（红）	ながれぼしランプ・あかいろ	Red meteor lamp	569	其他	装饰		1000	可爱的|电力驱动的|有玻璃的|闪亮亮的
+570	2c2166a630e9fed75f6e75e382801b27	流星台灯（橙）	ながれぼしランプ・だいだい	Orange meteor lamp	570	其他	装饰		1000	可爱的|电力驱动的|有玻璃的|闪亮亮的
+571	273fdc860f61330dee1b0de37ea182d9	流星台灯（黄）	ながれぼしランプ・きいろ	Yellow meteor lamp	571	其他	装饰		1000	可爱的|电力驱动的|有玻璃的|闪亮亮的
+572	7f736431e02dafaf54b73f87ef6529af	流星台灯（绿）	ながれぼしランプ・みどり	Green meteor lamp	572	其他	装饰		1000	可爱的|电力驱动的|有玻璃的|闪亮亮的
+573	4c577b499c8f7c6932bf9f5f16f993de	流星台灯（浅蓝）	ながれぼしランプ・みずいろ	Blue meteor lamp	573	其他	装饰		1000	可爱的|电力驱动的|有玻璃的|闪亮亮的
+574	6b33d87cb75c8b0d546c7b4212a1889d	流星台灯（蓝）	ながれぼしランプ・あおいろ	Indigo meteor lamp	574	其他	装饰		1000	可爱的|电力驱动的|有玻璃的|闪亮亮的
+575	5a6eb041424c511ffd9dafafe98f43dd	流星台灯（紫）	ながれぼしランプ・むらさき	Violet meteor lamp	575	其他	装饰		1000	可爱的|电力驱动的|有玻璃的|闪亮亮的
+576	eba5af691e65806992b1d31a9d5729d4	豪华立灯	ゴージャスなランプ	Luxury lamp	576	实用	装饰		400	可爱的|电力驱动的|布制的|有玻璃的|豪华的|细长的
+577	2e280d56cfcc041db065a22511cb48c4	庭园灯	ガーデンライト	Garden light	577	实用	装饰		300	电力驱动的|有玻璃的|金属的
+578	ea211441eb37221acc98130bc6790eed	提灯	ランタン	Lantern	578	实用	装饰		200	电力驱动的|有玻璃的|金属的
+579	789adaece4ac0440421b4c7f12ce7908	橡实果壁灯	タネボーランプ	Seedot Lamp	579	其他	装饰		1000	电力驱动的|有玻璃的|能感受自然的|圆圆的
+580	d7cf0c2d90ced7251d317031019d5789	镜面球	ミラーボール	Mirror ball	580	实用	装饰		200	电力驱动的|有玻璃的|金属的|圆圆的|闪亮亮的
+581	2039d135decee04b3758efd3c15d9caf	壁灯	ウォールライト	Wall light	581	实用	装饰		300	棱角分明的|电力驱动的|有玻璃的
+582	59ba65a222ef0d7a5573277711eb415c	贝壳壁灯	かいがらランプ	Shell lamp	582	实用	装饰		200	可爱的|电力驱动的|有玻璃的|能感受海的
+583	a190ec360ea5900fb0d6956e941a5ac3	荧光灯	けいこうとう	Fluorescent light	583	实用	装饰		300	电力驱动的|有玻璃的|闪亮亮的|细长的
+584	2ecefd45ada4ea15b0b664f27199c69d	电竞灯	ゲーミングライト	Gaming light	584	实用	装饰		400	多彩的|电力驱动的|群聚的|有玻璃的
+585	043556742f02a3ea3a435413699acddb	度假风灯	リゾートなライト	Resort light	585	实用	装饰		300	电力驱动的|金属的|能感受海的|摇摇晃晃的
+586	2fae5e768bdec13ab4334302aefb11f0	装饰灯	イルミネーションライト	String lights	586	实用	装饰		100	电力驱动的|群聚的|有玻璃的
+587	2e1855ea22094bf7b5b4988acc190adb	新潮吊灯	ポップなランプ	Pop art lamp	587	实用	装饰		300	电力驱动的|有玻璃的
+588	914808dd8ec58c10dae5e1bd35584e8a	树果吊灯	きのみなつりさげランプ	Berry hanging lamp	588	实用	装饰		400	可爱的|电力驱动的|有玻璃的|很像食物的|能感受自然的|细长的
+589	14cdf85f3e5ef1ae087ff0df317ac3bc	嵌灯	グランドライト	Surface light	589	实用	装饰		200	电力驱动的|有玻璃的|圆圆的
+590	6a4e79214cfc7578d7b2fb89df7d0853	聚光灯	スポットライト	Spotlight	590	实用	装饰		200	电力驱动的|有玻璃的|金属的
+591	9900b56002aa75c1e11bf767bbc62bb5	古董吊灯	アンティークシャンデリア	Antique chandelier	591	实用	装饰		200	电力驱动的|有玻璃的|豪华的|金属的
+592	31e206be04fe7ac161e23a2aa83c7363	音符垫（低音Do）	おんぷマット・ド	Music mat (low do)	592	实用	玩具		300	能出声的|游乐区|闪亮亮的|诡异的
+593	b81db5f6fef6873f041bd55b4c8d6395	音符垫（Re）	おんぷマット・レ	Music mat (Re)	593	实用	玩具		300	能出声的|游乐区|闪亮亮的|诡异的
+594	0bf43e22206b7ced55ee6bad94c9af55	音符垫（Mi）	おんぷマット・ミ	Music mat (Mi)	594	实用	玩具		300	能出声的|游乐区|闪亮亮的|诡异的
+595	bb56a7423122ad2c5f9c26b6fe779ddd	音符垫（Fa）	おんぷマット・ファ	Music mat (Fa)	595	实用	玩具		300	能出声的|游乐区|闪亮亮的|诡异的
+596	3e565af1d424547143488a1c3d505bec	音符垫（Sol）	おんぷマット・ソ	Music mat (Sol)	596	实用	玩具		300	能出声的|游乐区|闪亮亮的|诡异的
+597	fca3be9e7ce536c7381c39d5d020f7d2	音符垫（La）	おんぷマット・ラ	Music mat (La)	597	实用	玩具		300	能出声的|游乐区|闪亮亮的|诡异的
+598	90b1c7b21c732211622373ec9c4264e9	音符垫（Si）	おんぷマット・シ	Music mat (Ti)	598	实用	玩具		300	能出声的|游乐区|闪亮亮的|诡异的
+599	3f60ef0f039a324bbaa084e11f17a2b6	音符垫（高音Do）	おんぷマット・たかいド	Music mat (High do)	599	实用	玩具		300	能出声的|游乐区|闪亮亮的|诡异的
+600	3223027f2dc9086b2492026ec8168d5e	木楼梯	木の階段	Wooden steps	600	建筑	道路		20	
+601	c769952f5d4e3da4097c7b9c93e6059e	时髦楼梯	おしゃれ階段	Stylish steps	601	建筑	道路		100	
+602	da14d3407975cf0de8475df8fca07408	石头楼梯	石の階段	Stone steps	602	建筑	道路		100	坚硬的|石制的
+603	8d70482480de5601043da623e783f9ac	混凝土楼梯	コンクリートの階段	Concrete steps	603	建筑	道路		300	
+604	b28f21f5e523dd6232e7534429601ce4	砖块楼梯	レンガの階段	Brick steps	604	建筑	道路		50	
+605	f5a8d0c57590cce49ac41fb39d594122	铁楼梯	鉄の階段	Iron steps	605	建筑	道路		50	金属的
+606	de3165feaeb4c4d15f1d753f5e0b2b3b	木梯子	木のはしご	Wooden ladder	606	建筑			10	
+607	96d56841fc1fa1aa222e6473158b6ae5	铁梯子	鉄のはしご	Iron ladder	607	建筑			200	金属的
+608	d7cbd51ecfab563f234b301ba7e348fe	钢丝	ワイヤー	Wire	608	建筑			30	细长的
+609	18e30b5ef765f1fa901df1e430227230	锁链	くさり	Metal chain	609	建筑			200	金属的|细长的
+610	4891ef560ec536dadf9e90cd07e6293e	绳子	ロープ	Rope	610	建筑			20	细长的
+611	440d113f1c26f2a248f644cf734d4518	滑轮	かっしゃ	Pulley	611	建筑			200	
+612	5c563b4c47ff7772ba9a871b3192bc81	木仓门	木のクロスドア	Rustic door	612	建筑			100	
+613	cc90e23bfdc447ba661b7159a39123e9	简约门	シンプルなドア	Simple door	613	建筑			300	
+614	a98f20bdf88bcfd74dfe75f5f2bb2043	船舱门	ふねのドア	Boat door	614	建筑			100	
+615	2692819257b6d093d2cea5826b4c6c2a	摩登门	モダンなドア	Modern door	615	建筑			300	有玻璃的
+616	8d6da7f15151424448e36c6561747377	时尚门	スタイリッシュなドア	Stylish door	616	建筑			300	
+617	76d37ef3acf3ea3f82ac92d5117a83f9	简素门	スマートなドア	Brainy door	617	建筑			300	
+618	1c9d1abdf3ad133a24fda9d32e9d40f6	铁门	鉄のドア	Iron door	618	建筑			200	金属的
+619	27d4f3167b148c8f5354be7eeea8431d	大木门	おおきな木のドア	Large wooden door	619	建筑			100	
+620	5a56736987ef15dc824640ae971b0787	自动门	自動ドア	Automatic doors	620	建筑			300	
+621	daaafb95d8b7d6484c2aa1c7a5ad7fb3	卷帘门	シャッター	Shutter	621	建筑			300	
+622	8e65944cbcf9d995392bc9f46be62fce	木栅门	木のさくのトビラ	Wooden gate	622	建筑			100	
+623	db1e4a6d5a665afba66e38ab1812e523	双开弹簧门	もんトビラ	Swinging doors	623	建筑			100	
+624	a03afb1f8df13851fae3ade1a399a23a	金属栅门	メタルなさくのトビラ	Iron gate	624	建筑			200	金属的
+625	fae409c84bf5a28ca7637964b312b0b4	简约窗帘（左）	シンプルカーテン・ひだり	Simple curtain (left)	625	建筑			100	
+626	aa00733637795b76855ce155ac505b98	简约窗帘（右）	シンプルカーテン・みぎ	Simple curtain (right)	626	建筑			100	
+627	35021ead4bebe96b1eee5b3b860d3459	掀盖窗	フタつき窓	Hatch window	627	建筑			100	
+628	01360a489d2a2c1439821083d71ab8df	掀盖窗（地面）	フタつき窓・じめん	Underground hatch	628	建筑			50	
+629	0435e99ab0a18a211af4b67f96422857	玻璃窗	ガラス窓	Glass window	629	建筑			50	有玻璃的
+630	93dcf946068a6fee5c2edcd48b5bf36b	带框玻璃	フレームガラス	Window pane	630	建筑			50	有玻璃的
+631	415358d45724e7849e05e16185af0f7a	彩色玻璃（上）	ステンドグラス・うえ	Stained-glass window (upper)	631	建筑				
+632	de01ec67f4453c91a6000dd7980b1afa	彩色玻璃（中）	ステンドグラス・まんなか	Stained-glass window (middle)	632	建筑			20	有玻璃的
+633	ee8449c906b578fe4d7bd74b9ef943df	彩色玻璃（下）	ステンドグラス・した	Stained-glass window (lower)	633	建筑			20	有玻璃的
+634	882e1f6bc92125287b0ef9f2b43ee888	提拉窗	あげさげ窓	Sash window	634	建筑			20	有玻璃的
+635	03a2605229c8eb398578c109654da154	斜斜屋瓦	ななめのやねがわら	Sloped tiled roof	635	建筑			50	
+636	dae2f2c10557766ac67d61c82d9fa9ba	凸凸屋瓦	でっぱりのやねがわら	Tiled hipped roof	636	建筑			20	
+637	431bd76e792a0d4e6c12fa4a1047bf6b	凹凹屋瓦	ひっこみのやねがわら	Tiled roof valley	637	建筑			20	
+638	5cd7cd8a2e88262b546f2823f49c346b	水平屋瓦	たいらなやねがわら	Flat tiled roof	638	建筑			20	
+639	cca7490937b0dba9011033902a4f60c6	屋瓦装饰	やねがわらのかざり	Tiled roof decoration	639	建筑			20	
+640	eae48a7ede4b8532f322b922e678c815	鲤鱼王屋瓦	コイキングのやねがわら	Magikarp decoration	640	建筑			20	
+641	d82f30deb213c6a7b1154956c492ef71	凸凸石头屋顶	でっぱりのいしやね	Stone hipped roof	641	建筑			20	坚硬的|石制的
+642	2afb6491b0a54be8c00d73116157cfcb	斜斜石头屋顶	ななめのいしやね	Sloped stone roof	642	建筑			20	
+643	6c9f2848d1426a9446d326c194f1760c	天窗	てん窓	Skylight	643	建筑			20	
+644	e8761d76455c9425e218b2d3a403c7fa	凹凹石头屋顶	ひっこみのいしやね	Stone roof valley	644	建筑			20	坚硬的|石制的
+645	48d40519f38e0ae6d93997762153f5ea	水平石头屋顶	たいらないしやね	Flat stone roof	645	建筑			20	
+646	61aa5bd51f5a7114b90becd51c262d0d	石头屋顶的装饰	いしやねのかざり	Stone roof decoration	646	建筑			20	坚硬的|石制的
+647	d3753e9a1780e126466c832219a95d40	斜斜屋顶砖	ななめのやねレンガ	Pitched brick roof	647	建筑			20	
+648	871917f9bd0244d646d29de8afbfc73a	三角屋顶砖	さんかくのやねレンガ	Dormered brick roof	648	建筑			10	
+649	e7249dc2f9b18935e8599afacd7e916a	凸凸屋顶砖	でっぱりのやねレンガ	Brick hipped roof	649	建筑			10	
+650	839e415ef212e43a45647c3057349c28	凹凹屋顶砖	ひっこみのやねレンガ	Brick roof valley	650	建筑			10	
+651	051de326278d92891f978f1cb1273b67	水平屋顶砖	たいらのやねレンガ	Flat brick roof	651	建筑			10	
+652	11d29accd45ce1a8b0b45708675ce3ed	屋顶装饰	やねのかざり	Brick roof decoration	652	建筑				
+653	1a061ed9591734189647f04981a7c290	斜斜棚顶	ななめのテントやね	Sloped tent roof	653	建筑			20	
+654	8dcba1dd06adb027e194da8bed08bbdb	凸凸棚顶	デッパリのテントやね	Tent hipped roof	654	建筑			20	
+655	a3fc0162001eb18046c358d02429d41e	凹凹棚顶	ひっこみのテントやね	Tent roof valley	655	建筑			20	
+656	0d73cf643605351204cd5a69badb0baf	水平棚顶	たいらなテントやね	Flat tent roof	656	建筑			20	
+657	a85001c80bc0b2990b06fdda0d15b422	光滑遮阳棚	ツルツルのひよけ	Glossy awning	657	建筑			20	
+658	576bfb8fe19263c6180b01ae7798e292	凹凸板	デコボコいた	Corrugated metal	658	建筑	道路		100	金属的
+659	fa0eef8a9e2ddc133daded5294e06af6	凸凸墻	でっぱりカベ	Protruding wall	659	建筑			50	
+660	8bb563adf0a420c39b92967b67fc4bcf	扇形屋顶	おうぎやね	Curved eave	660	建筑			300	
+661	8d37c7012d20a4bc8282a9b003c58687	木栏杆	木のさく	Wooden fencing	661	建筑			10	
+662	e5e7cf41e07dd717635c6b0e0ac24d22	木围栏	木のかこい	Wooden enclosure	662	建筑			20	
+663	4cc4648a967b485ee85ab39c4f544007	铁围栏	鉄のかこい	Iron enclosure	663	建筑			20	
+664	52b940e49a93b02532dbe15ac58733c7	金属栏杆	メタルなさく	Metal fencing	664	建筑			20	
+665	d48af28917f70a51db7fd0752e644dc5	石头栏杆	いしのさく	Stone fencing	665	建筑			20	
+666	c8dfb76ccf94cc784961e8bc9c82bd3d	船用栏杆	ふねのさく	Boat railing	666	建筑			10	
+667	d7a16626fde106c54ea2d0770ce04287	木扶手	木のてすり	Wooden handrail	667	建筑			20	
+668	ba1765e91c0721df5f9c65c296e2ea27	贴墻扶手	カベつけてすり	Handrail	668	建筑			10	
+669	5ff80bc778181e342574214c62772a6b	港口桩	みなとのポール	Harbor pole	669	建筑			10	
+670	267e0c1e1323eef317c99766f696d208	拱形护栏	アーチポール	Arched barrier	670	建筑			30	
+671	64e9c3d6c123feca83b84c45fad313a7	拱形护栏（叶纹）	アーチポール・はっぱ	Arched barrier (leaf pattern)	671	建筑			500	
+672	f3031d057c2dcf5660e25c204c35803d	木隔板（笔直）	木のしきり・まっすぐ	Wooden siding (panel)	672	建筑			10	
+673	a3bf0d6627e95d96c698ec229f05ff65	木隔板（转角）	木のしきり・かど	Wooden siding (corner)	673	建筑			10	
+674	27ff3d660444610a7a9ff4b66e94b159	木隔板（有缝）	木のすきましきり	Wooden posts	674	建筑			100	
+675	d87a01cf1d24e6c1aff3defb3761c495	木屏风	木のついたて	Wooden partition	675	建筑			100	
+676	151f68103d0564a96acee4712030f4b8	金属网墻	かなあみのカベ	Grate fencing	676	建筑			20	
+677	50e66b7fc3c2609b24a6ee3a71cd4c86	木板路	木のみち	Wooden path	677	建筑	道路		10	
+678	1799a75d4df6d97be1753a940bdb0750	踏脚石	ふみいし	Stepping stones	678	建筑	道路		30	
+679	110759b4b5388ed494fab8a067220f63	栈桥	さんばし	Walkway	679	建筑	道路		20	
+680	1a1cecd536fe5c0801c3c6afb03068f3	栈桥板	さんばしのいた	Bridge planks	680	建筑	道路		10	
+681	01a3851e7e90ad15d2e297c3a6f4d46e	金属网地板	かなあみのゆか	Grate flooring	681	建筑	道路		20	
+682	3f08493a81a439cfd6d0f1466b952180	混凝土盖	コンクリートのふた	Concrete slab	682	建筑	道路		20	
+683	a3a36eca76368523a2de4f31ca73846e	脚手架板	鉄のあしば・いた	Iron-scaffold plank	683	建筑	道路		200	建设
+684	8a884ff2e5b7c0e04f9fd4295581a196	脚手架	鉄のあしば	Iron scaffold	684	建筑	道路		200	建设
+685	2f0cfa68934208d347e2ea4ba62cc9a4	拱桥	アーチのはし	Arch bridge	685	建筑			50	
+686	4c0c15ca30bef19756606a56fed83755	围边木头（笔直）	木のふち・まっすぐ	Wooden border (line)	686	建筑			20	
+687	84b2f784c8e6f862d2bcaab949ac05c6	围边木头（迷你）	木のふち・ミニ	Wooden border (single)	687	建筑			20	
+688	9dc86386aa6493cac9459949ee4a735b	围边木头（转角）	木のふち・かど	Wooden border (corner)	688	建筑			20	
+689	6cdf105dcb8f3b15dd173dcf5b2ff8cb	围边混凝土（笔直）	コンクリのふち・まっすぐ	Concrete border (line)	689	建筑			20	
+690	e421372721784fd5dc0fc99e40703858	围边混凝土（迷你）	コンクリのふち・ミニ	Concrete border (single)	690	建筑			20	
+691	a0058a8021470b5c4343a37b425c14af	围边混凝土（转角）	コンクリのふち・かど	Concrete border (corner)	691	建筑			20	
+692	315ea6023e080356f87187f5b69fb504	围边砖块（笔直）	レンガのふち・まっすぐ	Brick border (line)	692	建筑			20	
+693	4641403ba0288433225af030f157bcbf	围边砖块（迷你）	レンガのふち・ミニ	Brick border (single)	693	建筑			20	
+694	9dc2cdcf1b9ffb49875d2597df67693d	围边砖块（转角）	レンガのふち・かど	Brick border (corner)	694	建筑			20	
+695	13ffcb42584bd0cd049c280ca82ff075	横放圆木	ヨコまるた	Sideways log	695	建筑			10	
+696	896f6e49057a166df7dba0c3e8b8f798	直立圆木	タテまるた	Upright log	696	建筑			10	
+697	53123e1bf3346dcf4db4d22ba3f6e2c8	横放钢骨	ヨコてっこつ	Iron beam	697	建筑			10	
+698	4dd7cb7ad15a693be96c8e9bf3599e8e	直立钢骨	タテてっこつ	Iron column	698	建筑			10	
+699	38a405ce3545e556541930f9132c1185	铁柱	鉄のはしら	Iron pillar	699	建筑			20	
+700	956d334e99f2e24854d057bffd24e20d	豪华柱子（上）	ごうかなはしら・うえ	Extravagant pillar (upper)	700	建筑			20	
+701	ba8b8076f9bc88cf96ee59ee22b823fe	豪华柱子（中）	ごうかなはしら・まんなか	Extravagant pillar (middle)	701	建筑			20	
+702	58c780df6e715c8fdcae980eae64f4c5	豪华柱子（下）	ごうかなはしら・した	Extravagant pillar (lower)	702	建筑			20	
+703	d90ff8fa113e74f07673c23e76366ee6	圆形柱子（上）	まるいはしら・うえ	Round pillar (upper)	703	建筑			20	
+704	edd8c9290a365faba3467fed04d789f4	圆形柱子（中）	まるいはしら・まんなか	Round pillar (middle)	704	建筑			20	
+705	382f73e1c8070adc2b2ae2607edd22de	圆形柱子（下）	まるいはしら・した	Round pillar (lower)	705	建筑			20	
+706	26f37517ffbe71d22479d29fbf88df70	房间隔板	いえのしきり	House partition	706	建筑			100	
+707	59cb32118a577139a4452bb0ebe46865	简约柱子（1/4）	シンプルなはしら・1／4	Simple pillar quarter	707	建筑			200	
+708	271262f609c197fea9b16f3e87faa162	水流柱子（1/4）	アクアなはしら・1／4	Water pillar quarter	708	建筑	装饰		200	有玻璃的|能感受水的|用于观赏的
+709	3a0580947a2a88da8305ded65a801583	屋顶支撑	やねのささえ	Roof support	709	建筑			20	
+710	241fee9d3df3b1089c02ae5b1463c0ff	铁管（横放）	鉄パイプ・よこ	Iron pipe (horizontal)	710	建筑			10	
+711	2550307fc6e270d7d887a3895dc1b800	铁管（下弯）	鉄パイプ・したカーブ	Iron pipe (downward curve)	711	建筑			10	
+712	7b550e4a45355f55d742a69f7f8c4e46	铁管（直立十字）	鉄パイプ・たてじゅうじ	Iron pipe (vertical cross)	712	建筑			10	
+713	8a81be62fe8b394d640cc65faae5a07c	铁管（直立丁字）	鉄パイプ・たてTじ	Iron pipe (vertical T)	713	建筑			10	
+714	4884baec226008bb0de8bd1242056d3e	铁管（直立）	鉄パイプ・たて	Iron pipe (vertical)	714	建筑			10	
+715	3134f78939b9af077a97ba87b6d4b8cc	铁管（上弯）	鉄パイプ・うえカーブ	Iron pipe (upward curve)	715	建筑			10	
+716	32f0dfdc819946720938f4cac45d840a	铁管（上丁字）	鉄パイプ・うえTじ	Iron pipe (upward T)	716	建筑			10	
+717	82320a520a133330611c0d9f9e81ac4a	铁管（下丁字）	鉄パイプ・したTじ	Iron pipe (downward T)	717	建筑			10	
+718	b5ba389ff4a75bf513d5edfb019c6584	铁管（横弯）	鉄パイプ・よこカーブ	Iron pipe (horizontal curve)	718	建筑			10	
+719	ac4ac632bccfd1d0af7807fafa223de0	铁管（横放丁字）	鉄パイプ・よこTじ	Iron pipe (horizontal T)	719	建筑			10	
+720	8d21a5653ae02c3606da0c6acffdb268	铁管（横放十字）	鉄パイプ・よこじゅうじ	Iron pipe (horizontal cross)	720	建筑			10	
+721	2d93ad1763241ccf3e5dbe1a7a3aa7e8	木墻	木のカベ	Wooden Wall	721	方块			20	
+722	e9bf9c62e99a872aabdea636236a539e	木墻（浅）	木のカベ・ライト	Light wooden wall	722	方块			20	
+723	cc7ed7261073043f20f52e2bd6aecd15	油漆墻	ペンキぬりのカベ	Painted wall	723	方块			20	
+724	2dd47a88fe92bf4d5c06453cc38a075a	灰泥墻	しっくいのカベ	Plaster wall	724	方块			20	
+725	420e2ee699c6ae717a9978da1ed3ccbd	布墻	ぬののカベ	Cloth wall	725	方块			20	
+726	4e3e1a0f784e5ccc1a5cf6625cd1509b	客房墻	きゃくしつのカベ	Guest-room wall	726	方块			20	
+727	371dac1e541497de138cdc82bdff8938	星空墻	ほしぞらのカベ	Starry-sky wall	727	方块			20	
+728	22dc5f0adb5e163bc8ded11915aecba9	皮革墻	レザーのカベ	Cushy wall	728	方块			20	
+729	9fd582520b058a64b6733d49cd22dc21	摩登墻	モダンなカベ	Modern wall	729	方块			20	
+730	b9b545ca69e7e27b9f9d8e09760d2944	碎砖墙	0	Broken-tiling wall	730	方块			20	
+731	60486511e31d23be67a77c7dee117135	石砌墻	いしづみのかべ	Cobblestone wall	731	方块			20	
+732	aa5163e8cbf2a37ff41ae189480d1c06	砖块墻	レンガのカベ	Brick wall	732	方块			20	
+733	1c1e5c3290c9473a99e950ad94c6eb76	石砖墙	いしレンガのカベ	Stone brick wall	733	方块			20	坚硬的|石制的
+734	c3259384bac1b876f20ea16bd30aef89	古旧石墙	ふるびたいしカベ	Aged-stone wall	734	方块			20	
+735	0ff135fb2d56b6a732fb3105a9c9287c	古旧石墙（花纹）	ふるびたいしカベ・がら	Patterned aged-stone wall	735	方块			20	
+736	ad1fcbb64f7a1b2619b462cd959f1213	未粉刷的墙	うちっぱなしのカベ	Concrete wall	736	方块			20	
+737	e8e1a55156e7557560fb19ef3e4b0503	粗粗墙	ざらざらカベ	Rough wall	737	方块			20	
+738	8ef9830c84ae6212056978df0235c87e	竖纹墙	たてラインのかべ	Striped wall	738	方块			20	
+739	0b804efe4107fa3694d3927d3364ff66	青铜墙	ブロンズのカベ	Bronze wall	739	方块			20	
+740	6df8438723426dcb10bcaf0235d5a667	时髦青铜墙	おしゃれなブロンズのカベ	Stylish Bronze wall	740	方块			20	
+741	5f60d3bd67cd3df4f9f3d33a372632e3	铁墙	てつのカベ	Iron wall	741	方块			20	金属的
+742	902a1a117197382b9b065b690fd28d69	时髦铁墙	おしゃれなてつのカベ	Stylish iron wall	742	方块			20	
+743	f83626c63bf41f0c726b965af396332a	黄金墙	おうごんのカベ	Gold wall	743	方块			20	
+744	10771f03c76659a6642b40847bc4af5c	时髦黄金墙	おしゃれなおうごんのカベ	Stylish gold wall	744	方块			20	
+745	baa8b3a4c2b4f5be97c7b3cb0f2d5d8c	水晶墙	クリスタルのカベ	Crystal wall	745	方块			20	
+746	46af4eda2a9320fd797e7803d15d2f2d	精灵球墙	モンスターボールのカベ	Poké Ball Wall	746	方块			20	
+747	04a18aaa1655eb43dec953b8f3e73bf8	危险地带墙	キケンちたいのカベ	Warning wall	747	方块			20	
+748	e101afa83e05b08b1b8769fec23ca867	时髦墙（上）	おしゃれカベ・うえ	Stylish wall (upper)	748	方块			20	
+749	d1be32449509687fc4e90e93d5178294	时髦墙（中）	おしゃれカベ・まんなか	Stylish wall (middle)	749	方块			20	
+750	6016e490e65ab3c752da19ebe0e56cfb	时髦墙（下）	おしゃれカベ・した	Stylish wall (lower)	750	方块			20	
+751	2d45cbfd74a2654bcf8a27fcb31f9055	古董墙（上）	アンティークなカベ・うえ	Antique wall (upper)	751	方块			20	
+752	d2b5ef1b9d2ab41f2aee8e38e2a53e5c	古董墙（中）	アンティークなカベ・なか	Antique wall (middle)	752	方块			20	
+753	13fb557e743015f07c270be7a6e5a380	古董墙（下）	アンティークなカベ・した	Antique wall (lower)	753	方块			20	
+754	15c47496a94ac1ae2b3946eb16647efd	浅色古董墙（上）	ライトアンティークカベ・うえ	Light antique wall (upper)	754	方块			20	
+755	d20311ec40b423760190efdfdcbef486	浅色古董墙（中）	ライトアンティークカベ・なか	Light antique wall (middle)	755	方块			20	
+756	33e171a341ab70f1e06f273d1a33a154	浅色古董墙（下）	ライトアンティークカベ・した	Light antique wall (lower)	756	方块			20	
+757	7473a668092ffe688964f2b3378ddb66	木头柱（上）	木のはしら・うえ	Wooden pillar (upper)	757	方块			20	
+758	81a97a52421ebfa2940ce48df5f2450d	木头柱（中）	木のはしら・まんなか	Wooden pillar (middle)	758	方块			20	
+759	ddf6a54cdb1a6f4f2851dcbc229e8aee	木头柱（下）	木のはしら・した	Wooden pillar (lower)	759	方块			20	
+760	be1e500c91b534afe5eaa855152f4b30	时髦砖块（上）	おしゃれレンガ・うえ	Stylish brick wall (upper)	760	方块			20	
+761	8a3ef8e3c5cff748615efb6ab4e56c2f	时髦砖块（中）	おしゃれレンガ・まんなか	Stylish brick wall (middle)	761	方块			20	
+762	57b00c713dc5d73ff6e8beb8c2d78467	时髦砖块（下）	おしゃれレンガ・した	Stylish brick wall (lower)	762	方块			20	
+763	86eb7e499e27903a05c1043bb1c7b7ce	石柱（上）	いしのはしら・うえ	Stone pillar (upper)	763	方块			20	坚硬的|石制的
+764	1568d6757df151a57082d64cb65648f1	石柱（中）	いしのはしら・まんなか	Stone pillar (middle)	764	方块			20	坚硬的|石制的
+765	f275a289f399b5f854139a83c9c81648	石柱（下）	いしのはしら・した	Stone pillar (lower)	765	方块			20	坚硬的|石制的
+766	caada558f78bf6797fca25e8d0b5ddff	新潮墙（上）	ポップなカベ・うえ	Pop art wall (upper)	766	方块			20	
+767	afd56dfb432f25b2cb543e1522e0e956	新潮墙（中）	ポップなカベ・まんなか	Pop art wall (middle)	767	方块			20	
+768	92bf8a6084b38b3f4d0bea006e5594e7	新潮墙（下）	ポップなカベ・した	Pop art wall (lower)	768	方块			20	
+769	63bc00c52cbb25e3b55ba892deefd223	甜点墙（上）	スイーツなカベ・うえ	Confectionery wall (upper)	769	方块			20	
+770	7bd98984a190a84ea63f684145fda738	甜点墙（中）	スイーツなカベ・まんなか	Confectionery wall (middle)	770	方块			20	
+771	ae1b59011f5d617fb5d405f7580a3ddf	甜点墙（下）	スイーツなカベ・した	Confectionery wall (lower)	771	方块			20	
+772	5a3ee9d1418f7325656b50a16c7a0954	宝可梦中心的墙（上）	ポケセンのカベ・した	Pokémon Center wall (upper)	772	方块			20	
+773	6f2610446f796d6f0510520d1a16f815	宝可梦中心的墙（中）	ポケセンのカベ・ふち	Pokémon Center wall (middle)	773	方块			20	
+774	f6ba8257afce484d430a3162e0c6e9ca	宝可梦中心的墙（下）	ポケセンのカベ・うえ	Pokémon Center wall (lower)	774	方块			20	
+775	cd8bdaa48fdc73606416f2389b8dccb9	宝可梦中心的墙（边）	ポケセンのカベ・まんなか	Pokémon Center wall (trim)	775	方块			20	
+776	47c72284cfc0be134f8dc0dca830165f	木地板	木のゆか	Wooden flooring	776	方块	道路		10	
+777	7d6a47644c3d56633f6753aba22e0d9f	斜斜木地板	ななめの木のゆか	Diagonal wooden flooring	777	方块	道路		10	
+778	c9302d82ef8973d37e2868e8905b4321	拼木地板	タテヨコの木のゆか	Crisscross wooden flooring	778	方块	道路			
+779	56ae4269abfc3e081112c43a7c513403	实木地板	实木のゆか	Hardwood flooring	779	方块	道路			
+780	aefd7e6e8e82bcb85fcac9f15b985b3e	摩登地毯	モダンなカーペット	Modern carpeting	780	方块	道路			
+781	77965da868629d7f646d1335a047c6ea	拼接式地毯	タイルカーペット	Woven carpeting	781	方块	道路		20	
+782	cac30df7ccda1a74d508496c239f2451	棉花地板	わたのゆか	Fluffy flooring	782	方块	道路			
+783	7e424e2dfe8636868b3dac6c8fb79643	软绵绵地毯	フカフカじゅうたん	Soft carpeting	783	方块	道路		20	
+784	9c1ed1b186adb33c983f85decf6babcf	豪华地毯	ごうかなじゅうたん	Extravagant carpeting	784	方块	道路			
+785	aa8810fd136fd74ddf37f1a15f904627	榻榻米	たたみ	Tatami mat	785	方块	道路			
+786	a41d990845b938cce9c95041bb177e4d	毛毡垫子	フェルトマット	Felt mat	786	方块	道路			
+787	4625ae8a17683714a9b596053cfd2689	木纹绵绵柱	木のフカフカはしら	Puffy-tree Pillar	787	方块	道路			
+788	8cd84a700b68e46556c671e8f80a62a6	草皮地板	しばふのゆか	Grass flooring	788	方块	道路			
+789	f95aa7933b08b5275cd9facbeef48101	简约地板	シンプルなゆか	Simple flooring	789	方块	道路			
+790	e81576874e08168741b020b40fd6ca9d	大理石	だいりせき	Marble	790	方块	道路			
+791	61312924c1c8253793a03f114fa8daf5	石头地板	いしのゆか	Stone flooring	791	方块	道路		10	坚硬的|石制的
+792	ed3e8d817f6fd0deb01a32cb8e6a2b0d	石头直纹地板	いしラインのゆか	Lined-stone flooring	792	方块	道路			
+793	34011e1295e6f96249eae7ac94dc84e3	大理石地板（深）	だいりせきのゆか・ダーク	Dark marble flooring	793	方块	道路			
+794	6086cc8e8ddc8ef2ef4aa52ddfb83862	大理石地板（浅）	だいりせきのゆか・ライト	Light marble flooring	794	方块	道路		20	
+795	23442da34f44886bc575db0c447379eb	古旧石地板	ふるびたいしゆか	Aged-stone flooring	795	方块	道路			
+796	9c9dfda51a7830362cf086ebe8d80bf5	简约方形砖	シンプルしかくタイル	Simple square tiling	796	方块	道路			
+797	a01ce621b2df48c5e86cb763d856fb8a	时髦砖	おしゃれタイル	Stylish tiling	797	方块	道路		10	
+798	637702e1a52b2d0223a1cda0a334f0c6	六角形地板	ろっかくけいのゆか	Hexagonal flooring	798	方块	道路		20	
+799	f9897c0ef8e47b85f089e3c1377a449a	商店地板	ショップのゆか	Shop flooring	799	方块	道路			
+800	129ed347f09956fab0c97a8300aa992e	三角花纹地板	さんかくもようのゆか	Triangle-design flooring	800	方块	道路		20	
+801	88d68f3194383baeab4d4f107995d003	铁皮地板	てっぱんのゆか	Iron-plate flooring	801	方块	道路		20	金属的
+802	adf86023b010c23fda96ed59e62aa502	铁砖	てつのタイル	Iron tiling	802	方块	道路		20	
+803	06fd04ae2fc32554315d5b4c022574d5	霓虹地板	ネオンなゆか	Neon flooring	803	方块	道路		20	
+804	8ddad16af7c38b9acf704ed94ab2f350	赛博地板	サイバーなゆか	Cyber flooring	804	方块	道路		20	
+805	bfd88da7f25c3784083ee7d23099bc45	拱形砖	アーチタイル	Arched tiling	805	方块	道路			
+806	dabb04b47a0c5406f9c6a86e5d0e3dbf	石头砖	いしのタイル	Stone tiling	806	方块	道路			坚硬的|石制的
+807	01f3ee8336a5006edfa39f654d1e086e	方形砖	しかくタイル	Square tiling	807	方块	道路		20	
+808	157705d0641d4c206e065530da45d07b	马赛克砖	モザイクタイル	Mosaic tiling	808	方块	道路			
+809	6d2096f50753b82a38c6ba1e2bd006ca	砖块地板	レンガのゆか	Brick flooring	809	方块	道路			
+810	c73d7acb102f09152449966a25a81293	时髦石地板	おしゃれゆかいし	Stylish stone flooring	810	方块	道路			
+811	31974d13c9ff7f577a908093ea504ae5	鳞纹砖	うろこタイル	Fish-scale tiling	811	方块	道路			
+812	932c0840423aca813428a04dcb464a5f	柏油路	アスファルトのみち	Asphalt road	812	方块	道路			
+813	98ffe4ae220d6b08b26f3055604985b0	白线道路（横线）	はくせんのみち・よこ	Marked road (horizontal)	813	方块	道路			
+814	ac4578db6d075777245cba8069a76b68	白线道路（竖线）	はくせんのみち・たて	Marked road (vertical)	814	方块	道路			
+815	661c9c967d84eacbaa3f948edae4705a	灰色圆点地板	グレーなマルのゆか	Gray circle flooring	815	方块	道路			
+816	e98c7bee7777ddaceb3bb4ef3fdacefb	稻草堆	つみあげわら	Hay pile	816	方块			10	
+817	087dd5a2b7bd7fb590323f1d3a53711a	铁板	てっぱん	Iron plating	817	方块			10	
+818	830734f3e4fa84aa96808f066dc71598	发光方块	フェルトマット	Cube light	818	方块			10	
+819	66323c76f6172d892b73ea3964dcbe12	房屋地基	いえのどだい	Foundation	819	方块			10	
+820	ac21a3bb348ac3dfd34fc01fb6bbf843	堤防	ていぼう	Levee	820	方块			10	
+821	6f1b6c06a90c8a16a3106647af8cd71e	废料块	スクラップ	Scrap cube	821	方块			10	
+822	44f153b065d0d91d83590c8a01f8cc07	圆点花纹	みずたまもよう	Polka-dot print	822	方块			10	
+823	c9a7f03e8369172a6c500eb2f1818948	泡泡花纹	シャボンのもよう	Bubble print	823	方块			10	
+824	c008d45129630acc6d72629f8b39ee09	竖条纹	たてストライプ	Vertical-stripe print	824	方块			10	
+825	c84fee954f93d0c0fe3503f2794cae4e	横条纹	よこストライプ	Horizontal-stripe print	825	方块				
+826	9b7186f91ce6e582d88e334cd770cbe3	白色方格纹	ギンガムチェック	Gingham print	826	方块			10	
+827	6510b9e18cc10f65e521715a655091c2	多色方格纹	タータンチェック	Tartan print	827	方块			10	
+828	9d413959060f17881b7461fc1dce3c7d	菱格纹	アーガイルチェック	Argyle print	828	方块			10	
+829	7b6f9be3c3af76df2c3e59b2d06d20b6	千鸟格纹	ちどりごうし	Houndstooth print	829	方块			10	
+830	c366348d6e170dcb004534b8f3782060	蔓草花纹	からくさもよう	Vine print	830	方块			10	
+831	5f79bd092f7c747e18d6d4f3cd3281f5	漩涡花纹	0	Swirl print	831	方块			10	
+832	7425e7dd04692813361b0230d016fb12	冬天花纹	ふゆのもよう	Winter print	832	方块			10	
+833	2df2669a7f396c1532cc8905d510cb08	锯齿花纹	ギザギザもよう	Zig-zag print	833	方块			10	
+834	32fab1872931cc9bbb7d58eb7c1a85dc	叶子花纹	はっぱもよう	Leaf print	834	方块			10	
+835	3014700d63215e1a08836ab6475de20f	花朵花纹	はなもよう	Flower print	835	方块				
+836	f5178e9afaa2fd0891ebc8f4e94eb22e	星星花纹	ほしのもよう	Star print	836	方块			10	
+837	44e70c401f12b2242965919b0d6810c1	咖喱花纹	カレーもよう	Curry print	837	方块			10	
+838	3546faaf2e3f5d26241e5171210e7530	树果花纹	きのみのもよう	Berry print	838	方块			10	很像食物的|能感受自然的
+839	76353d0818e0388d12d09d4f6c291287	精灵球花纹	ボールもよう	Poké Ball print	839	方块			10	
+840	301357ef97ba1cb44088b3b0d879b6d2	时髦精灵球花纹	おしゃれボールもよう	Stylish Poké Ball print	840	方块			10	
+841	7f253d8500db69979b5ea550985f5c10	草原的草皮	そうげんのしばふ	Field grass	841	方块			10	
+842	8b40a474b094210bb18d44f3ddafff73	海岸的草皮	かいがんのしばふ	Seashore grass	842	方块			10	
+843	4ff06b3cfe6ebe4ed35dbf41c27ba833	山岳的草皮	さんがくのしばふ	Alpine grass	843	方块			10	
+844	89caccdd8a4207dcd2011df85e84c6f0	天空的草皮	てんくうのしばふ	Sky-high grass	844	方块			10	
+845	693cb7c96de707646733113e14306e28	普通土	ふつうのつち	Ordinary soil	845	方块			10	
+846	4703e9beb18092a1a06fcc7a2cbe451e	贝壳土	かいがらのつち	Seashell soil	846	方块			10	
+847	7c088eeb396a01648213f67b18f786ec	层纹土	シマシマのつち	Striped soil	847	方块			10	
+848	a2d7d7b03c0a11f863708589d3611ffe	洁白的土	まっしろなつち	Pure-white soil	848	方块			10	
+849	8ae42cdd446acc60c94503f088871145	黏土	ねんど	Clay	849	方块			10	
+850	b6b866411c095e1f1c4fc059835be778	普通沙子	ふつうのすな	Ordinary sand	850	方块			10	
+851	15b3fc66df359d6f21090af68d3b9c9b	海边的沙子	うみべのすな	Beach sand	851	方块			10	
+852	0db471c0a1f9fd86ffdccb90de7a9659	空岛的沙子	うきしまのすな	Skyland sand	852	方块			10	
+853	c6ea7bd7457d8a9118808de00f3bf8dc	粗粗沙滩	ザラザラすなはま	Bumpy beach sand	853	方块			10	
+854	d99e3d7a01c8c76528834210d0166c1b	火山灰	かざんばい	Volcanic ash	854	方块			10	
+855	7712e15dea4ac9d02863244d245053c7	砂岩	すないわ	Sandstone	855	方块			10	
+856	a1a1a53c86b27393cea573b6ea315b28	空岛的砂岩	うきしまのすないわ	Skyland sandstone	856	方块			10	
+857	070d752adf499bd5cd2f3d1f79db2178	崖岩	がけいわ	Cliff rock	857	方块			10	
+858	22baac1939f7e7dc4df509d063da9339	砾崖岩	ツブがけいわ	Spotted cliff rock	858	方块			10	
+859	316bd4b5698bdec64fc8e48d3bcfe993	红色崖岩	あかがけいわ	Red cliff rock	859	方块			10	
+860	854cdb619a87ecd4d2abaf466f55eea3	红色砾崖岩	あかいツブがけいわ	Red spotted cliff rock	860	方块			10	
+861	3169895db7e5af1f9325c391129d893b	黑色崖岩	くろがけいわ	Black cliff rock	861	方块			10	
+862	cdb6b2916a33d2800281671effdb4fb0	黑色砾崖岩	くろいツブがけいわ	Black spotted cliff rock	862	方块			10	
+863	31651ba0e18dd0fca71e1713fec7d91e	空岛的崖岩	うきしまのがけいわ	Skyland cliff rock	863	方块			10	
+864	cf0334539505ee8eba308575d6dbac70	空岛的砾崖岩	うきしまのツブがけいわ	Skyland spotted cliff rock	864	方块			10	
+865	18dfe4bb4cb4e802bfb5d003589adc2c	白色岩石	しろいいわ	White rock	865	方块			10	
+866	6f08e0d864167b381b1963204eb4b83c	粗粗岩	ザラザラいわ	Coarse rock	866	方块			10	
+867	5183ac0f39e6d1c71907e6d4da600bcf	淡褐色岩石	うすちゃいわ	Light brown rock	867	方块			10	
+868	07b880874f411b85ca00c9efd54efa7e	红色岩石	あかいわ	Red rock	868	方块			10	
+869	2d8938a9516bae35857e7a4e2f007108	黄色岩石	きいろいいわ	Yellow rock	869	方块			10	
+870	75ff07af0c3b7058c5d9ed0741b04e5b	黑色岩石	くろいいわ	Black rock	870	方块			10	
+871	3394add7ad1cf81bd341b301684e7be6	岩浆岩	マグマいわ	Lava rock	871	方块			10	
+872	35cd13fd23e12ad7fda215582d771298	洞窟岩	どうくつのいわ	Cave rock	872	方块			10	
+873	f54c8fa113146c278289d525ae3c9d3d	大海岩	うみのいわ	Ocean rock	873	方块			10	
+874	273c3919c6189cdc6a47a684929d1147	红褐色洞窟岩	あかちゃどうくついわ	Reddish-brown cave rock	874	方块			10	
+875	5e362c3105a6c25b3ffdb34fc887d256	火山岩石	かざんのいわ	Volcanic rock	875	方块			10	
+876	b14b4d37ae2ce752f065ece585201e8b	白色削岩	しろいけずれたいわ	Carved white rock	876	方块				
+877	9b77441eeea4ee9f11343603bb5787d4	粗粗削岩	ザラザラのけずれたいわ	Carved coarse rock	877	方块				
+878	5255ef8a63714d589290d91d7fc8c3e4	淡褐色削岩	うすちゃのけずれたいわ	Carved light-brown rock	878	方块				
+879	3563cb2c1f45e699dbcda2f406e6e3bc	红色削岩	あかいけずれたいわ	Carved red rock	879	方块				
+880	d62bdd6e4204d795e7efef4dba9555e4	黄色削岩	きいろいけずれたいわ	Carved yellow rock	880	方块				
+881	dcc173398309426023e03a10c0ab7c51	铜矿石【荒野】	どうこうせき（パサパサ）	Copper deposit (Wasteland)	881	方块			10	
+882	d66d678617fad6dfa692ad10bbd93999	铜矿石【海边】	どうこうせき（ドンヨリ）	Copper deposit (Beach)	882	方块			10	
+883	5e94bb1a3ad7f9c73a55fdcb9cc73303	铜矿石【山地】	どうこうせき（ゴツゴツ）	Copper deposit (Ridge)	883	方块			10	
+884	8929742ed6a56751be60dac37e4e43bb	铜矿石【空岛】	どうこうせき（キラキラ）	Copper deposit (Skyland)	884	方块			10	
+885	80437cd58682c1e13d3fd80f77124be1	铁矿石	てつこうせき	Iron deposit	885	方块			100	金属的
+886	955e46bd4facb8b5691ed0075fcd9211	金矿石	きんこうせき	Gold deposit	886	方块			200	
+887	f0d6f289a1a7fbad239e9f2159f228bd	宝可金属矿石	ポケメタルこうせき	Pokémetal deposit	887	方块			500	
+888	ef1cb9ac7dee822185eaf834f8d36965	苔土	コケつち	Mossy soil	888	方块			10	
+889	ee1b7276a029004e44629d3a04ee9be2	碎石	じゃり	Gravel	889	方块			10	
+890	14e2c17fbadf81a3c4cbabb7385f750e	石灰石	せっかいせき	Limestone	890	方块			10	
+891	e38f5803fb2f6a7e9ac8335503282917	彩光石	ヒカリいし	Glowing stone	891	方块			10	
+892	1bae3b5acbe14d09b29dacf0c3e385b1	谜之石头	ナゾのいし	Mysterious stone	892	方块			10	
+893	8f34100959fbc8dbd5597204c04ac382	冰块	こおり	Ice	893	方块			10	
+894	30ddc20eea83b91bfdd91d59ccc4005e	龟裂的砂岩	ひびわれすないわ	Cracked sandstone	894	方块			10	
+895	c04c3535d72fab7eb5dddea608a96d55	灰灰徽章	グレーなバッジ	Bouldery Badge	895	重要物品				
+896	1e31aa53605f9a1733ecb7d2070117c5	蓝蓝徽章	ブルーなバッジ	Cascade-like Badge	896	重要物品				
+897	edb54712bc3dcce01218f507d43c6f51	橙橙徽章	オレンジのバッジ	Thunderish Badge	897	重要物品				
+898	8c5dfe6f2136b04d5efb8921b46a397f	虹彩徽章	レインボーなバッジ	Rainbowish Badge	898	重要物品				
+899	1af200dec1c068234f831a3d1cbe095b	红粉徽章	ピンクのバッジ	Soul-like Badge	899	重要物品				
+900	a1f023a1ca9ff52d2cf5a840af429d8c	金金徽章	ゴールドなバッジ	Marshy Badge	900	重要物品				
+901	253d390d594c082a0617ed4e9be6a7ac	红深徽章	クリムゾンなバッジ	Volcanoey Badge	901	重要物品				
+902	39548355a1aafd5791ddccd32e9fdf09	绿绿徽章	グリーンなバッジ	Earth Badge	902	重要物品				
+903	c45367d2ff75e71eeb2b365459345252	探宝器	ダウジングマシン	Dowsing Machine	903	其他			10	
+904	7a350f0ddf765add981db02437a3adce	新型探宝器	ネオダウジングマシン	Neo Dowsing Machine	904	其他			10	
+905	5a4a9c042bda398b7c55e46728829534	彩花炮	クラッカー	Party Popper	905	其他			10	
+906	0c5506fb3106e406a8f39cb08883bc0b	星星碎片	ほしのかけら	Star Piece	906	其他			500	闪亮亮的
+907	d6b778e6fef69d6245c5f7a506410d5a	彩色气球（白）	いろふうせん・しろ	Paint balloon (white)	907	其他			100	多彩的|圆圆的
+908	2c81385a8af98e66092bdaca7eaa3064	彩色气球（红）	いろふうせん・あか	Paint balloon (red)	908	其他			100	多彩的|圆圆的
+909	ab715de984b5c9e6fd4f06b22d739452	彩色气球（黄）	いろふうせん・きいろ	Paint balloon (yellow)	909	其他			100	多彩的|圆圆的
+910	492d244e86795fd6ab25d9c0296f5d35	彩色气球（绿）	いろふうせん・みどり	Paint balloon (green)	910	其他			100	多彩的|圆圆的
+911	7291ae19bc0243676301560c166036ef	彩色气球（红紫）	いろふうせん・あかむらさき	Paint balloon (rose)	911	其他			100	多彩的|圆圆的
+912	f25df190f4ebf0d08fd82847eb8d4230	彩色气球（粉红）	いろふうせん・ピンク	Paint balloon (pink)	912	其他			100	多彩的|圆圆的
+913	eea162efd05c65b6a1b3c2f64bb608dc	彩色气球（橙）	いろふうせん・オレンジ	Paint balloon (orange)	913	其他			100	多彩的|圆圆的
+914	0d84fe504bcb247dba46dbc7888ec4eb	彩色气球（紫）	いろふうせん・むらさき	Paint balloon (purple)	914	其他			100	多彩的|圆圆的
+915	ff7a95db62ffe2ad60ae9a20a6a28bf3	彩色气球（棕）	いろふうせん・ちゃいろ	Paint balloon (brown)	915	其他			100	多彩的|圆圆的
+916	b487e8e5a841e8642a5b81eb43eeec87	彩色气球（卡奇）	いろふうせん・カーキ	Paint balloon (beige)	916	其他			100	多彩的|圆圆的
+917	c5164059c981c3cbd62b14d2f723cf65	彩色气球（黑）	いろふうせん・くろ	Paint balloon (black)	917	其他			100	多彩的|圆圆的
+918	797471fa0e4a3931c489c46b64ca0437	彩色气球（浅绿）	いろふうせん・きみどり	Paint balloon (lime)	918	其他			100	多彩的|圆圆的
+919	df7f71cdae89ec24806bab320a8e5c26	彩色气球（深紫）	いろふうせん・ふかむらさき	Paint balloon (plum)	919	其他			100	多彩的|圆圆的
+920	2dd6451b10ee3ef3dc83b032990b7fe2	彩色气球（深蓝）	いろふうせん・こんいろ	Paint balloon (navy)	920	其他			100	多彩的|圆圆的
+921	44ce850a9deb931096173669b7499516	彩色气球（蓝）	いろふうせん・あお	Paint balloon (blue)	921	其他			100	多彩的|圆圆的
+922	6ba65990798935950d04725598eb643f	彩色气球（浅蓝）	いろふうせん・みずいろ	Paint balloon (cyan)	922	其他			100	多彩的|圆圆的
+923	cdd57559b659af0b0bf8adbf347a5866	彩色气球（灰）	いろふうせん・はいいろ	Paint balloon (gray)	923	其他			100	多彩的|圆圆的
+924	ca119099b815d1afdd4d649d516d7acf	彩色气球（蓝绿）	いろふうせん・あおみどり	Paint balloon (aquamarine)	924	其他			100	多彩的|圆圆的
+925	7d90e74b8355540440fbbb2637d687b5	烟火弹（白）	はなびだま・しろ	Firework (white)	925	其他			50	圆圆的
+926	3d8218ac171006775a8615576234f98e	烟火弹（红）	はなびだま・あか	Firework (red)	926	其他			50	圆圆的
+927	350003d8a61976152ca656fae50bdf75	烟火弹（绿）	はなびだま・みどり	Firework (green)	927	其他			50	圆圆的
+928	4ed4db0be72cd97b790ee19a88c92677	烟火弹（黄）	はなびだま・きいろ	Firework (yellow)	928	其他			50	圆圆的
+929	a31de96f5f323774d77d209eea9db29b	烟火弹（蓝）	はなびだま・あお	Firework (blue)	929	其他			50	圆圆的
+930	be15fb7690b1209d51ebd14742da6ad7	石头砖【壁纸】	いしのタイル	Stone tiling (wallpaper)	930	其他			100	坚硬的|石制的
+931	feae475def8c74a9cdbec01546aaaa97	木墙【壁纸】	木のカベ	Wooden wall (wallpaper)	931	其他			100	
+932	1cc6ce6bb846d11d02c3d4e35fae9255	时髦石地板【壁纸】	おしゃれゆかいし	Stylish stone flooring (wallpaper)	932	其他			100	
+933	03ea2c0f9da3ea088a9e7bee1a0c0e52	木地板【壁纸】	木のゆか	Wooden flooring (wallpaper)	933	其他			100	
+934	bb4951280cf4cbefb3250eb04c11f824	棉花地板【壁纸】	わたのゆか	Fluffy flooring (wallpaper)	934	其他			100	
+935	9092541f204b1c8cb3c55b8474e7af2c	拱形砖【壁纸】	アーチタイル	Arched tiling (wallpaper)	935	其他			100	
+936	cd7619d4afa03b9eab7ef6449ea88463	马赛克砖【壁纸】	モザイクタイル	Mosaic tiling (wallpaper)	936	其他			100	
+937	ac32476918718b5f1206f45b964a9cd2	星空墙【壁纸】	ほしぞらのカベ	Starry-sky wall (wallpaper)	937	其他			100	
+938	3ff818858e8378a6fdd464ca90847257	拼接式地毯【壁纸】	タイルカーペット	Woven carpeting (wallpaper)	938	其他			100	
+939	0da4e366e6be5df6fcbb46dcaec810b7	黄金墙【壁纸】	おうごんのカベ	Gold wall (wallpaper)	939	其他			100	
+940	8996146a2cde221a8ac3163005c50e52	时髦黄金墙【壁纸】	おしゃれなおうごんのカベ	Stylish gold wall (wallpaper)	940	其他			100	
+941	3544a2b76b8c7da17b286d57c15de66e	古旧石墙（花纹）【壁纸】	ふるびたいしカベ・がら	Patterned aged-stone wall (wallpaper)	941	其他			100	
+942	7e5de8628f038878542f415f43bc17d7	古旧石墙【壁纸】	ふるびたいしカベ	Aged-stone wall (wallpaper)	942	其他			100	
+943	479abf32bc26f35d0eeb74d801548b56	古旧石地板【壁纸】	ふるびたいしゆか	Aged-stone flooring (wallpaper)	943	其他			100	
+944	88b54b269003843cfbb2aa33f2eee7a6	危险地带墙【壁纸】	キケンちたいのカベ	Warning wall (wallpaper)	944	其他			100	
+945	38c59296ba91fd4b6c98ae9b8e328f0a	水晶墙【壁纸】	クリスタルのカベ	Crystal wall (wallpaper)	945	其他			100	
+946	071fc79afe16334a9988a945f5485d4f	摩登地毯【壁纸】	モダンなカーペット	Modern carpeting (wallpaper)	946	其他			100	
+947	8b39904694247efbac009bd4b943bd3f	铁板地板【壁纸】	てっぱんのゆか	Iron-plate flooring (wallpaper)	947	其他			100	金属的
+948	e895fe1bd6e6ca66be614f71eea27f75	商店地板【壁纸】	ショップのゆか	Shop tiling (wallpaper)	948	其他			100	
+949	f7909780299f5ae061aa78ca33634010	砖块墙【壁纸】	レンガのカベ	Brick wall (wallpaper)	949	其他			100	
+950	9e1de444a58949deb80b21fe64c60bfa	未粉刷的墙【壁纸】	うちっぱなしのカベ	Concrete wall (wallpaper)	950	其他			100	
+951	d726a1915366b8260ae77fee01b45f06	石头地板【壁纸】	いしのゆか	Stone flooring (wallpaper)	951	其他			100	坚硬的|石制的
+952	c7be4c7750031d71516ef56033a7b58c	石头直纹地板【壁纸】	いしラインのゆか	Lined-stone flooring (wallpaper)	952	其他			100	
+953	f1f34b9882c7a974383f691f305d3fa7	灰泥墙【壁纸】	しっくいのカベ	Plaster wall (wallpaper)	953	其他			100	
+954	627ea3d8df746d7afdc81d9e1e996b33	石砖墙【壁纸】	いしレンガのカベ	Stone brick wall (wallpaper)	954	其他				
+955	ad986dcacc0ba5b3421897b5064491fd	斜斜木地板【壁纸】	ななめの木のゆか	Diagonal wooden flooring (wallpaper)	955	其他			100	
+956	6caedad83d497e6e639e5a8d491e0b3a	时髦砖【壁纸】	おしゃれタイル	Stylish tiling (wallpaper)	956	其他			100	
+957	12d51d5b4ce28e447ebb1bcd5282df65	砖块地板【壁纸】	レンガのゆか	Brick flooring (wallpaper)	957	其他			100	
+958	1e901883fee448456343e54c85c33e26	布墙【壁纸】	ぬののカベ	Cloth wall (wallpaper)	958	其他			100	
+959	5c1a4bb201de4f0719d376fff2f597b9	方形砖【壁纸】	しかくタイル	Square tiling (wallpaper)	959	其他			100	
+960	ddc3c8ebed3c0111619b5f9472727edb	堤防【壁纸】	ていぼう	Levee (wallpaper)	960	其他			100	
+961	7d91099e7acb63377c3abb85f0f1aaee	发光方块【壁纸】	ブロックライト	Cube light (wallpaper)	961	其他			100	
+962	3ea17003e9a01ea6a1d494dd0312e9b8	铁砖【壁纸】	てつのタイル	Iron tiling (wallpaper)	962	其他			100	
+963	1d69c8dd075502d91c3cde18acbd0a77	大理石地板（深）【壁纸】	だいりせきのゆか・ダーク	Dark marble flooring (wallpaper)	963	其他			100	
+964	fd19dd5a39b5c9b521625b008cda1536	简约地板【壁纸】	シンプルなゆか	Simple flooring (wallpaper)	964	其他			100	
+965	8e000ef082b845fb43b8f6d4de0702de	实木地板【壁纸】	实木のゆか	Hardwood flooring (wallpaper)	965	其他			100	
+966	5444832b06992af2ed6420b725a2cd3b	鳞纹砖【壁纸】	うろこタイル	Fish-scale tiling (wallpaper)	966	其他			100	
+967	04da90004871d26587fac6608c5119c8	石砌墙【壁纸】	いしづみのカベ	Cobblestone wall (wallpaper)	967	其他			100	
+968	fafb1df5093a1501acf56bb3236abdfd	稻草堆【壁纸】	つみあげわら	Hay pile (wallpaper)	968	其他			100	
+969	00f4b8dad42130d1acdb805cb8b63229	碎砖墙【壁纸】	碎砖墙	Broken-tiling wall (wallpaper)	969	其他			100	
+970	93dc23451f6e0604baced7d4e7e5b6af	油漆墙【壁纸】	油漆墙	Painted wall (wallpaper)	970	其他			100	
+971	a919cf1298461daff5e629d777b6bfdc	竖纹墙【壁纸】	たてラインのかべ	Striped wall (wallpaper)	971	其他			100	
+972	122c0cacc212fc07edc3824cdae1e072	赛博风地板【壁纸】	サイバーなゆか	Cyber flooring (wallpaper)	972	其他			100	
+973	638b0c3d52a8e7a3747bbc2187a874b7	霓虹地板【壁纸】	ネオンなゆか	Neon flooring (wallpaper)	973	其他			100	
+974	5c1b279a4df3105d39326312167ab009	粗粗墙【壁纸】	ざらざらカベ	Rough wall (wallpaper)	974	其他			100	
+975	790885048e47bb6541122f7317fc3ce7	摩登墙【壁纸】	モダンなカベ	Modern wall (wallpaper)	975	其他			100	
+976	bde451fd819f36bdf3886a82975ad184	铁板【壁纸】	てっぱん	Iron plating (wallpaper)	976	其他			100	
+977	6f8c7db3756002f69bc582ef6f8b93c8	六角形地板【壁纸】	ろっかくけいのゆか	Hexagonal flooring (wallpaper)	977	其他			100	
+978	7b70502c18b0f83d2d1e428b00b516eb	废料块【壁纸】	スクラップ	Scrap cube (wallpaper)	978	其他			100	
+979	c7534d1878fee0a791daf540de82e7f2	简约方形砖【壁纸】	シンプルしかくタイル	Simple square tiling (wallpaper)	979	其他			100	
+980	5adfc307b914deebbeee36873ddc682d	木纹绵绵柱【壁纸】	木のフカフカはしら	Puffy-tree pillar (wallpaper)	980	其他			100	
+981	424080ff6af408d272c012a6f741d7bd	毛毡垫子【壁纸】	フェルトマット	Felt mat (wallpaper)	981	其他			100	
+982	960f58c3698e47f9f371734d944ae26f	三角花纹地板【壁纸】	さんかくもようのゆか	Triangle-design flooring (wallpaper)	982	其他			100	
+983	8c4e6aeb25e0e60ad9b8a67c19e3cf73	拼木地板【壁纸】	タテヨコの木のゆか	Crisscross wooden flooring (wallpaper)	983	其他			100	
+984	f02210689ace265a216322300a7c9d8b	木墙（浅）【壁纸】	木のカベ・ライト	Light wooden wall (wallpaper)	984	其他			100	
+985	922beebd9dbc335a4670c1bd64f8107e	大理石地板（浅）【壁纸】	だいりせきのゆか・ライト	Light marble flooring (wallpaper)	985	其他			100	
+986	d954838663bfa13c7da159f69e892319	青铜墙【壁纸】	ブロンズのカベ	Bronze wall (wallpaper)	986	其他			100	
+987	430db3f2446f60a31a30659db403ead1	时髦青铜墙【壁纸】	おしゃれなブロンズのカベ	Stylish bronze wall (wallpaper)	987	其他			100	
+988	479fd975fc73b8913b966d9aac1d9ffc	铁墙【壁纸】	てつのカベ	Iron wall (wallpaper)	988	其他			100	
+989	aea8694388bba86094a1d2243b55a70e	时髦铁墙【壁纸】	おしゃれなてつのカベ	Stylish iron wall (wallpaper)	989	其他			100	
+990	069f22d6ef8a69150ba9d4b70c5ed0c0	草皮地板【壁纸】	しばふのゆか	Grass flooring (wallpaper)	990	其他			100	
+991	d81b1bdadcf3e36bb95431ab319be5fc	精灵球墙【壁纸】	モンスターボールのカベ	Poké Ball wall (wallpaper)	991	其他			100	
+992	f9dfea146ac62104cbb3ed88db050ea4	圆点花纹【壁纸】	みずたまもよう	Polka-dot Print (wallpaper)	992	其他			100	
+993	ef10cc60f442587f229007b0b3c47017	竖条纹【壁纸】	たてストライプ	Vertical-stripe print (wallpaper)	993	其他			100	
+994	5eb9adc67cdfb93252e11aa4ab2c87fc	横条纹【壁纸】	よこストライプ	Horizontal-stripe print (wallpaper)	994	其他			100	
+995	272d2dd83cf2abb63c580d39c91e2692	白色方格纹【壁纸】	ギンガムチェック	Gingham print (wallpaper)	995	其他			100	
+996	81e0635463e4dd29ed5dc040f8edeef0	多色方格纹【壁纸】	タータンチェック	Tartan print (wallpaper)	996	其他			100	
+997	dee7b1c7c7e64470d3158784c4a4a492	菱格纹【壁纸】	アーガイルチェック	Argyle print (wallpaper)	997	其他			100	
+998	8a0be33c5c541e6aabd6b699e7b5b075	树果花纹【壁纸】	きのみのもよう	Berry print (wallpaper)	998	其他			100	很像食物的|能感受自然的
+999	2987399f4c77ff43d95802cb32808de5	精灵球花纹【壁纸】	きのみのもよう	Poké Ball print (wallpaper)	999	其他			100	
+1000	598da799f345f73bca85f2e63aa8afad	时髦精灵球花纹【壁纸】	おしゃれボールもよう	Stylish Poké Ball print (wallpaper)	1000	其他			100	
+1001	96cc554f43a0f629d8205aae33f0ccf2	大理石【壁纸】	だいりせき	Marble (wallpaper)	1001	其他			100	
+1002	62b0c969edc626a35d2edf335e7823d2	泡泡花纹【壁纸】	シャボンのもよう	Bubble print (wallpaper)	1002	其他			100	
+1003	ab8dfd80b5a02eff67b67e88eb9cdf74	千鸟格纹【壁纸】	ちどりごうし	Houndstooth print (wallpaper)	1003	其他			100	
+1004	4c66f393b2c4024890ab27ff0a514afe	蔓草花纹【壁纸】	からくさもよう	Vine print (wallpaper)	1004	其他				
+1005	0372150c46385ff9022da550299fd6fa	漩涡花纹【壁纸】	ぐるぐるもよう	Swirl print (wallpaper)	1005	其他			100	
+1006	f8275394d290c329023222f94a92db7a	冬天花纹【壁纸】	ふゆのもよう	Winter print (wallpaper)	1006	其他			100	
+1007	82aef9a326430e6de953b886c6d7a1ab	锯齿花纹【壁纸】	ギザギザもよう	Zig-zag print (wallpaper)	1007	其他			100	
+1008	991d45db9a45146a638b20516c530664	叶子花纹【壁纸】	はっぱもよう	Leaf print (wallpaper)	1008	其他			100	
+1009	cd1a9eee18fac36c05fc64090baa51d4	花朵花纹【壁纸】	はなもよう	Flower print (wallpaper)	1009	其他			100	
+1010	de18ae74dc83fda6a19ae1f721dabc28	星星花纹【壁纸】	ほしのもよう	Star print (wallpaper)	1010	其他			100	
+1011	055f0157a59d18fdf60ffa52e2fdbe85	咖喱花纹【壁纸】	カレーもよう	Curry print (wallpaper)	1011	其他			100	
+1012	93174d8f7cccb87616b4a6b85368c6c1	大遗失物	おおきなおとしもの	Large Lost Relic	1012	其他			10	诡异的
+1013	fe23b03327255a5b699622dbca7eaad1	小遗失物	ちいさなおとしもの	Small Lost Relic	1013	其他			10	诡异的
+1014	17d96f1a7c7344bcc2ea4e57580c1d6b	♪~序曲~	〜オープニング〜	Title Screen	1014	其他			500	圆圆的
+1015	419ae6d936fd37daeeb1c148dfcacf60	♪真新镇主题曲	マサラタウンのテーマ	Pallet Town	1015	其他			500	圆圆的
+1016	2592c1a51732b2c0e1f9ba51ed11a48a	♪大木研究所	オーキド研究所	Oak's Lab	1016	其他			500	圆圆的
+1017	a8ec86c6a8ee3169627bb254ea3080a9	♪往常青的道路	トキワへの道	Road to Viridian City	1017	其他			500	圆圆的
+1018	9b1dea7b56f7fcf8140cb2f31535cd2d	♪深灰市主题曲	ニビシティのテーマ	Pewter City Theme	1018	其他			500	圆圆的
+1019	01a7c1c4aaeb915c0fe0edac106fb248	♪宝可梦中心	ポケモンセンター	Pokémon Center	1019	其他			500	圆圆的
+1020	877868b3a202d1cd80f80e6b17a93dfd	♪月见山的洞窟	おつきみ山のどうくつ	Caves of Mt. Moon	1020	其他			500	圆圆的
+1021	f5e7ca941fc3f68edfc77f94909b0b09	♪往华蓝的道路	ハナダへの道	Road to Cerulean City	1021	其他			500	圆圆的
+1022	ba25e6bdab2d97a94027202db3554bdc	♪浅红市主题曲	セキチクシティのテーマ	Fuchsia City Theme	1022	其他			500	圆圆的
+1023	aa22063e91a38fec7e76e3472b313076	♪宝可梦道馆	ポケモンジム	Pokémon Gym	1023	其他			500	圆圆的
+1024	b51a7a433f86182dbfcdbb5741b9c4a7	♪去找正辉	マサキのもとへ	Road to Bill	1024	其他			500	圆圆的
+1025	7e56695c7d38d62e4761bb60b0823cfa	♪枯叶市主题曲	クチバシティのテーマ	Vermilion City Theme	1025	其他				
+1026	5cb3eae2cedf6e4729c781a1196afd20	♪圣特安努号	サントアンヌ号	The S.S. Anne	1026	其他			500	圆圆的
+1027	9d33efce795bd252d072ac5a0738ce01	♪火箭队基地	ロケット団アジト	Rocket Hideout	1027	其他			500	圆圆的
+1028	2d46e1395e238f88efc33d6d66f8baa4	♪西尔佛公司	シルフカンパニー	Silph Co.	1028	其他			500	圆圆的
+1029	b99aa7f26de0281cee4c7f11e3f35433	♪对战（VS道馆馆主）	戦い（VSジムリーダー）	Battle! (Gym Leader Battle)	1029	其他			500	圆圆的
+1030	a357a4aefd5e0131f44427a8f9e00c5b	♪互连洞	つながりのどうくつ	Union Cave	1030	其他			500	圆圆的
+1031	6f18051da4cf139bb31687fbf7e6bcd0	♪缘朱市	エンジュシティ	Ecruteak City	1031	其他			500	圆圆的
+1032	7f399f982076af338afb9be340bc6263	♪铃铛塔	スズのとう	Bell Tower	1032	其他			500	圆圆的
+1033	497dc0e07ef78b0812e96120f92f3e86	♪茵郁市	ヒマワキシティ	Fortree City	1033	其他			500	圆圆的
+1034	e92623a859088e2a0bbd90fed9c964d7	♪琉璃市	ルネシティ	Sootopolis City	1034	其他			500	圆圆的
+1035	f7106827a25554ba503db9f737dc1560	♪209号道路（白天）	209ばんどうろ（昼）	Route 209 (Day)	1035	其他			500	圆圆的
+1036	fca0736397cdb72cead8ce4849f76860	♪天冠山	テンガンざん	Mt. Coronet	1036	其他			500	圆圆的
+1037	3e5230a96cd1c07173a532e51eb555ae	♪游戏城	ゲームコーナー	Game Corner	1037	其他			500	圆圆的
+1038	67d9c4c2538674b5249537e7e1447158	♪帆巴市	ホドモエシティ	Driftveil City	1038	其他			500	圆圆的
+1039	1892069faacfd2ea59c031b5d4b72d1f	♪10号道路	10番道路	Route 10 (Unova)	1039	其他			500	圆圆的
+1040	9fd68fa8fb78aae22b275e0e6318819f	♪用物品盛装打扮！	グッズでドレスアップ！	Dress Up With Props	1040	其他			500	圆圆的
+1041	eab7455cd9efdd2790a2e94b0a174e99	♪映雪市	エイセツシティ	Snowbelle City	1041	其他			500	圆圆的
+1042	544f1c6ed677ea40c43448dadf7ea600	♪时装店	ブティック	Boutique	1042	其他			500	圆圆的
+1043	7b1ba5bc105711d96cc05103d0f02837	♪超级训练！	スーパートレーニング！	Super Training!	1043	其他			500	圆圆的
+1044	73c23fa2d1557a582872b9d711710f00	♪华丽现场大赛！	コンテストライブ！	Contest Spectacular	1044	其他			500	圆圆的
+1045	6e572385dc32e0990b90c7e8f8ed9f0c	♪好奥乐市（白天）	ハウオリシティ（昼）	Hau'oli City (Day)	1045	其他			500	圆圆的
+1046	7f78ac74dd2815e4e8c6bbe945eaf7e7	♪以太乐园	エーテルパラダイス	Aether Paradise	1046	其他			500	圆圆的
+1047	fe1c4915c12d05847a12d40490023f69	♪究极大厦	ウルトラビルディング	Ultra Ruin	1047	其他			500	圆圆的
+1048	673996e96c0d40396b1999552537d624	♪旷野地带·北	ワイルドエリア·北	Wild Area (North)	1048	其他			500	圆圆的
+1049	8531c752c48575841a3aacec1c95b35c	♪宫门市	シュートシティ	Wyndon	1049	其他			500	圆圆的
+1050	891cee4f11af6e3f1cd7e231c0a6a011	♪洛兹大厦	ローズタワー	Rose Tower	1050	其他			500	圆圆的
+1051	4acc0f0308c693b750bb3548baaf5d57	♪战斗！道馆馆主·1	戦闘！ジムリーダー：1	Battle! (Gym Leader) 1	1051	其他			500	圆圆的
+1052	9952831e3823bbd581df36633ec11bdb	♪祝庆村	コトブキムラ	Jubilife Village	1052	其他			500	圆圆的
+1053	10a48d325dda7bc8c655829b89b3f47d	♪南区	南エリア	South Province	1053	其他			500	圆圆的
+1054	1a2f9448031f08643072740e5e95d28e	♪学院	アカデミー	The Academy	1054	其他			500	圆圆的
+1055	425c6a9cde4e9a1715ed5b7ac34e0953	♪第零区	エリアゼロ	Area Zero	1055	其他			500	圆圆的
+1056	a1d77285efaa3242924c59371b43e256	♪战斗！道馆馆主·2	戦闘！ジムリーダー：２	Battle! (Gym Leader) 2	1056	其他			500	圆圆的
+1057	01732402194f66f85633c47279b029bc	金珠	きんのたま	Nugget	1057	其他			1000	圆圆的|闪亮亮的
+1058	53c8fbb8dbc72059ff72614322da4825	银色王冠	ぎんのおうかん	Silver Bottle Cap	1058	其他			1000	圆圆的|闪亮亮的
+1059	fbdd661f7dec998ec0f359d39c6e7315	金色王冠	きんのおうかん	Gold Bottle Cap	1059	其他			1000	圆圆的|闪亮亮的
+1060	98fa7ca6b193865ab8a2d439adb803d0	贵重骨头	きちょうなホネ	Rare Bone	1060	其他			1000	
+1061	3b599208d4e900a2563c9c3ef4a1203d	心之鳞片	ハートのウロコ	Heart Scale	1061	其他			1000	可爱的
+1062	94e20cbb063f2febda50d3c4626dd09a	奇迹种子	きせきのタネ	Miracle Seed	1062	其他			1000	能感受自然的
+1063	6f07b6faddff783cd24e0fb3f28c8717	硬石头	かたいいし	Hard Stone	1063	其他			1000	
+1064	f3d27dc6a61311616ab4e793a35bbdbe	神秘水滴	しんぴのしずく	Mystic Water	1064	其他			1000	能感受水的
+1065	504e27435f695adc33f66ad7c5a4a84a	金属膜	メタルコート	Metal Coat	1065	其他			1000	
+1066	3677c7faf9f0614bc65f8c211de8849c	弯曲的汤匙	まがったスプーン	Twisted Spoon	1066	其他			1000	诡异的
+1067	4d6c9255adbdea7b13c756ee367bc83a	银粉	ぎんのこな	Silver Powder	1067	其他			1000	能感受自然的
+1068	9f99e3ee3d631a3c38bbd0faf105fe52	黑色眼镜	くろいメガネ	Black Glasses	1068	其他			1000	
+1069	39625305b8f543d70e75b558830728db	黑带	くろおび	Black Belt	1069	其他			1000	
+1070	d69ee9af2dade173913e60310942fc3a	丝绸围巾	シルクのスカーフ	Silk Scarf	1070	其他			1000	布制的
+1071	6eb0970ae2ad775bdf9e08da90cd0fad	锐利鸟嘴	するどいくちばし	Sharp Beak	1071	其他			1000	
+1072	6d8c9e59a92c27878bbe1e2723112de8	毒针	どくバリ	Poison Barb	1072	其他			1000	
+1073	5ef526e551d7cf5eb08baef3182e6be8	不融冰	とけないこおり	Never-Melt Ice	1073	其他			1000	
+1074	5b62e633cb3d58338b111076b2f79d55	咒术之符	のろいのおふだ	Spell Tag	1074	其他			1000	奇妙的
+1075	37bac59e4aea9026e1b513e73bc054a8	木炭	もくたん	Charcoal	1075	其他			1000	能感受火的
+1076	c0034955029f13ab1ef50b008bb4cb6c	柔软沙子	やわらかいすな	Soft Sand	1076	其他			1000	柔软的
+1077	38fbc6cdfe27848d6bc6d5451dc52527	妖精之羽	ようせいのハネ	Fairy Feather	1077	其他			1000	可爱的
+1078	6522fb1df2ca6b1b70fd70337f36385c	龙之牙	りゅうのキバ	Dragon Fang	1078	其他			1000	
+1079	0fcddba74c886d08a9cfb9c81a5ad78a	吃剩的东西	たべのこし	Leftovers	1079	其他			1000	很像食物的
+1080	e4ee5fe4fb98bb5f880968983eef0335	黑色污泥	くろいヘドロ	Black Sludge	1080	其他			1000	
+1081	7e0a0f0672592d14da19057f261601da	幸运蛋	しあわせタマゴ	Lucky Egg	1081	其他			1000	圆圆的
+1082	3ee000c467b259c3a4ec1b9960d77ced	红线	あかいいと	Destiny Knot	1082	其他			1000	
+1083	1cda0e3caec83edbcd2e87646b530b0f	生命宝珠	いのちのたま	Life Orb	1083	其他			1000	圆圆的
+1084	a1988517fe8b1a36a5535264130437ae	黑色铁球	くろいてっきゅう	Iron Ball	1084	其他			1000	坚硬的|圆圆的
+1085	2e3cefda1ef0bbae0033a600ab5ba78f	金属粉	メタルパウダー	Metal Powder	1085	其他			1000	闪亮亮的
+1086	16727972ea6b723966f8c918eca9fe9f	大根茎	おおきなねっこ	Big Root	1086	其他			1000	能感受自然的
+1087	c5c94ab70cf453ead2d2b3a344f8a55d	胆怯球	ビビリだま	Adrenaline Orb	1087	其他			1000	圆圆的
+1088	34d04de52536292428b16b45fc0a3590	弱点保险	じゃくてんほけん	Weakness Policy	1088	其他			1000	有文字的
+1089	e195f8ac918394030d7fe46b5cd93bf1	大地膜	グランドコート	Terrain Extender	1089	其他			1000	
+1090	eef73781d49870dafb483b6ff0da8d50	广角镜	こうかくレンズ	Wide Lens	1090	其他			1000	
+1091	4eeb4733f8e8684207a28d7f30776202	爽喉喷雾	のどスプレー	Throat Spray	1091	其他			1000	
+1092	b125932dc9ca675596b8b17b05f4f0c7	光之黏土	ひかりのねんど	Light Clay	1092	其他			1000	柔软的|石制的
+1093	4cb04850eb861e9f715136dc5b85efac	机变骰子	いかさまダイス	Loaded Dice	1093	其他			1000	
+1094	3e68b46ccbc9cc1e507566336bed550d	附着针	くっつきバリ	Sticky Barb	1094	其他			1000	
+1095	d1e1b7ccf98d89e210868bc72b5dcb76	先制之爪	せんせいのツメ	Quick Claw	1095	其他			1000	
+1096	f35e13744bb512c30deae9f6cccde59f	后攻之尾	こうこうのしっぽ	Lagging Tail	1096	其他			1000	坚硬的
+1097	5c1cb067db2353f6121532978d106aee	火焰宝珠	かえんだま	Flame Orb	1097	其他			1000	圆圆的
+1098	c5f4d8e929d176575ad305055a8d1b9b	特性护具	とくせいガード	Ability Shield	1098	其他			1000	
+1099	bd422f1b8ba2f695b4bfafa0ced5b89a	客房服务	ルームサービス	Room Service	1099	其他			1000	布制的
+1100	69fe4d2125167dbd6f93660eaccc4781	标靶	ねらいのまと	Ring Target	1100	其他			1000	圆圆的
+1101	8f2a66bab06f58d5fcf6cbb3b42d2ea9	清净坠饰	クリアチャーム	Clear Amulet	1101	其他			1000	有玻璃的|闪亮亮的
+1102	ba66369c8836891b5fb9af6a481a9aa8	对焦镜	フォーカスレンズ	Zoom Lens	1102	其他			1000	
+1103	6350aeeacedf91f5d1b26d7830987cad	虹色之羽	にじいろのはね	Rainbow Feather	1103	其他			2000	闪亮亮的
+1104	c099f2b36efad1ea84257dabf0c4c212	银色之羽	にじいろのはね	Silver Feather	1104	其他			2000	闪亮亮的
+1105	b97f76d6440d100f15abade678b13110	派对锅	パーティーなべ	Party cooking pot	1105	其他			10	
+1106	887ee1b7b9b4079ea4d95af5ffed83e6	长方形小地垫	ちいさなほそいしかくラグ	Small narrow rug	1106	其他			100	
+1107	5b36c56d791e9af7953f63219c8c02d3	精灵球玄关垫	ボールのげんかんマット	Poké Ball Doormat	1107	其他			500	
+1108	8d89dc8ba00e767d711ed39d369399aa	圆形小地垫	ちいさなまるいラグ	Small round rug	1108	其他			100	
+1109	7a4acda8f5bba6c42e12bbc828638e6a	方形小地垫	ちいさなしかくいラグ	Small square rug	1109	其他			100	
+1110	170961090d3f0ec0f540d37f15313250	百变怪地垫	メタモンラグ	Ditto rug	1110	其他			500	
+1111	fdc230fdb4ef9a739c27da919421a6d8	呆呆兽地垫	ヤドンのラグ	Slowpoke rug	1111	其他			1000	
+1112	7f776f05b284707466ac7bf92227da93	喷火龙地垫	リザードンのラグ	Charizard rug	1112	其他			1000	
+1113	92e5f571b0ff5826a4b69d8f4baf46e7	椭圆形地垫	だえんけいのラグ	Oblong rug	1113	其他			100	
+1114	53a25eeb92c993cafc8f18df092033af	藤编地垫	ラタンなラグ	Ratan rug	1114	其他			100	
+1115	d9f6ce94bd21006438e0545275bc8f59	圆形大地垫	レースマット	Large round rug	1115	其他			100	
+1116	c106a7febb932a4c09485fe880366b3b	蕾丝垫子	おおきなまるいラグ	Lace rug	1116	其他			100	
+1117	6719c21e92d39e09a3a99d3f12e5168b	精灵球造型垫	モンスターボールマット	Poké Ball Mat	1117	其他			500	
+1118	fb89321e7dca958cdd47ac0484e8bb5f	长方形大地垫	おおきなほそいしかくラグ	Large narrow rug	1118	其他			100	
+1119	8de939d053410b17e91329a9432bf4b2	方形大地垫	おおきなしかくいラグ	Large square rug	1119	其他			100	
+1120	ecaa1490d80678a708c9b057a5d51c46	松软垫子	ふわふわマット	Soft mat	1120	其他			100	
+1121	5ced7b022f09cc6914039d7bd356176f	海报（气球）	ポスター・ふうせん	Balloon Poster	1121	其他			400	
+1122	490c04037f7d3c97c100f47f88daa281	海报（月光）	ポスター・つきあかり	Moonlight Poster	1122	其他			400	
+1123	a383add25577d8f58fdebd03905858aa	海报（舞蹈）	ポスター・ダンス	Dance poster	1123	其他			400	
+1124	32733f9a4cd75049dc2d3cdff7bfc05a	海报（油画）	ポスター・あぶらえ	Oil painting poster	1124	其他			400	
+1125	febd31c9c086e131b6cbd962c2940539	海报（太阳）	ポスター・おひさま	Sunny Poster	1125	其他			400	
+1126	76179fdce040e62000a097952f967116	海报（冰淇淋）	ポスター・ソフトクリーム	Ice cream poster	1126	其他			400	
+1127	15ce433043c2143762cead1c34d11ee0	海报（风车）	ポスター・ふうしゃ	Windmill poster	1127	其他			400	
+1128	d2f7a162d9259bda8c75b7b778b4ad4a	海报（街景）	ポスター・まちなみ	Townscape poster	1128	其他			400	
+1129	5c38fecce8e727499f183819d0cf7f04	海报（山景）	ポスター・やまなみ	Mountain poster	1129	其他			400	
+1130	b254d8e10ed76715669db00135eed51a	海报（压克力）	ポスター・アクリル	Acrylic poster	1130	其他			400	
+1131	fefbbb38a643560721e002cf43cdd58a	海报（水彩）	ポスター・すいさい	Watercolor poster	1131	其他			400	
+1132	e96e6da40c5f4ae4f1e063aeb03ccdae	海报（热辣热辣）	ポスター・めらめら	Passionate poster	1132	其他			400	
+1133	48ac86b7f9a306ce508ec277eb0b0a22	海报（速度）	ポスター・スピード	Speedy poster	1133	其他			400	
+1134	aab0d6d2831c6d98a096386713790cb9	海报（成长）	ポスター・せいちょう	Growth poster	1134	其他			400	
+1135	5083073c7f7c7d6e85df18fba99c3040	海报（饮料）	ポスター・ドリンク	Drink poster	1135	其他			400	
+1136	13ee7fbe139c6b99285ca1de3aaec613	海报（食品）	ポスター・フード	Food poster	1136	其他			400	
+1137	3abcf5a4544b8b3e44e658e8dfce7310	海报（科技）	ポスター・テクノロジー	Technology poster	1137	其他			400	
+1138	cff34179ec2b8199a7141a1183d8342e	海报（黄金）	ポスター・おうごん	Golden poster	1138	其他			400	
+1139	f3e187459f4e0ff30409acacbba70da1	海报（大海）	ポスター・うみ	Ocean poster	1139	其他			400	
+1140	8590440aceff8c548d9f775fdfb19ec9	海报（草地）	ポスター・はらっぱ	Meadow poster	1140	其他			400	
+1141	00872e59f492c1949de570184acdfd21	海报（忍者）	ポスター・しのび	Ninja poster	1141	其他			400	
+1142	190c5791e543fe77c0c5874039f28cc0	城镇地图	タウンマップ	Town map	1142	其他	玩具		1000	棱角分明的|看起来很难懂的|诡异的|用于观赏的
+1143	3951cfaf69d9752e6eca604e9a764207	火箭队挂饰	ロケットだんのかべかけ	Team Rocket Wall Hanging	1143	其他	装饰		1000	棱角分明的|看起来很难懂的|金属的|象征的|用于观赏的
+1144	5e79e14b144456ab90d8d6506f90abd6	头盖化石	ずがいのカセキ	Skull Fossil	1144	其他	装饰		1000	坚硬的|能感受土的|诡异的
+1145	921086467ad7ba9cfb8b86531d9926f0	盾甲化石	たてのカセキ	Armor Fossil	1145	其他	装饰		1000	坚硬的|能感受土的|圆圆的|诡异的
+1146	98a3cb0ea56b7b720d0f49bddc2272f8	颚之化石	アゴのカセキ	Jaw Fossil	1146	其他	装饰		1000	坚硬的|能感受土的|诡异的
+1147	c816a3d52acd41e83ba9dbc5aae68b43	鳍之化石	ヒレのカセキ	Sail Fossil	1147	其他	装饰		1000	坚硬的|能感受土的|诡异的
+1148	1cd0f354ed1d8aaaca7fb519852ad0bb	飞翼化石（头）	ツバサのカセキ・あたま 	Wing Fossil (head)	1148	其他	装饰		1000	坚硬的|能感受土的|诡异的
+1149	0dd48baeba3a0f4e6178900fa47991d6	飞翼化石（右翼）	ツバサのカセキ・うよく 	Wing Fossil (right wing)	1149	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1150	a84d230a3ddaf66e41ca79d6e052c8e1	飞翼化石（左翼）	ツバサのカセキ・さよく 	Wing Fossil (left wing)	1150	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1151	19dfb855f2ea1daff2896afe0935041e	飞翼化石（身体）	ツバサのカセキ・どう 	Wing fossil (body)	1151	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1152	56ceb7532c6fef0936f395056d6028fc	飞翼化石（尾巴）	ツバサのカセキ・しっぽ 	Wing Fossil (tail)	1152	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1153	ca033b78f38dadc0b38182f178d8d4f6	头锤化石（头）	ずつきのカセキ・あたま 	Headbutt Fossil (head)	1153	其他	装饰		1000	坚硬的|能感受土的|诡异的
+1154	af1cdba4c16c80d77fa4a9d04173d442	头锤化石（身体）	ずつきのカセキ・どう 	Headbutt Fossil (body)	1154	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1155	2cb9d00a2f81519a0bf46d18fc86a22a	头锤化石（尾巴）	ずつきのカセキ・しっぽ 	Headbutt Fossil (tail)	1155	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1156	b27ec509ce5709d02411775b5890bbee	护盾化石（头）	シールドのカセキ・あたま 	Shield Fossil (Head)	1156	其他	装饰		1000	坚硬的|能感受土的|诡异的
+1157	42fa249f90df50d5af2d7cb88423b8c1	护盾化石（身体）	シールドのカセキ・どう 	Shield Fossil (body)	1157	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1158	310d8499c9fbbe60c87f296e14c43d30	护盾化石（尾巴）	シールドのカセキ・しっぽ 	Shield Fossil (tail)	1158	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1159	a996a1bdc6a225cb11077871f2c7206c	暴君化石（头）	ぼうくんのカセキ・あたま 	Despot Fossil (head)	1159	其他	装饰		1000	坚硬的|能感受土的|诡异的
+1160	88b72d93f6794aa4c7a9923f4ebe560e	暴君化石（身体）	ぼうくんのカセキ・どう 	Despot Fossil (body)	1160	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1161	5c5186d16f272f36b82779875fc900c7	暴君化石（脚）	ぼうくんのカセキ・あし 	Despot Fossil (legs)	1161	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1162	55ce04b44dcdc1206bb475e33035c68a	暴君化石（尾巴）	ぼうくんのカセキ・しっぽ 	Despot Fossil (tail)	1162	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1163	692744739f7f3548ddafe374c38b9bbc	冻原化石（头）	ツンドラのカセキ・あたま	Tundra Fossil (head)	1163	其他	装饰		1000	坚硬的|能感受土的|诡异的
+1164	0addcb0c351c5a79126dab8a5ebb0b28	冻原化石（身体）	ツンドラのカセキ・どう 	Tundra Fossil (body)	1164	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1165	696c05385bfe7d27bb8a395311bfd155	冻原化石（尾巴）	ツンドラのカセキ・どう 	Tundra Fossil (tail)	1165	其他	装饰		1000	坚硬的|能感受土的|细长的|诡异的
+1166	9d6a36acfb28f4f1d80f30dbe3293122	谜之石板【A】	なぞのせきばん	Mysterious Slate A	1166	其他			1000	
+1167	f372eb2ac6a6f4cc1007033c07148050	谜之石板【B】	なぞのせきばん	Mysterious Slate B	1167	其他			1000	
+1168	66ca1e06664c1f5d0d7a3f97353084a5	谜之石板【C】	なぞのせきばん	Mysterious Slate C	1168	其他			1000	
+1169	117d7be3a2c87c235d7d53b92bad4e55	谜之石板【D】	なぞのせきばん	Mysterious Slate D	1169	其他			1000	
+1170	51a6133210665794f4edf790a71205f2	谜之石板【E】	なぞのせきばん	Mysterious Slate E	1170	其他			1000	
+1171	8b5540dfe5418af7c69aa94a70cbe1db	谜之石板【F】	なぞのせきばん	Mysterious Slate F	1171	其他			1000	
+1172	6a2af9b6f5fd771bfbe79b3521ac0afd	谜之石板【G】	なぞのせきばん	Mysterious Slate G	1172	其他			1000	
+1173	77c1c2884076a84c056888d6ea1bf14d	谜之石板【H】	なぞのせきばん	Mysterious Slate H	1173	其他			1000	
+1174	bd4c89ea7e0e1c2f3eac10304b7e0624	谜之石板【I】	なぞのせきばん	Mysterious Slate I	1174	其他			1000	
+1175	e52f8e01331174f15aa627a72d63617b	谜之石板【J】	なぞのせきばん	Mysterious Slate J	1175	其他			1000	
+1176	9e8a6112d222e99b2605445e36360db9	谜之石板【K】	なぞのせきばん	Mysterious Slate K	1176	其他			1000	
+1177	bc21c6c618ee1d06957630265b3086a1	谜之石板【L】	なぞのせきばん	Mysterious Slate L	1177	其他			1000	
+1178	18c8e9eabb0bb0c8c816d08a7ff48d89	谜之石板【M】	なぞのせきばん	Mysterious Slate M	1178	其他			1000	
+1179	0716cd7124d09a546ddfc447e133ef4f	谜之石板【N】	なぞのせきばん	Mysterious Slate N	1179	其他			1000	
+1180	3f2e47e75b9f1b73b65ed4e0530442b1	谜之石板【O】	なぞのせきばん	Mysterious Slate O	1180	其他			1000	
+1181	61f74a6626415f29a74b1a0c42c51382	谜之石板【P】	なぞのせきばん	Mysterious Slate P	1181	其他			1000	
+1182	ad2abba0509cc861bccfef028360e445	谜之石板【Q】	なぞのせきばん	Mysterious Slate Q	1182	其他			1000	
+1183	ac421a5a4a16b32b66b75d880c06dbc9	谜之石板【R】	なぞのせきばん	Mysterious Slate R	1183	其他			1000	
+1184	4c1c8a3acafb1f22e15780058abfc345	谜之石板【S】	なぞのせきばん	Mysterious Slate S	1184	其他			1000	
+1185	7c1a3e904fb1e9e4cf8dacc175ba0838	谜之石板【T】	なぞのせきばん	Mysterious Slate T	1185	其他			1000	
+1186	2762c807fa3c75afff41c4364070cba9	谜之石板【U】	なぞのせきばん	Mysterious Slate U	1186	其他			1000	
+1187	6ff0007b4c5d2ef8ea1886f20bea0acc	谜之石板【V】	なぞのせきばん	Mysterious Slate V	1187	其他			1000	
+1188	5ea371f2daa3c90f8756cb06cdfe4428	谜之石板【W】	なぞのせきばん	Mysterious Slate W	1188	其他			1000	
+1189	3e4818b019af0cf4f9f3ff5a81568b65	谜之石板【X】	なぞのせきばん	Mysterious Slate X	1189	其他			1000	
+1190	ca46673a9adcb6c546a0bdfe72cf7794	谜之石板【Y】	なぞのせきばん	Mysterious Slate Y	1190	其他			1000	
+1191	bc251049b2c8f34eded057651c3ddcd2	谜之石板【Z】	なぞのせきばん	Mysterious Slate Z	1191	其他			1000	
+1192	e657843efdf9146a3d862a910edfb205	谜之石板【!?】	なぞのせきばん	Mysterious Slate	1192	其他			1000	
+1193	79ecf9b8b75dc3a9f3c864756b235776	博士的宝物	はかせのオタカラ	Professor's treasure trove	1193	其他	装饰			
+1194	b0676daec89a204ffd5ce0494d6d195d	奖状	ひょうしょうじょう	Diploma	1194	其他	装饰			
+1195	3744628e734b89acd3c8e1dfaf796d3b	神秘的护目镜	なぞのゴーグル	Mysterious Goggles	1195	重要物品				
+10001	64c3580e5f335a2b293c9ac2b0f76151	大树（任意）			129					
+10002	eab619fba24a1ea828eebee4f54a138f	水			1196					
+10003	ae91b6100516cb6922e9bda8f745c008	海水			1197					
+10004	b87f259fd5b9e73577859bcaec978df2	高处			1198					
+10005	2b9ddf46a169e4d6197a4eeee5dd3746	草（任意）			114					
+10006	745472eedfd53cb1faf571070e974083	照明（任意）			561					
+10007	e43cfeb61aec994cb563ce7355799420	树果树（任意）			127					
+10008	a6db73bdb909cd3d2e3e4f1f285297c4	花篱（任意）			138					
+10009	6f86ad724cde0e4f874529cb59c0d763	菜田（任意）			7					
+10010	e249d0f8ac694946b1e47934c9fd8652	椅子（任意）			253					
+10011	eb46310461151e9f14ab3ddbb4bdab39	瀑布			1199					
+10012	84c68c56e97e6439c144521667202b37	桌子（任意）			233					
+10013	57318e18f15d284645fbce20f993d26c	装盘的食物			1200					
+10014	1b17b5a528e909c51dd525a5dfcff92c	椅子（长）			277					
+10015	aad95c3a97522f10c0dbce9dbccbb68f	路灯（任意）			557					
+10016	f6d2f5b142bf0fb4227633ef87629733	树桩（任意）			143					
+10017	7c7eb7d48a4ecd728a1a4b7764b937aa	床铺（任意）			297					
+10018	e2e22fdba755f20395a11fff7a5718b8	玩偶（任意）			445					
+10019	96dd4fb99577f58285689742f547b2ce	枯萎的绿色草			1201					
+10020	421900d7106abd0331972272e0acd4a4	晴雨飘浮泡泡（晴）			1202					
+10021	a2a7843abfe3275b078f300dbaa2c931	晴雨飘浮泡泡（雨）			1203					
+10022	e7695553b97c1372c3a61fd4b2e34672	遗失物（大）			408					
+10023	8d39fe0abcc862cfe131eef8e878991d	泥水			1204					
+10024	dce144c77a8d92fa3ebac6af7e418aae	风力发电机			1205					
+10025	1e26a71dcc289ea18c5562028238f663	玩具（任意）			387					
+10026	b515147fc08b669634eecdb4f3435044	垃圾桶（任意）			507					
+10027	ae5830fdb4eace7e741cc0894e9236ed	牌子（任意）			498					
+10028	d2b9ed4750cb399412cd57b52166ee43	植栽（任意）			339					
+10029	3f7b48afea409706a14f36486c6d6ca4	衣柜（任意）			213					
+10030	49480e8ef2cd81f3e54fb3de02ece6f7	镜子（大）			312					
+10031	fc10845e76485e0db44f94941455e593	屏风（任意）			675					
+10032	0b5d8ae24e5f26c498ee7ac5085f731f	梳妆台（任意）			314					
+10033	00cc0137ff85a3fbe0dece7fc83bff36	温泉			1206					
+10034	bf8ffaf3bd8b79e5685704f52fd006d8	水力发电机			1207					
+10035	c1ae8457b1eb017848caa2707bdc1228	火力发电机			1208					
+10036	4d7f930b07334594acbc27909495c0f7	画布			482					
+10037	69082fb2a086dd25367964ca2b5b8f38	苔岩			1209					
+10038	769d12cf69cf8a24cd87992f0b2a05e6	熔岩			1210					
+10039	d5e9c9a594b98786708a12cafee15643	钢骨			697					
+10040	3062658ee698f279225101a33d951049	桌子（大）			246					
+10041	e859b6555229ab5375a788bc719a8c55	平底锅（任意）			531					
+10042	20841a57f540e219c33b1c66dbb4be41	分隔物（任意）			669					
+10043	9c14359e7971cc345665ac83eb934229	台座／展示台			228					
+10044	ced2994919aa42c9a0949c0c469b4b6f	月夜起舞像			1211					
+10045	7b72a98d60b58a3658f49acced72642a	矮柜（任意）			230					
+10046	969f257c243925ada096b149897c549a	音符垫子（任意）			592					
+10047	b709a637c47e49133ebe066a8ee5f74a	照明（任意)			562					
+10048	eaeb9153e3d79368126115da69232297	悠然的花			1212					
+10049	71c8f46c5413cdf043084812fe957e32	花朵背包			1213					
+10050	98a55a70b3a8955149dd26ecc32ee392	毽子草水壶			1214					
+10051	b9a885d347c3cc14c1db5a9820a7d7f7	便当			1215					
+10052	7aa16b64060e568d367543af8b00351d	花朵靠枕			1216					
+10053	db0fe1ff16779ef2f4674a9f78730c4f	花朵餐具套组			1217					
+10054	766a0f2f2060b47a60f4d6a9ce14c38b	冒险套组			1218					
+10055	22375d2bbfb2aba024eaab6c0acce3ad	地图与指南针			1219					
+10056	dc9acb7a0b13b5d52c03f4e5a4ebe90c	财宝			1220					

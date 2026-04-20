@@ -53,7 +53,7 @@ const ItemDetailPage = async ({ params }: IProps) => {
         <div className="header-icon">
           <ItemIcon
             item={item}
-            size={32}
+            size={48}
           />
         </div>
         <h1>{item.name}</h1>

@@ -7,4 +7,9 @@ export interface Item {
   hasIcon: boolean;
   x: number;
   y: number;
+  category: string;
+  label: string;
+  obtains: string[];
+  value: number;
+  favorites: string[];
 }

@@ -3,7 +3,7 @@ name: Build and Deploy to Tencent Cloud COS
 on:
   push:
     branches:
-      - master
+      - never
     paths-ignore:
       - .vscode/**/*
 
