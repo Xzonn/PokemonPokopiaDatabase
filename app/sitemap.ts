@@ -5,7 +5,7 @@ import { SITE_URL, getPokemonFullId } from "@/utils";
 
 export const dynamic = "force-static";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+const sitemap = (): MetadataRoute.Sitemap => {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/`, changeFrequency: "weekly", priority: 1 },
     { url: `${SITE_URL}/pokemon-list`, changeFrequency: "weekly", priority: 0.8 },
@@ -33,4 +33,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   return [...staticRoutes, ...pokemonRoutes, ...habitatRoutes, ...itemRoutes];
-}
+};
+
+export default sitemap;
