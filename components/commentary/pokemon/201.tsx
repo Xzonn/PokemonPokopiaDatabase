@@ -9,14 +9,20 @@ const Content: FC = () => (
       <h2>解说</h2>
       <p>
         红莲铠骑的栖息地所需的
-        <ItemLink name="庆祝之铠" />
+        <ItemLink
+          name="庆祝之铠"
+          id={1679}
+        />
         需要
-        <ItemLink name="铠甲碎片" />
+        <ItemLink
+          name="铠甲碎片"
+          id={130}
+        />
         才能制作。使用碎岩破坏发光的地面后有概率获得铠甲碎片。
       </p>
       <p>
         向
-        <PokemonLink name="卡比兽" />
+        <PokemonLink name="卡比兽-1" />
         供奉苦味的食物可以提升挖出稀有道具的概率。在梦岛似乎挖出铠甲碎片的概率较高。
       </p>
     </section>

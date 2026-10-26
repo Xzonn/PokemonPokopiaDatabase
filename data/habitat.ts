@@ -15,15 +15,17 @@ export const HabitatData = parseTSV<Habitat>(raw, (dict, i) => {
     english: dict["英文名"],
     description: dict["图鉴说明"],
     detail: dict["详情"]
-      ? dict["详情"].split("|").map((s) => {
+      ? dict["详情"].split("|").map((s, index) => {
           const [name, count] = s.split("×");
-          return { name, count: parseInt(count || "1") };
+          const itemId = parseInt(dict["材料道具编号"].split("|")[index], 10);
+          const categoryId = dict["材料类别编号"].split("|")[index];
+          return { name, count: parseInt(count), itemId: itemId || undefined, categoryId: categoryId || undefined };
         })
       : [],
     pokemon: dict["宝可梦"]
       ? dict["宝可梦"].split("|").map((s) => {
-          const [form, rarity, location] = s.split(",");
-          return { form, rarity, location };
+          const [form, rarity, location, weight] = s.split(",");
+          return { form, rarity, location, weight: parseInt(weight, 10) };
         })
       : [],
     x: (i + 1) % 20,

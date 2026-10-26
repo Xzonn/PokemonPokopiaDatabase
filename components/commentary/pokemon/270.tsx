@@ -14,9 +14,15 @@ const Content: FC = () => (
       </p>
       <p>
         它能够将
-        <ItemLink name="铁条" />
+        <ItemLink
+          name="铁条"
+          id={115}
+        />
         加工成
-        <ItemLink name="巨锻齿轮" />
+        <ItemLink
+          name="巨锻齿轮"
+          id={119}
+        />
         。此外，它参与建造建筑时，建筑的完成速度比通常要更快。
       </p>
     </section>

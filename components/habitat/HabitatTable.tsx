@@ -45,6 +45,8 @@ export const HabitatTableColumns: TableColumnsType<Habitat> = [
           <ItemLink
             name={d.name}
             count={d.count}
+            id={d.itemId}
+            categoryId={d.categoryId}
           />
         </div>
       )),

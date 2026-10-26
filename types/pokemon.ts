@@ -52,6 +52,8 @@ export const ESpecialities = [
   "开派对",
   "DJ",
   "工匠",
+  "变身",
+  "擦亮",
 ] as const;
 
 export type Speciality = (typeof ESpecialities)[number] | "不明";

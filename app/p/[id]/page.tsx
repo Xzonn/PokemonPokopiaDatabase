@@ -4,7 +4,7 @@ import { Fragment } from "react";
 
 import { PokemonDetail, PokemonIcon, PrevNext } from "@/components";
 import { HabitatDataById, PokemonData } from "@/data";
-import { DEFAULT_TITLE, getPokemonFullId } from "@/utils";
+import { DEFAULT_TITLE, getPokemonFullId, renderId } from "@/utils";
 
 interface IProps {
   params: Promise<{ id: string }>;
@@ -71,8 +71,7 @@ const PokemonDetailPage = async ({ params }: IProps) => {
         prev={
           prevPokemon
             ? {
-                id: (prevPokemon.index % 10000).toString().padStart(3, "0"),
-                isEvent: prevPokemon.isEvent,
+                id: renderId(prevPokemon.index),
                 name: prevPokemon.name,
                 icon: (
                   <PokemonIcon
@@ -88,8 +87,7 @@ const PokemonDetailPage = async ({ params }: IProps) => {
         next={
           nextPokemon
             ? {
-                id: (nextPokemon.index % 10000).toString().padStart(3, "0"),
-                isEvent: nextPokemon.isEvent,
+                id: renderId(nextPokemon.index),
                 name: nextPokemon.name,
                 icon: (
                   <PokemonIcon

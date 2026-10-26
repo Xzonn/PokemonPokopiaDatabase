@@ -7,13 +7,13 @@ import { ItemData, ItemDataById } from "@/data";
 import { DEFAULT_TITLE } from "@/utils";
 
 interface IProps {
-  params: Promise<{ hash: string }>;
+  params: Promise<{ id: string }>;
 }
 
 export const generateMetadata = async ({ params }: IProps) => {
-  const { hash } = await params;
+  const { id } = await params;
 
-  const item = ItemDataById[hash];
+  const item = ItemDataById[+id];
 
   if (!item) {
     return {
@@ -28,18 +28,19 @@ export const generateMetadata = async ({ params }: IProps) => {
 };
 
 export async function generateStaticParams() {
-  return ItemData.map((h) => ({ hash: h.hash }));
+  return ItemData.map((h) => ({ id: h.id.toString() }));
 }
 
 const ItemDetailPage = async ({ params }: IProps) => {
-  const { hash } = await params;
+  const { id } = await params;
 
-  const item = ItemDataById[hash];
+  const item = ItemDataById[+id];
 
   if (!item) notFound();
 
-  const prevItem = ItemData.find((i) => i.id === item.id - 1) || ItemData[ItemData.length - 1];
-  const nextItem = ItemData.find((i) => i.id === item.id + 1) || ItemData[0];
+  const index = ItemData.indexOf(item);
+  const prevItem = ItemData[(index + ItemData.length - 1) % ItemData.length];
+  const nextItem = ItemData[(index + 1) % ItemData.length];
 
   return (
     <Fragment key="item">
@@ -77,7 +78,7 @@ const ItemDetailPage = async ({ params }: IProps) => {
                     size={24}
                   />
                 ),
-                link: `/i/${prevItem.hash}`,
+                link: `/i/${prevItem.id}`,
               }
             : null
         }
@@ -92,7 +93,7 @@ const ItemDetailPage = async ({ params }: IProps) => {
                     size={24}
                   />
                 ),
-                link: `/i/${nextItem.hash}`,
+                link: `/i/${nextItem.id}`,
               }
             : null
         }

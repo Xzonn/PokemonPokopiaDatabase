@@ -11,6 +11,11 @@ import { HabitatTable } from "../habitat/HabitatTable";
 
 const getDescriptions = (item: Item): DescriptionsProps["items"] => [
   {
+    key: "id",
+    label: "道具编号",
+    children: item.id,
+  },
+  {
     key: "category",
     label: "分类",
     children: item.category || "—",
@@ -49,15 +54,16 @@ interface IProps {
 }
 
 export const ItemDetail: FC<IProps> = ({ item }) => {
-  const availableHabitats = HabitatData.filter((h) => h.detail.some((d) => d.name === item.name));
+  const availableHabitats = HabitatData.filter((h) => h.detail.some((d) => d.itemId === item.id));
 
   return (
     <>
       <section>
         <p>
           <strong>{item.name}</strong>是《宝可梦 Pokopia》中的道具之一
-          {item.category ? `，它是一种${item.category}` : null}。
+          {item.category ? `，属于“${item.category}”分类` : null}。
         </p>
+        <p>{item.description}</p>
       </section>
 
       <section>

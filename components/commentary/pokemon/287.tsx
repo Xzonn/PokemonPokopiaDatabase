@@ -17,7 +17,10 @@ const Content: FC = () => (
         它只会在
         <LocationLink id={5} />
         出现，完成栖息地的道具是
-        <ItemLink name="刨冰" />
+        <ItemLink
+          name="刨冰"
+          id={1829}
+        />
         。这个道具需要在
         <LocationLink id={5} />
         同时安放 5 组缆车搭乘处之后从电脑中获得。

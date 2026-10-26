@@ -9,14 +9,20 @@ const Content: FC = () => (
       <h2>解说</h2>
       <p>
         颤弦蝾螈的栖息地所需的
-        <ItemLink name="酷炫电贝斯" />
+        <ItemLink
+          name="酷炫电贝斯"
+          id={1735}
+        />
         需要
-        <ItemLink name="神奇琴弦" />
+        <ItemLink
+          name="神奇琴弦"
+          id={129}
+        />
         才能制作。使用碎岩破坏发光的地面后有概率获得神奇琴弦。
       </p>
       <p>
         向
-        <PokemonLink name="卡比兽" />
+        <PokemonLink name="卡比兽-1" />
         供奉苦味的食物可以提升挖出稀有道具的概率。在梦岛似乎挖出神奇琴弦的概率较高。
       </p>
     </section>

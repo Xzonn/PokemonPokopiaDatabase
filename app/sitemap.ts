@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-import { HabitatData, ItemData, PokemonData } from "@/data";
+import { HabitatCategoryData, HabitatData, ItemData, PokemonData } from "@/data";
 import { SITE_URL, getPokemonFullId } from "@/utils";
 
 export const dynamic = "force-static";
@@ -27,12 +27,18 @@ const sitemap = (): MetadataRoute.Sitemap => {
   }));
 
   const itemRoutes: MetadataRoute.Sitemap = ItemData.map((i) => ({
-    url: `${SITE_URL}/i/${i.hash}`,
+    url: `${SITE_URL}/i/${i.id}`,
     changeFrequency: "weekly",
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...pokemonRoutes, ...habitatRoutes, ...itemRoutes];
+  const habitatCategoryRoutes: MetadataRoute.Sitemap = HabitatCategoryData.map((category) => ({
+    url: `${SITE_URL}/hc/${category.id}`,
+    changeFrequency: "weekly",
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...pokemonRoutes, ...habitatRoutes, ...itemRoutes, ...habitatCategoryRoutes];
 };
 
 export default sitemap;

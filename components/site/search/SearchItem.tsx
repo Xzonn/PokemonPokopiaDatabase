@@ -12,7 +12,7 @@ interface IProps {
 
 export const SearchItem: FC<IProps> = ({ result, onClick }) => (
   <Link
-    href={`/i/${result.hash}`}
+    href={`/i/${result.id}`}
     onClick={onClick}
     className="search-item"
   >

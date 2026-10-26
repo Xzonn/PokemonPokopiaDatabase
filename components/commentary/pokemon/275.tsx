@@ -14,7 +14,7 @@ const Content: FC = () => (
       </p>
       <p>
         使用碎岩破坏发光的地面后有概率获得化石。向
-        <PokemonLink name="卡比兽" />
+        <PokemonLink name="卡比兽-1" />
         供奉甜味的食物可以增加当天化石出现的概率。
       </p>
     </section>

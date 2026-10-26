@@ -17,7 +17,10 @@ const Content: FC = () => (
         它只会在
         <LocationLink id={5} />
         出现，完成栖息地的道具是
-        <ItemLink name="下午茶套组" />
+        <ItemLink
+          name="下午茶套组"
+          id={1826}
+        />
         。这个道具需要在
         <LocationLink id={5} />
         与宝可梦住在同一个房屋之后从电脑中获得。

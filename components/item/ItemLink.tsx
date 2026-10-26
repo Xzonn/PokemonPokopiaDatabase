@@ -1,27 +1,42 @@
 import { FC } from "react";
 
-import { ItemDataByName } from "@/data";
+import { HabitatCategoryDataById, ItemDataById, ItemDataByName } from "@/data";
 import { Link } from "@/utils";
 
 import { ItemIcon } from "./ItemIcon";
+import { HabitatCategoryIcon } from "../habitat/HabitatCategoryIcon";
 
 interface IProps {
   name: string;
   count?: number;
+  id?: number;
+  categoryId?: string;
 }
 
-export const ItemLink: FC<IProps> = ({ name, count }) => {
-  const item = ItemDataByName[name];
+export const ItemLink: FC<IProps> = ({ name, count, id, categoryId }) => {
+  const item = id === undefined ? ItemDataByName[name] : ItemDataById[id];
+  const category = categoryId === undefined ? undefined : HabitatCategoryDataById[categoryId];
   return (
     <>
       <span className="icon-wrapper-inline">
-        {item?.hasIcon ? (
+        {category ? (
+          <HabitatCategoryIcon
+            category={category}
+            size={24}
+          />
+        ) : item?.hasIcon ? (
           <ItemIcon
             item={item}
             size={24}
           />
         ) : null}
-        {item ? <Link href={`/i/${item.hash}`}>{item.name}</Link> : <span>{name}</span>}
+        {category ? (
+          <Link href={`/hc/${category.id}`}>{name}</Link>
+        ) : item ? (
+          <Link href={`/i/${item.id}`}>{name}</Link>
+        ) : (
+          <span>{name}</span>
+        )}
       </span>
       {count !== undefined ? ` × ${count}` : null}
     </>

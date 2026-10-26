@@ -31,6 +31,8 @@ export const HabitatLink: FC<IProps> = ({ id, showDetail = true }) => {
               <ItemLink
                 name={d.name}
                 count={d.count}
+                id={d.itemId}
+                categoryId={d.categoryId}
               />
             </Fragment>
           ))}

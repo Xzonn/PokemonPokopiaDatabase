@@ -14,8 +14,15 @@ const Content: FC = () => (
       </p>
       <p>
         它会指引百变怪重建城镇。此外，它可以鉴定
-        <ItemLink name="大遗失物" />和
-        <ItemLink name="小遗失物" />
+        <ItemLink
+          name="大遗失物"
+          id={3997}
+        />
+        和
+        <ItemLink
+          name="小遗失物"
+          id={3998}
+        />
         。在
         <LocationLink id={5} />
         和云岛，可以通过电脑来鉴定遗失物。

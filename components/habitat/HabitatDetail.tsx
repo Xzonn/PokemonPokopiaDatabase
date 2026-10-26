@@ -27,6 +27,8 @@ const getDescriptions = (habitat: Habitat): DescriptionsProps["items"] => [
         <ItemLink
           name={d.name}
           count={d.count}
+          id={d.itemId}
+          categoryId={d.categoryId}
         />
       </div>
     )),
@@ -102,7 +104,7 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
         </>,
       );
     }
-    if (p.location !== "全部") {
+    if (p.location && p.location !== "全部") {
       pokemonContents.push(<>只会在{p.location}出现。</>);
     }
     switch (pokemon.weather) {
@@ -152,6 +154,8 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
               <ItemLink
                 name={d.name}
                 count={d.count}
+                id={d.itemId}
+                categoryId={d.categoryId}
               />
             </Fragment>
           ))}

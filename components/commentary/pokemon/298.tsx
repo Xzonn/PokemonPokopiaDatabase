@@ -14,7 +14,7 @@ const Content: FC = () => (
       </p>
       <p>
         向
-        <PokemonLink name="卡比兽" />
+        <PokemonLink name="卡比兽-1" />
         供奉涩味的食物可以增加当天凤王和洛奇亚出现的概率。
       </p>
       <p>当凤王从天空中飞过时鸣响透明铃铛，可以让凤王落下来并成为朋友，但无法让凤王留在城镇中居住。</p>
@@ -29,11 +29,20 @@ const Content: FC = () => (
       </p>
       <p>
         雷公有概率位于
-        <ItemLink name="皮卡丘玩偶" />
+        <ItemLink
+          name="皮卡丘玩偶"
+          id={1564}
+        />
         的梦岛，炎帝有概率位于
-        <ItemLink name="风速狗玩偶" />
+        <ItemLink
+          name="风速狗玩偶"
+          id={1689}
+        />
         的梦岛，水君有概率位于
-        <ItemLink name="伊布玩偶" />
+        <ItemLink
+          name="伊布玩偶"
+          id={1565}
+        />
         的梦岛。
       </p>
       <p>

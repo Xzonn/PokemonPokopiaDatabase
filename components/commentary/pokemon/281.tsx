@@ -17,7 +17,10 @@ const Content: FC = () => (
         它只会在
         <LocationLink id={5} />
         出现，完成栖息地的道具是
-        <ItemLink name="冰淇淋汽水" />
+        <ItemLink
+          name="冰淇淋汽水"
+          id={1825}
+        />
         。这个道具需要在
         <LocationLink id={5} />
         同时让 12 种花盛开之后从电脑中获得。

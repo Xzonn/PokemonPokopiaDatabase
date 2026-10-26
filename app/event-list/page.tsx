@@ -42,6 +42,7 @@ const HabitatListPage: FC = () => (
           <div className="text-center">
             <ItemLink
               name="百变怪地垫"
+              id={1643}
               count={1}
             />
           </div>

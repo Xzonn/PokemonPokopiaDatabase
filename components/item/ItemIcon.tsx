@@ -22,7 +22,7 @@ export const ItemIcon: FC<IItemIconProps> = ({ item, size = 64, className = "", 
 
   return link ? (
     <Link
-      href={`/i/${item.hash}`}
+      href={`/i/${item.id}`}
       className={combinedClassName}
       style={style}
     >
@@ -41,7 +41,7 @@ export const ItemIcon: FC<IItemIconProps> = ({ item, size = 64, className = "", 
 export const ItemIconWithName: FC<IItemIconProps> = ({ item, link, ...rest }) =>
   link ? (
     <Link
-      href={`/i/${item.hash}`}
+      href={`/i/${item.id}`}
       className="flex w-[72px] flex-col items-center"
     >
       <ItemIcon

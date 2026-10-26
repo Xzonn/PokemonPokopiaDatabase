@@ -9,7 +9,10 @@ const Content: FC = () => (
       <h2>解说</h2>
       <p>
         水君有概率位于
-        <ItemLink name="伊布玩偶" />
+        <ItemLink
+          name="伊布玩偶"
+          id={1565}
+        />
         的梦岛。只有遇到火焰鸟和其他两只凤王卫队宝可梦（
         <PokemonLink name="雷公" />和
         <PokemonLink name="炎帝" />

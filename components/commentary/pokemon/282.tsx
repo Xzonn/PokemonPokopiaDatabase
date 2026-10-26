@@ -17,7 +17,10 @@ const Content: FC = () => (
         它只会在
         <LocationLink id={5} />
         出现，完成栖息地的道具是
-        <ItemLink name="炸薯饼" />
+        <ItemLink
+          name="炸薯饼"
+          id={1820}
+        />
         。这个道具需要在
         <LocationLink id={5} />
         同时让 50 个道具连接上电力之后从电脑中获得。

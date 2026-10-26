@@ -17,7 +17,10 @@ const Content: FC = () => (
         它只会在
         <LocationLink id={5} />
         出现，完成栖息地的道具是
-        <ItemLink name="比萨" />
+        <ItemLink
+          name="比萨"
+          id={1819}
+        />
         。这个道具需要在
         <LocationLink id={5} />
         建造 15 次之后从电脑中获得。

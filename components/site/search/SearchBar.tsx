@@ -123,7 +123,7 @@ const renderSearchResult = (result: SearchResult[], onClick: () => void) => {
           case "item":
             return (
               <SearchItem
-                key={`i-${data.hash}`}
+                key={`i-${data.id}`}
                 result={data}
                 onClick={onClick}
               />

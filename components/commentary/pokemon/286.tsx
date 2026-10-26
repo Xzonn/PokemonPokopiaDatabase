@@ -17,7 +17,10 @@ const Content: FC = () => (
         它只会在
         <LocationLink id={5} />
         出现，完成栖息地的道具是
-        <ItemLink name="三明治" />
+        <ItemLink
+          name="三明治"
+          id={1828}
+        />
         。这个道具需要在
         <LocationLink id={5} />
         同时培育 50 株蔬菜之后从电脑中获得。

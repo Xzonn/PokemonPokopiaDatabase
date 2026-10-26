@@ -15,7 +15,10 @@ const Content: FC = () => (
       </p>
       <p>
         雷公有概率位于
-        <ItemLink name="皮卡丘玩偶" />
+        <ItemLink
+          name="皮卡丘玩偶"
+          id={1564}
+        />
         的梦岛。只有遇到火焰鸟和其他两只凤王卫队宝可梦（
         <PokemonLink name="炎帝" />和
         <PokemonLink name="水君" />

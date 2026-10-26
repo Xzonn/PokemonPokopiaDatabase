@@ -8,7 +8,7 @@ export const ItemData = parseTSV<Item>(raw, (dict) => {
   const iconIndex = parseInt(dict["图标"], 10);
   const item: Item = {
     id: index,
-    hash: dict["哈希值"],
+    description: dict["图鉴说明"],
     name: dict["中文名"],
     japanese: dict["日文名"],
     english: dict["英文名"],
@@ -23,5 +23,9 @@ export const ItemData = parseTSV<Item>(raw, (dict) => {
   };
   return item;
 });
-export const ItemDataById = Object.fromEntries(ItemData.map((h) => [h.hash, h]));
-export const ItemDataByName = Object.fromEntries(ItemData.map((h) => [h.name, h]));
+export const ItemDataById = Object.fromEntries(ItemData.map((h) => [h.id, h]));
+const itemNameCounts = new Map<string, number>();
+for (const item of ItemData) itemNameCounts.set(item.name, (itemNameCounts.get(item.name) || 0) + 1);
+export const ItemDataByName = Object.fromEntries(
+  ItemData.filter((item) => itemNameCounts.get(item.name) === 1).map((item) => [item.name, item]),
+);

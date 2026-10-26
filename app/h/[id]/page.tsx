@@ -4,7 +4,7 @@ import { Fragment } from "react";
 
 import { HabitatDetail, HabitatIcon, PrevNext } from "@/components";
 import { HabitatData, HabitatDataById } from "@/data";
-import { DEFAULT_TITLE } from "@/utils";
+import { DEFAULT_TITLE, renderId } from "@/utils";
 
 interface IProps {
   params: Promise<{ id: string }>;
@@ -70,8 +70,7 @@ const HabitatDetailPage = async ({ params }: IProps) => {
         prev={
           prevHabitat
             ? {
-                id: (prevHabitat.index % 10000).toString().padStart(3, "0"),
-                isEvent: prevHabitat.isEvent,
+                id: renderId(prevHabitat.index),
                 name: prevHabitat.name,
                 icon: (
                   <HabitatIcon
@@ -86,8 +85,7 @@ const HabitatDetailPage = async ({ params }: IProps) => {
         next={
           nextHabitat
             ? {
-                id: (nextHabitat.index % 10000).toString().padStart(3, "0"),
-                isEvent: prevHabitat.isEvent,
+                id: renderId(nextHabitat.index),
                 name: nextHabitat.name,
                 icon: (
                   <HabitatIcon

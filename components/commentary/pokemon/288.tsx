@@ -17,7 +17,10 @@ const Content: FC = () => (
         它只会在
         <LocationLink id={5} />
         出现，完成栖息地的道具是
-        <ItemLink name="缎带蛋糕" />
+        <ItemLink
+          name="缎带蛋糕"
+          id={1830}
+        />
         。这个道具需要在
         <LocationLink id={5} />
         制作栖息地并遇到 10 只宝可梦之后从电脑中获得。

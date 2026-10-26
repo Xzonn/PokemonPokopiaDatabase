@@ -17,7 +17,10 @@ const Content: FC = () => (
         它只会在
         <LocationLink id={5} />
         出现，完成栖息地的道具是
-        <ItemLink name="巧克力饼干" />
+        <ItemLink
+          name="巧克力饼干"
+          id={1827}
+        />
         。这个道具需要在
         <LocationLink id={5} />
         同时铺设 300 块道路地砖之后从电脑中获得。

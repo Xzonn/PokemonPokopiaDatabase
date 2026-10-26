@@ -1,6 +1,6 @@
 export interface Item {
   id: number;
-  hash: string;
+  description: string;
   name: string;
   japanese: string;
   english: string;
